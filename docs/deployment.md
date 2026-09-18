@@ -1,91 +1,100 @@
-# 云端部署与运维
+# 仓库怎么配置：按这个顺序操作
 
-## 推荐：GitHub Actions + GitHub Pages
+仓库已经建好：[Gartner-Research-Radar-Agent](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent)。不用再建服务器，也不用上传 Gartner 账号密码。
 
-无需常驻服务器。默认每周五 **09:17（Asia/Shanghai）**运行，也可手动执行。GitHub 定时任务可能排队延迟；只在默认分支触发。公开仓库长期无活动可能被暂停定时任务，请留意 GitHub 通知。
+## 第一步：把三个基础密钥填到 Secrets
 
-### 1. 创建仓库并上传项目
+直接打开 [仓库的 Actions Secrets 页面](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent/settings/secrets/actions)。点击 **New repository secret**，分别添加下表三项。左边的 Name 原样复制，右边 Secret 填自己的值。
 
-仓库名称：`Gartner-Research-Radar-Agent`。可以在 GitHub 网页新建仓库，再上传本项目（包括隐藏的 `.github` 目录）。使用命令行时：
-
-```sh
-git init -b main
-git add .
-git commit -m 'Build public Gartner research radar agent'
-gh repo create Gartner-Research-Radar-Agent --public --source . --remote origin --push
-```
-
-若需要私有仓库，改用 `--private`。GitHub Pages 在私有仓库中的可用性取决于账户套餐。公开 Pages 上只发布公开研究摘要，任何获得链接的人都能访问；私有代码库不一定意味着私有网页。
-
-### 2. 添加 Secrets
-
-仓库 → Settings → Secrets and variables → Actions → New repository secret：
-
-| Secret | 是否必需 | 来源/用途 |
+| Name | Secret 填什么 | 用途 |
 |---|---|---|
-| `TAVILY_API_KEY` | 是 | Tavily 控制台；公开搜索及文本提取 |
-| `OPENAI_API_KEY` | 是 | OpenAI API 项目；抽取与中文趋势分析 |
-| `FEISHU_WEBHOOK_URL` | webhook 推送必需 | 飞书群的自定义机器人完整 webhook |
-| `FEISHU_WEBHOOK_SECRET` | 开启签名时必需 | 同一机器人的签名校验密钥 |
-| `FEISHU_APP_ID` | 应用模式 | 飞书自建应用 ID |
-| `FEISHU_APP_SECRET` | 应用模式 | 飞书应用密钥 |
-| `FEISHU_CHAT_ID` | 应用模式 | 机器人已加入的目标会话 ID |
+| `TAVILY_API_KEY` | [Tavily 控制台](https://app.tavily.com/)生成的 API key | 每周搜索 Gartner 公开资料 |
+| `OPENAI_API_KEY` | [OpenAI API 控制台](https://platform.openai.com/api-keys)创建的项目 API key | 提取日期/分析师及生成中文分析 |
+| `FEISHU_WEBHOOK_URL` | 飞书目标群中自定义机器人的完整 webhook 地址 | 推送摘要及固定 HTML 链接 |
 
-可选 Variables：`OPENAI_MODEL`（默认 config 中的模型），`FEISHU_MODE`（`webhook` 或 `app`）。Secret 值由工作流注入环境变量，配置文件和代码只保存名称。不要把 `.env` 提交到仓库。
+如果机器人启用了签名校验，再添加 `FEISHU_WEBHOOK_SECRET`，值是同一个机器人页面里的签名密钥。
 
-默认无飞书 webhook 时，网页仍发布成功，但工作流摘要会明确写“Feishu delivery not configured”。这不代表消息已发送。
+这些值只能放 **Secrets**，不要填到 `config.json`、Variables、代码或聊天里。OpenAI API 需要可用的 API 额度；ChatGPT 订阅与 API 是不同的产品计费，不要把 ChatGPT 登录信息填进去。
 
-### 3. 开启 Pages 和写权限
+飞书入口：目标群 → 群设置 → 群机器人 → 添加机器人 → 自定义机器人。若设了关键词校验，用 `Gartner` 即可，发送文本包含该词。GitHub 托管 runner 的出口 IP 可能变化，签名校验更适合此部署。
 
-- Settings → Pages → Build and deployment → Source 选 **GitHub Actions**。
-- Settings → Actions → General 中允许 Actions；确保仓库策略允许工作流 `contents: write`，否则无法维护 `radar-data`。
-- 工作流使用 `github-pages` environment。若组织设置了人工审批，需由管理员允许无人值守部署。
-- 默认分支保护不必放宽。自动生成数据写独立 `radar-data` 分支；如组织规则保护所有分支，需要为该分支允许机器人写入。
+## 第二步：检查 Variables（默认不用填）
 
-### 4. 配置飞书机器人
+[Actions Variables 页面](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent/settings/variables/actions)：
 
-群设置 → 群机器人 → 添加机器人 → 自定义机器人。开启签名校验，并将 webhook 与签名密钥填入 GitHub Secrets。若使用关键词校验，关键词可设为 `Gartner`。不推荐使用固定 IP 白名单，因为 GitHub 托管 runner 出口可能变化。
+| Name | 默认值 | 什么时候改 |
+|---|---|---|
+| `OPENAI_MODEL` | `gpt-4.1-mini`（来自 config） | 希望使用另一可用且支持 JSON mode 的模型 |
+| `FEISHU_MODE` | `webhook` | 希望上传 HTML 文件时改为 `app` |
 
-Webhook 默认只发一条文本：时间窗口、条目数量、核心判断、完整 HTML 链接。签名按飞书协议计算：以 `timestamp + 换行 + secret` 为 HMAC key，对空消息执行 SHA-256，再 Base64。校验 HTTP 状态及 JSON 中的业务错误码。
+不需要设置 GitHub token，Actions 自带 `GITHUB_TOKEN`。工作流已经声明写入历史分支与 Pages 所需权限；若组织策略阻止，再由管理员调整。
 
-### 5. 首次手动运行
+## 第三步：启用网页托管
 
-Actions → **Weekly Gartner Research Radar** → Run workflow。检查：
+打开 [Settings → Pages](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent/settings/pages)，Source 选择 **GitHub Actions**。
 
-1. 无密钥测试通过。
-2. `Research and render` 产生真实本期记录或明确无发现报告。
-3. `radar-data` 分支有 `site/`、`reports/`、`state.json`。
-4. `Deploy HTML archive` 成功，environment 提供实际访问链接。
-5. 飞书群收到摘要及本期链接；点击可打开。
+当前仓库保持私有。GitHub Pages 在私有仓库的可用性取决于账号套餐；如果设置页要求升级，不能只靠添加密钥解决。可以保留私有仓库并采用支持的套餐，或在确认可以公开代码后改为公开仓库。不要把“私有仓库”误认为“网页一定私有”：默认 Pages 网站是公开链接。
 
-默认地址形式：`https://OWNER.github.io/Gartner-Research-Radar-Agent/`，本期为 `YYYY-MM-DD.html`。工作流实际使用部署步骤返回的 URL，不依赖这个假设。
+若不希望公开网页，可保留私有仓库并选择下面的飞书应用文件模式；需要调整默认工作流，跳过 Pages 三个步骤以及 job 的 Pages environment URL。这不是当前默认部署方式。
 
-## 应用上传 HTML
+网页地址通常为 `https://yvonneyuan-art.github.io/Gartner-Research-Radar-Agent/`。本项目只有 `index.html`，以后每周仍然打开这个地址。飞书会附加 `#edition-日期`，只改变定位，不改变页面文件。
 
-飞书开放平台新建企业自建应用，启用机器人，开通并发布文件上传及机器人发送消息所需权限；权限项以开放平台控制台提示为准（通常包括 `im:resource`、`im:message:send_as_bot`）。把机器人加入目标群，配置应用 Secrets，并设置 `FEISHU_MODE=app`。
+## 第四步：先手动跑一遍
 
-代码从 `tenant_access_token/internal` 获取短期 token，上传 `.html` 为 `stream`，再发送文件消息。不会写 token 到磁盘。此适配器已实现并有错误处理，但仍需用真实应用进行端到端联调。
+打开 [Actions](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent/actions) → **Weekly Gartner Research Radar** → **Run workflow** → 选 `main` → 再点 Run workflow。
 
-若希望完全私有：使用私有仓库，保留报告生成、状态提交、Actions artifact 和应用发送；移除 `configure-pages`、`upload-pages-artifact`、`deploy-pages`，将 webhook 模式改为 app，删除 job 的 Pages environment URL 和多余 Pages 权限。应用模式不需要 `--base-url`。此为可选修改路径，默认工作流仍面向公开 HTML 链接。
+第一次运行会导入本项目已经整理好的 **2026-08-19—2026-09-18、11 项研究**。如执行日期晚于 9 月 18 日，会接着补充新一期（需要检索和模型密钥）。相同日期重跑复用已有内容，避免重复生成/发送。
 
-## 故障处理
+成功后检查三件事：
 
-| 现象 | 处理 |
+1. `Deploy HTML archive` 成功，页面能看到首期及新的追加内容。
+2. 飞书群收到一条摘要，链接打开同一个 HTML 并定位到本期。
+3. 仓库出现 `radar-data` 分支，保存 `reports/*.json`、`state.json`、`site/index.html`。
+
+未配置 webhook 时，工作流会明确写“delivery not configured”，这只代表网页生成/发布完成，不代表飞书发送成功。全部检索失败会使工作流失败，部分失败会出现在本期覆盖说明里。
+
+## 哪些配置已经替你写好了
+
+| 位置 | 当前值/行为 |
 |---|---|
-| 缺 API key / 401 | 检查 Secrets 名称、密钥权限和额度，切勿将密钥贴入日志 |
-| 429 / 5xx | 检索/模型调用最多重试两次；仍失败则记录缺口或退出，检查服务状态/额度 |
-| 公开正文提取不到 | 保留“搜索摘要”标记；不登录或绕过限制。目录和姓名无法确认就留空 |
-| 无新报告 | 阅读覆盖状态；“无发现”不等于“没有发布” |
-| Pages 部署失败 | 检查 Source=Actions、账户套餐、environment 和 pages/id-token 权限 |
-| 数据分支写入失败 | 检查 contents 写权限及分支规则。不要删除历史分支来解决权限问题 |
-| 飞书业务码非零 | 检查签名、机器人关键词、会话成员与权限；不会保存为发送成功 |
-| 飞书发送超时 | 先检查群里是否收到，再手动重跑，避免不确定状态下重复通知 |
-| 同一天重跑没有新搜索 | 这是恢复机制：复用已保存期号。需要更正时先备份并人工处理本期报告/状态，不能盲删全量历史 |
+| `config.json` → `initial_months` | 1，空历史回看一个日历月 |
+| `window_days` | 7，正常每周扫描；漏跑自动补齐 |
+| `lookback_days` | 30，捕获延迟索引与近期更新线索 |
+| `results_per_query` | 8，每组词每个窗口的候选条数 |
+| `initial_max_documents` / `max_documents` | 100 / 60，月度/周度处理上限 |
+| `topics` | 八个主题，每主题两组同义词；无需你手工填写 |
+| `excluded_primary_topics` | GPU、存储、备份容灾、桌面云、边缘云等排除方向 |
+| `.github/workflows/weekly.yml` | 每周五北京时间 09:17；GitHub 高负载时可能延迟 |
 
-GitHub 运行失败通知由账户的 Actions 通知设置控制；本项目不使用出错的 webhook 再发送“失败通知”。HTML 上会显示部分失败原因，全部失败则让工作流失败。
+研究数据来自公开索引，处理上限不是完整性保证。默认首轮约 16 次高级检索，周度约 32 次，最多分别 100/60 次逐条模型分析，另一次综合；失败重试可能增加调用。为 Tavily/OpenAI 账户设置适合自己的预算。
 
-## 成本与限制
+## 可选：飞书直接收 HTML 文件
 
-默认每期 14 次高级搜索、最多 40 次逐页模型抽取、1 次趋势综合；重试可能增加调用，服务按各自账户计费。数量上限可在 config 修改。公共索引可能遗漏本周报告、旧页面更新或延迟收录内容；第一阶段并非 Gartner 订阅内容的完整同步器。
+在飞书开放平台创建企业自建应用，启用机器人、完成相关权限审批/发布，把机器人加入目标会话。增加 Secrets：
 
-配置默认每周一次，无需常驻服务。更高可靠性或严格固定时间要求可把同一命令放入 Cloud Run Jobs / 云函数定时任务，另以对象存储保存 `data`，但这不是本项目的默认部署方案。
+- `FEISHU_APP_ID`：应用 ID。
+- `FEISHU_APP_SECRET`：应用密钥。
+- `FEISHU_CHAT_ID`：目标群 `chat_id`。
+
+再将 Variable `FEISHU_MODE` 设为 `app`。实现流程是获取 tenant token → 以 stream 类型上传累计 `index.html` → 发 file 消息。权限通常包括 `im:resource` 和 `im:message:send_as_bot`，以飞书控制台实际要求为准。HTML 在线预览由客户端决定，可下载后在浏览器打开。默认工作流仍会先发布 Pages；如选择完全私有文件路径，需要按第三步调整。
+
+## 故障与恢复
+
+- 缺 key/401：检查 Secret 名字、所属仓库、有效期和 API 额度。
+- 429/5xx：检索与模型有限重试，仍失败则记录缺口/停止。飞书发送不盲目重试。
+- Pages 要求升级：账号套餐问题，与 API key 无关。
+- 数据分支推送失败：检查仓库 Actions 写权限及 `radar-data` 分支规则；不要删除历史。
+- 飞书失败：检查机器人签名、关键词、群成员或应用权限。业务失败不会记为成功。
+- 飞书超时但群已收到：发送结果可能不确定；重跑前先确认，Webhook 无严格幂等保证。
+- 同一天没有新搜索：这是期号复用机制，不是定时器失效。
+
+## 官方说明
+
+- [GitHub Secrets](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets)
+- [GitHub Pages 设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+- [GitHub 定时触发](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+- [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+- [Tavily Search API](https://docs.tavily.com/documentation/api-reference/endpoint/search)
+- [飞书自定义机器人](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)
+- [飞书上传文件](https://open.feishu.cn/document/server-docs/im-v1/file/create)
+- [飞书发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)

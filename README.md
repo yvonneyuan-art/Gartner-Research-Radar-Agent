@@ -1,36 +1,56 @@
 # Gartner Research Radar Agent
 
-一个只使用公开信息的 Gartner 周报 Agent。固定跟踪 **AI Infrastructure、Agentic AI、AI Security、Cloud、Virtualization、GPU、Kubernetes**；生成中文 HTML 周报，并向飞书发送摘要及报告链接。无需登录 Gartner。
+**一个 HTML，持续追加。** 首期回看近一个月，此后每周把新一期追加到同一个 `index.html`，最新一期在上，历史在下。飞书始终发送同一个页面链接，并带本期定位锚点。仅检索公开信息，不登录 Gartner。
 
-默认部署：**GitHub Actions 每周运行 → GitHub Pages 托管 HTML → 飞书自定义机器人**。研究历史、周报归档及发送状态保存在独立 `radar-data` 分支，不依赖会过期的缓存。提供可复用 Skill 和飞书应用上传 HTML 文件模式。
+## 当前范围
 
-## 当前交付状态
+| 主题 | 重点关键词/产品关联 |
+|---|---|
+| Cloud / Private & Hybrid | Private Cloud、Hybrid Cloud、Distributed Hybrid Infrastructure、Sovereign Cloud、Cloud Repatriation；Cloud/ZCF |
+| Virtualization | Server Virtualization、Hypervisor、VMware Alternative、VM Migration；ZSphere/ZVF |
+| HCI | Hyperconverged Infrastructure、Full-stack Infrastructure、Integrated Systems；超融合 |
+| Kubernetes | Container Management、Platform Engineering、KubeVirt、Internal Developer Platform；Zaku |
+| Cloud Management & FinOps | CMP、Hybrid Cloud Operations、AIOps、FinOps、AI FinOps、Token Cost；多云运营与成本治理 |
+| AI Infrastructure | Private AI、Enterprise AI Platform、Model Serving、Inference Platform、MLOps/LLMOps；AIOS |
+| Agentic AI | Agent Runtime、Agent Orchestration、Multiagent、AI Agents for I&O；企业智能体运行与运维 |
+| AI Security | AI TRiSM、AI Governance、AI Gateway、Model Gateway、Agent Identity、Runtime Controls；Zentrix |
 
-- 研究 runner、HTML 模板、配置模板、云端工作流、飞书两种适配器均已实现。
-- 离线样例使用一项核实过的 Gartner 官方公开来源，明确标识“验证样例 · 非完整周报”。它不是完整的本周周报。
-- 自动化测试覆盖来源校验、证据日期、跨周去重、引用过滤、HTML 转义、重复发送与失败状态。
-- 首次生产运行需要 `TAVILY_API_KEY`、`OPENAI_API_KEY`；发送飞书还需要 `FEISHU_WEBHOOK_URL`。没有密钥时生产运行会明确失败，不会用样例冒充真实结果。
+按用户要求，不单独跟踪 GPU、存储、备份容灾、桌面云、边缘云、数据库等其他产品方向。它们作为相关平台研究中的附带内容可能出现，但不会据此新增专题。
 
-项目中附带 [可直接打开的 HTML 验证样例](examples/2026-09-18.html)。
+产品线映射参考 [ZStack 官方产品矩阵](https://www.zstack.io/)，具体研究归纳是本工具的推断，非 Gartner 对产品的评价。详细配置见 [关键词说明](docs/topics.md)。
 
-## 5 分钟本地验证
+## 已交付的首期
 
-建议 Python 3.12。以下命令在项目根目录运行：
+[直接打开持续研究笔记](examples/index.html)：**2026-08-19—2026-09-18**，11 项 Gartner 官方公开研究/新闻稿，含日期、分析师、类型、摘要、目录转述、原文与关注理由。这是真实公开资料整理，不是虚构排版样例；并不声称覆盖 Gartner 全库。首期结构化数据在 `bootstrap/2026-09-18.json`。
+
+默认云端工作流首次发现空历史时导入这份基线，再补充运行日对应的新一期。后续继续沿用去重历史。没有基线的全新本地运行自动回看一个日历月；有历史时默认扫描近七天，漏跑时从上一期之后补齐日期。
+
+## 页面行为
+
+- 全站只有 `site/index.html`，不再生成每周一个 HTML；每期 JSON 是内部数据，不是阅读页面。
+- 新内容按期号追加，重跑同一期不重复。历史期的 HTML 锚点包含期号，同一报告更新后也不会造成链接冲突。
+- 独立主题框只展示本期有确认新增/更新研究的主题。只有旧背景、日期不明、元数据待核实的主题不占框。
+- 期末一句话汇总无新增的主题；检索失败会注明，不能把失败说成“没有发布”。
+- 表格和来源区仍保留必要的背景或待核实线索，并显著标记其状态。
+- 网页每次从历史 JSON 重建，并以原子替换更新 `index.html`；已有旧格式数据会迁移，移除旧的日期 HTML。
+
+## 本地使用
+
+建议 Python 3.12：
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m unittest discover -s tests -v
-python -m radar.runner generate --demo --as-of 2026-09-18 --data-dir data-demo
-python -m http.server 8000 --directory data-demo/site
+# 先导入已经整理好的首期，不需要 API 密钥
+python -m radar.runner import-report --input bootstrap/2026-09-18.json --data-dir data
+python -m http.server 8000 --directory data/site
 ```
 
-打开 `http://localhost:8000/2026-09-18.html`。模板独立、无外部字体、无 JavaScript、手机适配，可浏览器打印为 PDF。
+访问 `http://localhost:8000/`。导入只允许空历史，避免覆盖已有期号与发送状态。
 
-## 生产运行
-
-复制 `.env.example` 为 `.env` 并在本地编辑密钥。代码不会自动读取 `.env`，显式加载环境变量：
+后续自动研究需要 API 密钥：复制 `.env.example` 为 `.env`，自行填入并加载：
 
 ```sh
 set -a
@@ -39,94 +59,54 @@ set +a
 python -m radar.runner generate --data-dir data
 ```
 
-输出：
+同一天已有报告则复用；未来新日期才会继续研究。无 API 密钥时不会用样例冒充结果。离线测试模式仍可用 `generate --demo --as-of 2026-09-18 --data-dir data-demo`，但不能将 demo 推送为正式周报。
 
-| 路径 | 用途 |
+## 云端与飞书
+
+默认 **GitHub Actions → GitHub Pages → 飞书 webhook**，每周五北京时间 09:17，无常驻服务器。配置步骤见 [逐步配置指南](docs/deployment.md)。
+
+| 配置位置 | 内容 |
 |---|---|
-| `data/site/YYYY-MM-DD.html` | 可发布的周报 |
-| `data/site/index.html` | 历史归档 |
-| `data/reports/YYYY-MM-DD.json` | 本期结构化数据及短元数据证据 |
-| `data/latest.json` | 最新一次生成的数据 |
-| `data/state.json` | 跨周去重及发送记录 |
+| Actions Secrets | 检索、模型和飞书密钥 |
+| Actions Variables | 可选模型名、飞书发送模式 |
+| `config.json` | 主题、同义词、时间窗口、处理上限 |
+| `.github/workflows/weekly.yml` | 定时计划 |
+| `radar-data` 分支 | 历史 JSON、去重记录、唯一 HTML |
 
-将 `data/site` 发布为 HTTPS 网站后，发送飞书：
-
-```sh
-python -m radar.runner notify --data-dir data --as-of 2026-09-18 --base-url https://YOUR-OWNER.github.io/Gartner-Research-Radar-Agent
-```
-
-**推荐云端部署步骤见 [部署说明](docs/deployment.md)。** 部署流程会自动使用实际 Pages URL，支持项目路径及自定义域名，无需手工拼接。
-
-## 周报结构
-
-1. 本周核心判断，关联到具体来源。
-2. 重点研究表格：主题、标题、日期、分析师、研究类型、访问状态、关注理由。
-3. 七大主题的摘要与趋势分析；无发现的主题仍展示。
-4. 跨主题信号，要求至少两项来源、覆盖两个主题。
-5. 逐条公开摘要和目录转述、原文链接、证据级别。
-6. 搜索覆盖、候选数量、处理上限、失败与缺口说明。
-
-“付费/订阅”“公开免费”“未知”是全文访问状态；不会因摘要可见就推断全文免费。目录未公开则留空。趋势判断及“为什么值得关注”属于 Agent 推断，不代表 Gartner 官方立场。
-
-## 研究与更新规则
-
-默认按上海日期取结束日及此前六天；每个主题搜索本周与过去 30 天两个窗口（共 14 次 Tavily 搜索），每次最多 6 条候选，最多分析 40 个唯一页面。成本取决于搜索服务额度、模型及文本长度；失败重试可能增加调用次数。模型可通过 `OPENAI_MODEL` 更换，需支持 Chat Completions JSON mode。
-
-只收录 Gartner 官方 document、newsroom 和 analyst blog 页面，研究类型分开显示。不将供应商宣传、Peer Insights 评论或用户上一轮生成的报告当作验证证据。Tavily 的公开文本提取和搜索摘要有不同标记；没有原文提取时仍可保留搜索线索，但需核实。所有页面内容视为不可信数据。
-
-以文档 ID / 规范 URL 去重，去掉跟踪参数与片段。同一文档跨多个主题只保留一条。首次观察时间不等于发布日期；只有有证据的日期落在本期窗口内才计作“本周新增/更新”。旧报告标“补充背景”，无日期标“首次发现·日期未知”，无明确更新时间的元数据变化标“待核实”。相同条目不重复收录；模型改写或搜索摘要变化不算研究更新。更新发现依赖公开索引，未进入检索结果的旧页更新可能漏检。
-
-标题来源于搜索结果；分析师需原文包含姓名，日期需引文能解析到同一天。字段证据匹配只是最低校验，不能证明模型语义判断完全正确；读者可打开原文复核。摘要与目录做简短中文转述，不公开抓取全文，不重建付费正文。原始搜索正文仅在进程内用于分析，不写入归档；仅短元数据证据随 JSON 保存。
-
-## 重跑、失败与持久化
-
-- 同一天已有报告则直接复用，不重新付费搜索。正式数据与样例数据必须分目录。
-- 所有检索失败，或所有提取失败时退出非零，保留旧状态；部分失败仍生成报告，但显著标记覆盖不完整。
-- 趋势综合失败时保留逐条研究、说明失败，不编造结论。
-- 先保存状态与报告，再部署网页，再推送。部署失败可重跑继续；飞书失败不写成功记录。
-- 飞书按期号、发送方式、目的会话做去重。Webhook 无幂等键：网络超时但服务端已接收，或发送成功后状态提交失败，再次手动重跑仍可能重复。为避免盲目重复，发送请求不自动重试；请先查看飞书群再重跑。应用模式另使用确定性 UUID。
-- 公开仓库中的 `radar-data` 也是公开的，仅应保存公开研究数据。`site` 以外的 JSON 不会被 Pages 发布，但可从公开仓库读取。
-- 分支持续保留旧周报，没有自动删除；需要控制存储量时可单独制定归档策略。不要删除 `state.json`，否则会失去去重历史。
-
-## 飞书应用模式
-
-配置 `FEISHU_APP_ID`、`FEISHU_APP_SECRET`、`FEISHU_CHAT_ID`，并设置 GitHub Variable `FEISHU_MODE=app`。实现已包含 tenant token → `file_type=stream` 上传 HTML → 向指定 `chat_id` 发送 file 消息。需要应用启用机器人、具备文件上传和发消息权限，且已加入目标会话。
+发布后：
 
 ```sh
-python -m radar.runner notify --data-dir data --as-of 2026-09-18 --mode app
+python -m radar.runner notify --data-dir data --as-of 2026-09-18 --base-url https://OWNER.github.io/Gartner-Research-Radar-Agent
 ```
 
-飞书是否支持 HTML 在线预览由客户端决定；文件可下载后浏览器打开。云端默认流程仍发布 Pages，若只需要私有文件，可按部署说明禁用 Pages 步骤。
+链接为 `/index.html#edition-2026-09-18`。可选应用模式上传的是同一个累计 HTML，使用 `notify --mode app`；配置 app_id/app_secret/chat_id 环境变量即可。文件能否在线预览由飞书客户端决定。
 
-## Skill
+## 证据、成本和恢复
 
-`skills/gartner-research-radar/SKILL.md` 可复制到 Codex 或兼容 Agent 的 skills 目录。Skill 提供研究契约与 runner 调用方式；云端运行不依赖桌面 Codex 登录态。它需要本项目代码可访问，不是只复制一个 Markdown 就能获得后台定时运行。
+官方 document、newsroom 和 analyst blog 是研究来源；不把 Peer Insights 评论或用户先前生成的文本当作验证材料。分析师与日期进行短引文匹配，未知字段保留未知。公开摘要不代表全文免费；不抓取付费正文。模型输出仍需要必要的人工复核。
 
-## 项目结构
+每主题两组同义词：初始月度扫描通常 16 次高级搜索；每周扫描和回溯共 32 次，漏跑补齐超过回溯窗口时只查补齐窗口。候选上限初始 100 项、每周 60 项，每项一次抽取，另一次趋势综合。重试可能增加调用；API 按各自账户额度计费。
+
+文档 ID/规范 URL 用于跨主题、跨期去重。只有明确的新发布时间/更新时间才记为本期新增/更新；模型改写不算研究更新。公开索引可能漏检旧页面更新，不能保证穷尽。
+
+全部检索或提取失败时不写新报告；部分失败会标记缺口。先保存报告，再发布网页，再发送飞书。失败发送不记为成功；Webhook 无幂等键，网络结果不明或发送后状态提交失败可能导致重跑重复，需先看群里是否收到。历史状态不用短期缓存，持久化到 `radar-data`。
+
+## Skill 与文件
+
+`skills/gartner-research-radar/SKILL.md` 可复用到支持 Skill 的 Agent，配合本项目 runner 使用。
 
 ```text
-.github/workflows/weekly.yml  每周研究、历史持久化、发布和发送
-.github/workflows/test.yml    无密钥 CI 验证
-radar/research.py             检索、证据校验、分类、趋势综合
-radar/runner.py               CLI、HTML、状态与恢复
-radar/delivery.py             飞书 webhook / 应用文件发送
-radar/network.py              超时、有限重试、错误脱敏
-radar/templates/              周报与归档 HTML 模板
-skills/                      可复用研究 Skill
-tests/                       自动化测试与单来源验证样例
-config.json                  时间窗口、主题、模型与数量上限
-.env.example                 仅环境变量名称，无密钥
+radar/research.py               发现、元数据证据、分类、趋势
+radar/runner.py                 月度初始化、每周追加、状态、发送
+radar/templates/notebook.html   单一累计 HTML 外壳
+radar/templates/edition.html    每期内容模板
+radar/delivery.py               飞书 webhook 与应用上传
+bootstrap/2026-09-18.json        已核对的首期公开数据
+examples/index.html             可直接阅读的首期
+config.json                    非敏感配置
+.env.example                   环境变量模板
+.github/workflows/weekly.yml    生产定时流程
+.github/workflows/test.yml      无密钥 CI 测试
 ```
 
-## API 与部署参考
-
-- [Tavily Search](https://docs.tavily.com/documentation/api-reference/endpoint/search)
-- [OpenAI Chat Completions](https://developers.openai.com/api/reference/resources/chat)
-- [GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
-- [GitHub 定时触发](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
-- [飞书自定义机器人](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)
-- [飞书文件上传](https://open.feishu.cn/document/server-docs/im-v1/file/create)
-- [飞书发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
-- [样例的官方来源](https://www.gartner.com/en/documents/8377781)
-
-此项目为独立工具，不隶属于 Gartner。公开检索不保证报告完整覆盖，也不替代订阅研究全文。
+来源与 API 文档见部署指南。此工具独立于 Gartner，不代表其官方意见。

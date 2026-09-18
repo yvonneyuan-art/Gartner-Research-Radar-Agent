@@ -4,6 +4,7 @@ import os
 from datetime import datetime, date, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from dateutil.relativedelta import relativedelta
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .network import ServiceError
 from .research import discover, llm, clean_record, classify, synthesize, EXTRACT
@@ -36,7 +37,17 @@ def generate(config, end, data, demo=False):
     state = load(data / 'state.json', {'schema': 1, 'records': {}, 'deliveries': {}, 'demo': demo})
     if state.get('demo') != demo:
         raise ServiceError('Demo and live state must use separate directories')
-    start = end - timedelta(days=config['window_days'] - 1)
+    editions = sorted((data / 'reports').glob('????-??-??.json'))
+    initial = not editions
+    if initial:
+        start = end - relativedelta(months=config.get('initial_months', 1)) + timedelta(days=1)
+    else:
+        last_end = date.fromisoformat(editions[-1].stem)
+        if end <= last_end:
+            raise ServiceError('New editions must be later than existing editions')
+        start = min(end - timedelta(days=config['window_days'] - 1), last_end + timedelta(days=1))
+    config = dict(config, window_days=(end - start).days + 1,
+                  max_documents=config.get('initial_max_documents', 100) if initial else config['max_documents'])
     errors, records, all_count = [], [], 0
     if demo:
         fixture = load(ROOT / 'tests' / 'sample.json', {})
@@ -51,7 +62,7 @@ def generate(config, end, data, demo=False):
     for hit in hits:
         try:
             obj = fixture['extraction'] if demo else llm(EXTRACT, {
-                'topics': list(config['topics']), 'source': hit}, config)
+                'topics': list(config['topics']), 'excluded_primary_topics': config.get('excluded_primary_topics', []), 'source': hit}, config)
             record = clean_record(hit, obj, config['topics'])
             if not record:
                 continue
@@ -70,7 +81,7 @@ def generate(config, end, data, demo=False):
             '首次发现·日期未知': 3, '补充背景': 4, '未来日期·待核实': 5}
     records.sort(key=lambda r: (rank[r['status']], r['title']))
     if demo:
-        analysis = {'core': [{'text': '验证样例：公开摘要显示，服务器虚拟化选型正在重新受到关注。此页仅验证展示流程，不代表完成七个主题的本周检索。',
+        analysis = {'core': [{'text': '验证样例：公开摘要显示，服务器虚拟化选型正在重新受到关注。此页仅验证展示流程，不代表完成全部主题的检索。',
                               'sources': [records[0]['id']] if records else []}],
                     'themes': {t: [] for t in config['topics']}, 'signals': []}
     else:
@@ -81,7 +92,7 @@ def generate(config, end, data, demo=False):
             analysis = {'core': [], 'themes': {t: [] for t in config['topics']}, 'signals': []}
     quality = ('验证样例 · 非完整周报' if demo else
                '部分失败 · 本期覆盖不完整' if errors else '公开检索完成 · 不保证穷尽全部研究')
-    report = {'start': str(start), 'end': str(end), 'demo': demo, 'topics': list(config['topics']),
+    report = {'initial': initial, 'start': str(start), 'end': str(end), 'demo': demo, 'topics': list(config['topics']),
               'created': datetime.now(ZoneInfo(config['timezone'])).isoformat(), 'records': records,
               'analysis': analysis, 'errors': errors, 'stats': stats, 'quality': quality,
               'new_count': sum(r['status'] in ['本周新增', '本周更新'] for r in records),
@@ -94,15 +105,60 @@ def generate(config, end, data, demo=False):
     return report
 
 
+def decorate(report):
+    active = {'本周新增', '本周更新', '本期新增', '本期更新'}
+    report = dict(report)
+    report['active_records'] = [r for r in report['records'] if r['status'] in active]
+    report['active_topics'] = [t for t in report['topics'] if any(t in r['topics'] for r in report['active_records'])]
+    report['inactive_topics'] = [t for t in report['topics'] if t not in report['active_topics']]
+    period = '近一个月' if report.get('initial') else '本周'
+    if report['inactive_topics']:
+        report['no_new_summary'] = period + '，' + '、'.join(report['inactive_topics']) + ' 未检出可确认的新增或更新研究。'
+    else:
+        report['no_new_summary'] = period + '所有跟踪主题均检出新增或更新研究。'
+    if report.get('errors'):
+        report['no_new_summary'] += ' 部分检索未完成，不能据此判断实际没有发布。'
+    return report
+
+
 def render(report, site):
     env = Environment(loader=FileSystemLoader(str(ROOT / 'radar' / 'templates')),
                       autoescape=select_autoescape(['html']))
-    output = env.get_template('report.html').render(report=report)
+    # Structured editions are persisted; every render rebuilds one cumulative HTML.
+    editions = {p.stem: load(p, {}) for p in (site.parent / 'reports').glob('????-??-??.json')}
+    editions[report['end']] = report
+    ordered = [decorate(editions[k]) for k in sorted(editions, reverse=True)]
+    output = env.get_template('notebook.html').render(editions=ordered, latest=ordered[0])
     site.mkdir(parents=True, exist_ok=True)
-    (site / f"{report['end']}.html").write_text(output, encoding='utf-8')
-    issues = sorted((p.name for p in site.glob('????-??-??.html')), reverse=True)
-    (site / 'index.html').write_text(env.get_template('index.html').render(issues=issues), encoding='utf-8')
+    temp = site / 'index.html.tmp'
+    temp.write_text(output, encoding='utf-8')
+    temp.replace(site / 'index.html')
+    # Remove only obsolete generated per-edition pages after the notebook is durable.
+    for legacy in site.glob('????-??-??.html'):
+        legacy.unlink()
     (site / '.nojekyll').touch()
+
+
+def import_report(path, data):
+    report = load(path, None)
+    if not report or report.get('demo') or not report.get('records'):
+        raise ServiceError('Import requires a verified non-demo baseline')
+    if (data / 'state.json').exists() or list((data / 'reports').glob('*.json')):
+        raise ServiceError('Baseline import is only allowed into empty history')
+    from .research import canonical
+    records = {}
+    start, end = date.fromisoformat(report['start']), date.fromisoformat(report['end'])
+    for r in report['records']:
+        r['url'] = canonical(r['url'])
+        if r['url'] in records:
+            raise ServiceError('Duplicate baseline source')
+        records[r['url']] = classify(r, None, start, end)
+    report['new_count'] = sum(r['status'] in ['本周新增', '本周更新'] for r in report['records'])
+    render(report, data / 'site')
+    save(data / 'reports' / f"{report['end']}.json", report)
+    save(data / 'latest.json', report)
+    save(data / 'state.json', {'schema': 2, 'demo': False, 'records': records, 'deliveries': {}})
+    return report
 
 
 def notify(data, issue, base_url, mode):
@@ -121,9 +177,9 @@ def notify(data, issue, base_url, mode):
         p = urlsplit(base_url)
         if p.scheme != 'https' or not p.hostname or p.username or p.password or p.query or p.fragment:
             raise ServiceError('A deployed HTTPS base URL is required')
-        delivery.webhook(report, base_url.rstrip('/') + f'/{issue}.html')
+        delivery.webhook(report, base_url.rstrip('/') + f'/index.html#edition-{issue}')
     else:
-        delivery.app_file(data / 'site' / f'{issue}.html', issue)
+        delivery.app_file(data / 'site' / 'index.html', issue)
     state.setdefault('deliveries', {})[key] = datetime.now().isoformat()
     save(data / 'state.json', state)
     print('Delivery accepted by Feishu')
@@ -131,11 +187,12 @@ def notify(data, issue, base_url, mode):
 
 def main():
     parser = argparse.ArgumentParser(description='Gartner public research weekly radar')
-    parser.add_argument('command', choices=['generate', 'notify'])
+    parser.add_argument('command', choices=['generate', 'notify', 'import-report'])
     parser.add_argument('--config', type=Path, default=ROOT / 'config.json')
     parser.add_argument('--data-dir', type=Path, default=ROOT / 'data')
     parser.add_argument('--as-of', type=date.fromisoformat)
     parser.add_argument('--demo', action='store_true')
+    parser.add_argument('--input', type=Path)
     parser.add_argument('--base-url', default='')
     parser.add_argument('--mode', choices=['webhook', 'app'], default='webhook')
     args = parser.parse_args()
@@ -144,7 +201,12 @@ def main():
         if not config:
             raise ServiceError('Missing config.json')
         end = args.as_of or datetime.now(ZoneInfo(config['timezone'])).date()
-        if args.command == 'generate':
+        if args.command == 'import-report':
+            if not args.input:
+                raise ServiceError('--input is required')
+            report = import_report(args.input, args.data_dir)
+            print(f"Imported {report['end']}: {len(report['records'])} verified records")
+        elif args.command == 'generate':
             report = generate(config, end, args.data_dir, args.demo)
             print(f"Generated {report['end']}: {len(report['records'])} records; {report['quality']}")
         else:

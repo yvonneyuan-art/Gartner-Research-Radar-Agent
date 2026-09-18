@@ -69,7 +69,7 @@ class RadarTests(unittest.TestCase):
             from radar.runner import render
             first['records'][0]['title'] = '<script>alert(1)</script>'
             render(first, data / 'site')
-            html = (data / 'site/2026-09-18.html').read_text()
+            html = (data / 'site/index.html').read_text()
             self.assertNotIn('<script>', html)
             self.assertIn('&lt;script&gt;', html)
             with self.assertRaises(ServiceError):
@@ -146,6 +146,62 @@ class RadarTests(unittest.TestCase):
             message = api.call_args_list[2].kwargs['json']
             self.assertEqual(message['receive_id'], 'test-chat')
             self.assertEqual(json.loads(message['content']), {'file_key': 'test-file'})
+
+    def test_monthly_first_window_then_weekly_append(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory)
+            first = generate(self.config, date(2026,9,18), data, True)
+            self.assertEqual(first['start'], '2026-08-19')
+            second = generate(self.config, date(2026,9,25), data, True)
+            self.assertEqual(second['start'], '2026-09-19')
+            self.assertFalse(second['initial'])
+            html = (data / 'site/index.html').read_text()
+            self.assertIn('id="edition-2026-09-18"', html)
+            self.assertIn('id="edition-2026-09-25"', html)
+            self.assertLess(html.index('id="edition-2026-09-25"'), html.index('id="edition-2026-09-18"'))
+            self.assertEqual(len(list((data / 'site').glob('*.html'))), 1)
+            self.assertEqual(second['new_count'], 0)
+            from radar.runner import decorate
+            self.assertEqual(decorate(second)['active_topics'], [])
+            self.assertNotIn('<h3>HCI', html)
+            self.assertIn('未检出可确认', html)
+            generate(self.config, date(2026,9,18), data, True)
+            self.assertEqual((data / 'site/index.html').read_text(), html)
+
+    def test_background_does_not_create_topic_box(self):
+        from radar.runner import decorate
+        report = {'initial': False, 'topics': ['Virtualization', 'HCI'], 'records': [dict(self.record, status='补充背景')]}
+        self.assertEqual(decorate(report)['active_topics'], [])
+
+    def test_bootstrap_import_persists_dedup_and_stable_link(self):
+        from radar.runner import import_report
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory)
+            imported = import_report(ROOT / 'bootstrap/2026-09-18.json', data)
+            self.assertEqual(len(imported['records']), 11)
+            self.assertEqual(len(load(data / 'state.json', {})['records']), 11)
+            with self.assertRaises(ServiceError):
+                import_report(ROOT / 'bootstrap/2026-09-18.json', data)
+            with patch('radar.delivery.webhook') as send:
+                notify(data, '2026-09-18', 'https://example.com/radar', 'webhook')
+                self.assertEqual(send.call_args.args[1], 'https://example.com/radar/index.html#edition-2026-09-18')
+
+    def test_calendar_month_boundary_and_gap_catchup(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory)
+            first = generate(self.config, date(2026,3,31), data, True)
+            self.assertEqual(first['start'], '2026-03-01')
+            second = generate(self.config, date(2026,4,15), data, True)
+            self.assertEqual(second['start'], '2026-04-01')
+
+    def test_metadata_order_and_missing_fields_do_not_create_updates(self):
+        r = self.record
+        state = classify(r, None, date(2026,9,12), date(2026,9,18))
+        r['analysts'].reverse()
+        r['research_type'] = '未知'
+        r['published'] = None
+        classify(r, state, date(2026,9,19), date(2026,9,25))
+        self.assertEqual(r['status'], '已收录')
 
 if __name__ == '__main__':
     unittest.main()

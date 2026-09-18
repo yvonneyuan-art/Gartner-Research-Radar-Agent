@@ -2,16 +2,53 @@
   "timezone": "Asia/Shanghai",
   "window_days": 7,
   "lookback_days": 30,
-  "results_per_query": 6,
-  "max_documents": 40,
+  "results_per_query": 8,
+  "max_documents": 60,
   "model": "gpt-4.1-mini",
   "topics": {
-    "AI Infrastructure": "AI infrastructure artificial intelligence infrastructure",
-    "Agentic AI": "agentic AI autonomous agents",
-    "AI Security": "AI security AI governance",
-    "Cloud": "cloud computing private cloud hybrid cloud",
-    "Virtualization": "server virtualization hypervisor",
-    "GPU": "GPU accelerated computing AI chips",
-    "Kubernetes": "Kubernetes container management"
-  }
+    "Cloud / Private & Hybrid": [
+      "\"private cloud\" \"hybrid cloud\" \"distributed hybrid infrastructure\"",
+      "\"sovereign cloud\" \"cloud repatriation\" \"on-premises cloud\""
+    ],
+    "Virtualization": [
+      "\"server virtualization\" \"hypervisor\"",
+      "\"VMware alternative\" \"virtual machine migration\""
+    ],
+    "HCI": [
+      "\"hyperconverged infrastructure\" \"HCI\"",
+      "\"full-stack infrastructure\" \"integrated systems\""
+    ],
+    "Kubernetes": [
+      "\"container management\" \"Kubernetes\"",
+      "\"platform engineering\" \"KubeVirt\" \"internal developer platform\""
+    ],
+    "Cloud Management & FinOps": [
+      "\"cloud management\" \"hybrid cloud operations\" \"AIOps\"",
+      "\"FinOps\" \"AI FinOps\" \"token cost\" \"cloud financial management\""
+    ],
+    "AI Infrastructure": [
+      "\"AI infrastructure\" \"private AI\" \"enterprise AI platform\"",
+      "\"model serving\" \"inference platform\" \"MLOps\" \"LLMOps\""
+    ],
+    "Agentic AI": [
+      "\"agentic AI\" \"multiagent\" \"agent orchestration\"",
+      "\"agent runtime\" \"AI agents\" \"infrastructure operations\""
+    ],
+    "AI Security": [
+      "\"AI security\" \"AI governance\" \"AI TRiSM\"",
+      "\"AI gateway\" \"agent identity\" \"runtime controls\" \"model gateway\""
+    ]
+  },
+  "initial_months": 1,
+  "initial_max_documents": 100,
+  "excluded_primary_topics": [
+    "GPU hardware market",
+    "storage",
+    "backup",
+    "disaster recovery",
+    "desktop virtualization",
+    "edge cloud",
+    "database platforms",
+    "standalone networking"
+  ]
 }

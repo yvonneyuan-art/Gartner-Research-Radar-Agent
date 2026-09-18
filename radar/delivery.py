@@ -36,7 +36,7 @@ def webhook(report, link):
     payload = {'msg_type': 'text', 'content': {'text':
         f"Gartner Research Radar | {report['start']} — {report['end']}\n"
         f"新增/更新 {report['new_count']} 项 · 本期收录 {len(report['records'])} 项\n"
-        f"{report['quality']}\n{points[:1800]}\n完整 HTML 周报：{link}"}}
+        f"{report['quality']}\n{points[:1800]}\n持续研究笔记（本期）：{link}"}}
     secret = os.environ.get('FEISHU_WEBHOOK_SECRET')
     if secret:
         payload['timestamp'] = str(int(time.time()))

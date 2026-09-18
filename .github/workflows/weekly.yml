@@ -50,6 +50,12 @@ jobs:
             echo 'Cannot read history branch; refusing to reset deduplication history.' >&2
             exit "$status"
           fi
+      - name: Load verified first-month baseline into empty history
+        shell: bash
+        run: |
+          if [ ! -f .runtime/state.json ]; then
+            python -m radar.runner import-report --input bootstrap/2026-09-18.json --data-dir .runtime
+          fi
       - name: Research and render
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
