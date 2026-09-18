@@ -69,7 +69,7 @@ jobs:
           path: .runtime/site
           retention-days: 90
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: .runtime/site
       - name: Deploy HTML archive

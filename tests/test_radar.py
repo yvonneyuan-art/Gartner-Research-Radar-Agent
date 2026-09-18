@@ -116,5 +116,36 @@ class RadarTests(unittest.TestCase):
                 call('test', 'POST', 'https://example.com/secret', retries=0)
             self.assertNotIn('SECRET', str(exc.exception))
 
+    def test_live_search_contract_and_canonical_dedup(self):
+        from radar.research import discover
+        config = dict(self.config, topics={'Virtualization': 'server virtualization'})
+        reply = {'results': [{'url': self.record['url'] + '?utm_source=x',
+                              'title': self.record['title'], 'content': 'public snippet',
+                              'raw_content': None}]}
+        with patch.dict('os.environ', {'TAVILY_API_KEY': 'test-only'}), patch('radar.research.call', return_value=reply) as api:
+            hits, errors, stats = discover(config, date(2026,9,18), {})
+        self.assertEqual(len(hits), 1)
+        self.assertEqual(hits[0]['level'], '搜索摘要')
+        self.assertEqual(errors, [])
+        self.assertEqual(stats['queries'], 2)
+        self.assertEqual(api.call_args_list[0].kwargs['json']['start_date'], '2026-09-12')
+        self.assertEqual(api.call_args_list[0].kwargs['json']['end_date'], '2026-09-19')
+
+    def test_app_upload_then_file_message(self):
+        from radar.delivery import app_file
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'report.html'
+            path.write_text('<html>test</html>')
+            env = {'FEISHU_APP_ID': 'test-id', 'FEISHU_APP_SECRET': 'test-secret', 'FEISHU_CHAT_ID': 'test-chat'}
+            responses = [{'code': 0, 'tenant_access_token': 'test-token'},
+                         {'code': 0, 'data': {'file_key': 'test-file'}}, {'code': 0}]
+            with patch.dict('os.environ', env), patch('radar.delivery.call', side_effect=responses) as api:
+                app_file(path, '2026-09-18')
+            self.assertEqual(api.call_count, 3)
+            self.assertEqual(api.call_args_list[1].kwargs['data']['file_type'], 'stream')
+            message = api.call_args_list[2].kwargs['json']
+            self.assertEqual(message['receive_id'], 'test-chat')
+            self.assertEqual(json.loads(message['content']), {'file_key': 'test-file'})
+
 if __name__ == '__main__':
     unittest.main()
