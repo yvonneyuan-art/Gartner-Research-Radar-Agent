@@ -136,8 +136,16 @@ def verified_date(field, text):
 
 
 def clean_record(hit, obj, topics):
-    if obj.get('relevant') is not True:
+    if not isinstance(obj.get('relevant'), bool):
+        raise ValueError('Missing relevance classification')
+    if not obj['relevant']:
         return None
+    for name in ['analysts', 'outline', 'topics']:
+        if not isinstance(obj.get(name), list):
+            raise ValueError('Invalid extraction list')
+    for name in ['summary', 'why']:
+        if not isinstance(obj.get(name), str):
+            raise ValueError('Invalid extraction text')
     text = hit['text']
     names = []
     for f in obj.get('analysts', [])[:12]:

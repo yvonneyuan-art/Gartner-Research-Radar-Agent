@@ -58,7 +58,7 @@ def generate(config, end, data, demo=False):
             all_count += 1
             prior = state['records'].get(record['url'])
             next_records[record['url']] = classify(record, prior, start, end)
-            # Show a known publication throughout its publication week, without counting it twice.
+            # Already-seen unchanged records do not reappear in subsequent editions.
             if record['status'] != '已收录':
                 records.append(record)
         except (ServiceError, ValueError, TypeError, AttributeError, KeyError):
