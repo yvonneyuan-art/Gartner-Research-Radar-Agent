@@ -1,0 +1,28 @@
+{
+  "note": "One independently verified official public source, checked 2026-09-18. Offline layout sample only; not a complete weekly search.",
+  "hit": {
+    "url": "https://www.gartner.com/en/documents/8377781",
+    "title": "Gartner Magic Quadrant for Server Virtualization Platforms",
+    "topics": ["Virtualization"],
+    "level": "公开页面提取",
+    "text": "Magic Quadrant. Published: 14 September 2026. Analysts: Tony Harvey, Daniel Bowers, Paul Delory, Tony Iams, Owen Marino."
+  },
+  "extraction": {
+    "relevant": true,
+    "analysts": [
+      {"value": "Tony Harvey", "quote": "Tony Harvey"},
+      {"value": "Daniel Bowers", "quote": "Daniel Bowers"},
+      {"value": "Paul Delory", "quote": "Paul Delory"},
+      {"value": "Tony Iams", "quote": "Tony Iams"},
+      {"value": "Owen Marino", "quote": "Owen Marino"}
+    ],
+    "published": {"value": "2026-09-14", "quote": "14 September 2026"},
+    "updated": {"value": null, "quote": ""},
+    "research_type": {"value": "Magic Quadrant", "quote": "Magic Quadrant"},
+    "access": {"value": "unknown", "quote": ""},
+    "summary": "公开摘要指出，服务器虚拟化市场正经历显著变化，基础设施与运维负责人需要重新评估供应商及技术选择。",
+    "outline": ["市场界定", "供应商优势与注意事项", "纳入与排除标准", "评估标准", "市场概览"],
+    "why": "推断：可作为重新审视虚拟化平台选型的研究入口；公开摘要不足以支持具体供应商排名判断。",
+    "topics": ["Virtualization"]
+  }
+}

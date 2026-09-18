@@ -1,0 +1,17 @@
+{
+  "timezone": "Asia/Shanghai",
+  "window_days": 7,
+  "lookback_days": 30,
+  "results_per_query": 6,
+  "max_documents": 40,
+  "model": "gpt-4.1-mini",
+  "topics": {
+    "AI Infrastructure": "AI infrastructure artificial intelligence infrastructure",
+    "Agentic AI": "agentic AI autonomous agents",
+    "AI Security": "AI security AI governance",
+    "Cloud": "cloud computing private cloud hybrid cloud",
+    "Virtualization": "server virtualization hypervisor",
+    "GPU": "GPU accelerated computing AI chips",
+    "Kubernetes": "Kubernetes container management"
+  }
+}
