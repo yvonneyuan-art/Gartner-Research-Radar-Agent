@@ -54,8 +54,8 @@ def generate(config, end, data, demo=False):
         hits = [fixture['hit']]
         stats = {'queries': 0, 'discovered': 1, 'processed': 1}
     else:
-        if not os.environ.get('OPENAI_API_KEY'):
-            raise ServiceError('OPENAI_API_KEY is required; use --demo for an offline sample')
+        if not os.environ.get('DEEPSEEK_API_KEY'):
+            raise ServiceError('DEEPSEEK_API_KEY is required; use --demo for an offline sample')
         hits, errors, stats = discover(config, end, state['records'])
     next_records = dict(state['records'])
     failures = 0

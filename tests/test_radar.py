@@ -103,7 +103,7 @@ class RadarTests(unittest.TestCase):
             data = Path(directory)
             save(data / 'state.json', {'records': {'old': {}}, 'deliveries': {}, 'demo': False})
             before = (data / 'state.json').read_bytes()
-            with patch.dict('os.environ', {'OPENAI_API_KEY': 'test-placeholder'}), patch('radar.runner.discover', side_effect=ServiceError('failure')):
+            with patch.dict('os.environ', {'DEEPSEEK_API_KEY': 'test-placeholder'}), patch('radar.runner.discover', side_effect=ServiceError('failure')):
                 with self.assertRaises(ServiceError):
                     generate(self.config, date(2026,9,18), data)
             self.assertEqual(before, (data / 'state.json').read_bytes())
@@ -202,6 +202,29 @@ class RadarTests(unittest.TestCase):
         r['published'] = None
         classify(r, state, date(2026,9,19), date(2026,9,25))
         self.assertEqual(r['status'], '已收录')
+
+    def test_deepseek_endpoint_key_and_json_contract(self):
+        from radar.research import llm
+        reply = {'choices': [{'finish_reason': 'stop', 'message': {'content': '{"ok":true}'}}]}
+        with patch.dict('os.environ', {'DEEPSEEK_API_KEY': 'test-deepseek', 'DEEPSEEK_MODEL': 'deepseek-flash'}, clear=True), patch('radar.research.call', return_value=reply) as api:
+            self.assertEqual(llm('Return JSON', {}, self.config), {'ok': True})
+            self.assertEqual(api.call_args.args[2], 'https://api.deepseek.com/chat/completions')
+            self.assertEqual(api.call_args.kwargs['headers']['Authorization'], 'Bearer test-deepseek')
+            request = api.call_args.kwargs['json']
+            self.assertEqual(request['model'], 'deepseek-flash')
+            self.assertEqual(request['response_format'], {'type': 'json_object'})
+            self.assertEqual(request['thinking'], {'type': 'disabled'})
+
+    def test_incomplete_or_empty_deepseek_output_rejected(self):
+        from radar.research import llm
+        for reason, content in [('length', '{"ok":true}'), ('stop', ''), ('stop', '[]')]:
+            reply = {'choices': [{'finish_reason': reason, 'message': {'content': content}}]}
+            with patch.dict('os.environ', {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), patch('radar.research.call', return_value=reply):
+                with self.assertRaises(ServiceError):
+                    llm('Return JSON', {}, self.config)
+        with patch.dict('os.environ', {}, clear=True):
+            with self.assertRaisesRegex(ServiceError, 'DEEPSEEK_API_KEY'):
+                llm('Return JSON', {}, self.config)
 
 if __name__ == '__main__':
     unittest.main()

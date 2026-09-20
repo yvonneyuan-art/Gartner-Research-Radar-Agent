@@ -2,6 +2,12 @@
 
 仓库已经建好：[Gartner-Research-Radar-Agent](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent)。不用再建服务器，也不用上传 Gartner 账号密码。
 
+## Tavily 和 DeepSeek 分别做什么
+
+Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的公开网页和摘要。DeepSeek 是模型服务：读取这些搜索结果，整理报告日期、分析师与中文分析。两者是不同服务，需要各自的 key；DeepSeek key 不能填入 Tavily 的配置项。Tavily 是当前实现选用的搜索后端，不是 Gartner 的账号或订阅。
+
+本项目直接向 DeepSeek 官方 API 发请求，不需要 OpenAI 账号或 OpenAI key。默认模型为 `deepseek-flash`，可通过 `DEEPSEEK_MODEL` 覆盖。
+
 ## 第一步：把三个基础密钥填到 Secrets
 
 直接打开 [仓库的 Actions Secrets 页面](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent/settings/secrets/actions)。点击 **New repository secret**，分别添加下表三项。左边的 Name 原样复制，右边 Secret 填自己的值。
@@ -9,12 +15,12 @@
 | Name | Secret 填什么 | 用途 |
 |---|---|---|
 | `TAVILY_API_KEY` | [Tavily 控制台](https://app.tavily.com/)生成的 API key | 每周搜索 Gartner 公开资料 |
-| `OPENAI_API_KEY` | [OpenAI API 控制台](https://platform.openai.com/api-keys)创建的项目 API key | 提取日期/分析师及生成中文分析 |
+| `DEEPSEEK_API_KEY` | [DeepSeek API 控制台](https://platform.deepseek.com/api_keys)创建的项目 API key | 提取日期/分析师及生成中文分析 |
 | `FEISHU_WEBHOOK_URL` | 飞书目标群中自定义机器人的完整 webhook 地址 | 推送摘要及固定 HTML 链接 |
 
 如果机器人启用了签名校验，再添加 `FEISHU_WEBHOOK_SECRET`，值是同一个机器人页面里的签名密钥。
 
-这些值只能放 **Secrets**，不要填到 `config.json`、Variables、代码或聊天里。OpenAI API 需要可用的 API 额度；ChatGPT 订阅与 API 是不同的产品计费，不要把 ChatGPT 登录信息填进去。
+这些值只能放 **Secrets**，不要填到 `config.json`、Variables、代码或聊天里。DeepSeek API 需要可用的 API 额度；这里填 DeepSeek 开放平台生成的 key，不是网页登录密码。
 
 飞书入口：目标群 → 群设置 → 群机器人 → 添加机器人 → 自定义机器人。若设了关键词校验，用 `Gartner` 即可，发送文本包含该词。GitHub 托管 runner 的出口 IP 可能变化，签名校验更适合此部署。
 
@@ -24,7 +30,7 @@
 
 | Name | 默认值 | 什么时候改 |
 |---|---|---|
-| `OPENAI_MODEL` | `gpt-4.1-mini`（来自 config） | 希望使用另一可用且支持 JSON mode 的模型 |
+| `DEEPSEEK_MODEL` | `deepseek-flash`（来自 config） | 希望使用另一可用且支持 JSON mode 的模型 |
 | `FEISHU_MODE` | `webhook` | 希望上传 HTML 文件时改为 `app` |
 
 不需要设置 GitHub token，Actions 自带 `GITHUB_TOKEN`。工作流已经声明写入历史分支与 Pages 所需权限；若组织策略阻止，再由管理员调整。
@@ -66,7 +72,7 @@
 | `excluded_primary_topics` | GPU、存储、备份容灾、桌面云、边缘云等排除方向 |
 | `.github/workflows/weekly.yml` | 每周五北京时间 09:17；GitHub 高负载时可能延迟 |
 
-研究数据来自公开索引，处理上限不是完整性保证。默认首轮约 16 次高级检索，周度约 32 次，最多分别 100/60 次逐条模型分析，另一次综合；失败重试可能增加调用。为 Tavily/OpenAI 账户设置适合自己的预算。
+研究数据来自公开索引，处理上限不是完整性保证。默认首轮约 16 次高级检索，周度约 32 次，最多分别 100/60 次逐条模型分析，另一次综合；失败重试可能增加调用。为 Tavily/DeepSeek 账户设置适合自己的预算。
 
 ## 可选：飞书直接收 HTML 文件
 
@@ -93,7 +99,7 @@
 - [GitHub Secrets](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets)
 - [GitHub Pages 设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [GitHub 定时触发](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
-- [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+- [DeepSeek API key](https://api-docs.deepseek.com/zh-cn/)
 - [Tavily Search API](https://docs.tavily.com/documentation/api-reference/endpoint/search)
 - [飞书自定义机器人](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)
 - [飞书上传文件](https://open.feishu.cn/document/server-docs/im-v1/file/create)

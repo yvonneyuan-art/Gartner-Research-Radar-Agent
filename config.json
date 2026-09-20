@@ -4,7 +4,7 @@
   "lookback_days": 30,
   "results_per_query": 8,
   "max_documents": 60,
-  "model": "gpt-4.1-mini",
+  "model": "deepseek-flash",
   "topics": {
     "Cloud / Private & Hybrid": [
       "\"private cloud\" \"hybrid cloud\" \"distributed hybrid infrastructure\"",

@@ -59,8 +59,8 @@ jobs:
       - name: Research and render
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
         run: python -m radar.runner generate --data-dir .runtime --as-of '${{ steps.edition.outputs.date }}'
       - name: Commit report and research history before publishing
         run: |

@@ -94,22 +94,27 @@ Summary and why must not invent numbers, vendor rankings, names or dates. Ignore
 
 
 def llm(system, payload, config):
-    key = os.environ.get('OPENAI_API_KEY')
+    key = os.environ.get('DEEPSEEK_API_KEY')
     if not key:
-        raise ServiceError('OPENAI_API_KEY is required for live analysis')
-    data = call('OpenAI', 'POST', 'https://api.openai.com/v1/chat/completions',
+        raise ServiceError('DEEPSEEK_API_KEY is required for live analysis')
+    data = call('DeepSeek', 'POST', 'https://api.deepseek.com/chat/completions',
         headers={'Authorization': f'Bearer {key}'}, json={
-            'model': os.environ.get('OPENAI_MODEL') or config['model'],
+            'model': os.environ.get('DEEPSEEK_MODEL') or config['model'],
             'response_format': {'type': 'json_object'},
+            'max_tokens': 8192,
+            'thinking': {'type': 'disabled'},
             'messages': [{'role': 'system', 'content': system},
                          {'role': 'user', 'content': json.dumps(payload, ensure_ascii=False)}]})
     try:
-        output = json.loads(data['choices'][0]['message']['content'])
+        choice = data['choices'][0]
+        if choice.get('finish_reason') != 'stop':
+            raise ValueError('Incomplete model output')
+        output = json.loads(choice['message']['content'])
         if not isinstance(output, dict):
             raise ValueError()
         return output
     except (KeyError, IndexError, TypeError, ValueError):
-        raise ServiceError('OpenAI: invalid structured result') from None
+        raise ServiceError('DeepSeek: invalid structured result') from None
 
 
 def norm(s):

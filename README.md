@@ -61,6 +61,10 @@ python -m radar.runner generate --data-dir data
 
 同一天已有报告则复用；未来新日期才会继续研究。无 API 密钥时不会用样例冒充结果。离线测试模式仍可用 `generate --demo --as-of 2026-09-18 --data-dir data-demo`，但不能将 demo 推送为正式周报。
 
+## 搜索与模型
+
+Tavily 负责联网发现 Gartner 公开网页；DeepSeek 负责元数据提取与中文分析。两者凭据分别为 `TAVILY_API_KEY` 和 `DEEPSEEK_API_KEY`。模型请求直接发往 `https://api.deepseek.com/chat/completions`，默认 `deepseek-flash`（可用 `DEEPSEEK_MODEL` 覆盖），无需 OpenAI key。
+
 ## 云端与飞书
 
 默认 **GitHub Actions → GitHub Pages → 飞书 webhook**，每周五北京时间 09:17，无常驻服务器。配置步骤见 [逐步配置指南](docs/deployment.md)。
