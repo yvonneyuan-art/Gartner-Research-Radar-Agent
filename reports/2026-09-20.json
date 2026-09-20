@@ -1,0 +1,714 @@
+{
+  "initial": false,
+  "start": "2026-09-14",
+  "end": "2026-09-20",
+  "demo": false,
+  "topics": [
+    "Cloud / Private & Hybrid",
+    "Virtualization",
+    "HCI",
+    "Kubernetes",
+    "Cloud Management & FinOps",
+    "AI Infrastructure",
+    "Agentic AI",
+    "AI Security"
+  ],
+  "created": "2026-09-20T11:06:49.680829+08:00",
+  "records": [
+    {
+      "id": "db9a5f6bd302fff3",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-it-spending-in-australia-to-exceed-192-billion-in-2027",
+      "title": "Gartner Forecasts IT Spending in Australia to Exceed $192 Billion in 2027",
+      "topics": [
+        "Cloud Management & FinOps"
+      ],
+      "analysts": [
+        "John-David Lovelock",
+        "Neil Osmond"
+      ],
+      "published": "2026-09-16",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "Gartner预测2027年澳大利亚IT支出将超过1922亿澳元，同比增长8.7%，增长主要由AI投资驱动。IaaS增速最快，达22.1%，其中AI优化IaaS预计增长58.5%；数据中心系统增长16.6%。软件仍是最大支出类别，超过680亿澳元，受GenAI与代理型AI融入云软件推动。",
+      "outline": [],
+      "why": "推断：属于IT支出预测类研究新闻稿，仅涉及云计算与AI基础设施等边缘话题，未深入特定平台分析。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Neil Osmond",
+            "quote": "said Neil Osmond, Distinguished VP Analyst at Gartner and Conference Chair of Gartner IT Symposium/Xpo"
+          },
+          {
+            "value": "John-David Lovelock",
+            "quote": "said John-David Lovelock, Distinguished VP Analyst at Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-09-16",
+          "quote": "GOLD COAST, Australia, September 16, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": "The most recent IT spending forecast research is available to Gartner clients in Gartner Market Databook, 2Q26."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "4ca14cd1bdf66f30",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026",
+      "title": "Gartner Forecasts Worldwide AI Spending to Grow 49.5% in 2026",
+      "topics": [
+        "AI Infrastructure",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "John-David Lovelock"
+      ],
+      "published": "2026-09-16",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "Gartner预测2026年全球AI支出达2.7万亿美元，同比增长49.5%。分析师指出，AI基础设施（含AI优化IaaS、服务器、网络与芯片）需求强劲，数据中心扩建是最大支出领域；软件厂商正快速将智能体AI嵌入现有产品。报告同时上调AI应用开发平台与生成式AI模型的增长预期，并将跨职能智能体与消费级智能体纳入预测。",
+      "outline": [
+        "全球AI支出按市场细分预测（2025-2027）",
+        "AI服务、AI网络安全、AI软件、AI智能体与助手等分项",
+        "生成式AI模型、AI数据科学与机器学习平台、AI应用开发平台",
+        "AI基础设施支出预测",
+        "近期展望变化：应用开发平台与生成式AI模型增速上调",
+        "长期展望变化：分拆跨职能智能体并纳入消费级智能体"
+      ],
+      "why": "推断：该文为Gartner新闻稿，核心主题为AI基础设施支出预测，与AI Infrastructure高度相关；提及的智能体AI属附带内容。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "John-David Lovelock",
+            "quote": "saidJohn-David Lovelock, Distinguished VP Analyst at Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-09-16",
+          "quote": "STAMFORD, Conn., September 16, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom\n/\nInformation Technology\n/\nPress Release"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner clients can read more in Forecast: AI Spending, Worldwide, 2025-2030, 2Q26."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "02333e7b63e21f43",
+      "url": "https://www.gartner.com/en/documents/8351117",
+      "title": "First Take: Proxmox Removes Objections With Enterprise 24/7 Support",
+      "topics": [
+        "Virtualization"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "Gartner首份评估指出，I&O负责人应认真考虑将Proxmox作为服务器虚拟化平台市场的潜在替代方案，原因是其提供24/7企业级支持，消除了此前的主要顾虑。",
+      "outline": [],
+      "why": "推断：该报告聚焦虚拟化平台市场，与主题清单中的Virtualization直接相关，属于研究笔记类内容。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "First Take",
+          "quote": "First Take: Proxmox Removes Objections With Enterprise 24/7 Support"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "ae2a101d1cf085ec",
+      "url": "https://www.gartner.com/en/documents/8098997",
+      "title": "The AI-Shaped Organization",
+      "topics": [
+        "AI Infrastructure",
+        "Cloud Management & FinOps"
+      ],
+      "analysts": [
+        "Anna Krasniewska",
+        "Mark O'Neill"
+      ],
+      "published": null,
+      "updated": "2026-09-07",
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "Gartner 洞察主题报告《AI 塑造的组织》摘要指出，旧有组织架构无法在未重塑的情况下释放 AI 价值，AI 将推动组织从“谁来做工作”转向“为价值需要做什么工作”。高管需在灵活性与治理、领导力及团队协作之间取得平衡。完整研究由两位分析师撰写。",
+      "outline": [
+        "摘要",
+        "完整研究包含内容",
+        "分析师",
+        "联系 Gartner"
+      ],
+      "why": "推断：该页面为 Gartner 洞察摘要页，主题涉及组织与 AI，与 AI 基础设施及云相关管理主题相关；页面未提供完整目录，仅列公开栏目。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Anna Krasniewska",
+            "quote": "Analysts:\nAnna Krasniewska, \nMark O'Neill"
+          },
+          {
+            "value": "Mark O'Neill",
+            "quote": "Analysts:\nAnna Krasniewska, \nMark O'Neill"
+          }
+        ],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": "2026-09-07",
+          "quote": "Last Updated: 07 September 2026"
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner clients can log in to access the full library."
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "5154094fc1b73ae8",
+      "url": "https://www.gartner.com/en/documents/8356849",
+      "title": "Use V2V Migration Tools to Accelerate Your Virtualization ... - Gartner",
+      "topics": [
+        "Virtualization"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该Gartner研究面向基础设施架构师，指导其选择合适的虚拟机到虚拟机（V2V）迁移工具。研究收录于完整研究中，包含概述、对比与分析等部分。",
+      "outline": [
+        "概述",
+        "对比",
+        "分析"
+      ],
+      "why": "推断：内容聚焦虚拟化迁移工具选型，属于Virtualization主题，非排除主题，因此相关。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Included in Full Research"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Included in Full Research"
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "c5137183dd0b6c78",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026",
+      "title": "Gartner Forecasts Worldwide Semiconductor Revenue to ...",
+      "topics": [
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Ben Lee",
+        "Shrish Pant"
+      ],
+      "published": "2026-08-24",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "该新闻稿预测全球半导体收入2026年将达1.6万亿美元，同比增长92%，2027年达1.9万亿美元。存储收入2026年为8370亿美元并将在2027年突破1万亿；AI数据中心占半导体收入比重将从2026年的36.5%升至2030年的53%以上，AI基础设施持续带动CPU、网络芯片、电源管理、模拟器件与光互连投资。",
+      "outline": [],
+      "why": "推断：内容主体为半导体收入预测，仅因AI基础设施（服务器、网络芯片、光互连）被标为HCI，与HCI本身关联薄弱，属边缘相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Ben Lee",
+            "quote": "said Ben Lee, Director Analyst at Gartner"
+          },
+          {
+            "value": "Shrish Pant",
+            "quote": "said Shrish Pant, Director Analyst at Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-08-24",
+          "quote": "STAMFORD, Conn., August 24, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner clients can read more in Forecast: Semiconductors and Electronics, Worldwide, 2024-2030, 2Q26."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "ba5bde83f980f49c",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-forecasts-the-market-for-securing-ai-will-reach-almost-5-billion-in-2027",
+      "title": "Gartner Forecasts the Market for Securing AI Will Reach $4.8 Billion in 2027",
+      "topics": [
+        "AI Security",
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Shailendra Upadhyay"
+      ],
+      "published": "2026-08-26",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "Gartner新闻稿预测，保障AI（securing AI）市场2026年规模约28.35亿美元，2027年将达约47.83亿美元，同比增长68.7%，2028年预计近77亿美元。市场分为AI应用安全、AI使用控制、AI治理平台和AI网关四部分，其中AI应用安全支出最大，AI使用控制增速最快。分析师指出AI代理攻击与供应链风险推动专用AI安全工具采用，并预计市场将出现整合与收购。",
+      "outline": [
+        "保障AI市场总规模与增长预测",
+        "四大细分领域支出及增速",
+        "AI安全威胁与防御趋势",
+        "市场竞争与整合并购展望"
+      ],
+      "why": "推断：本文为Gartner新闻稿，主题AI安全与AI基础设施，与所列AI Security、AI Infrastructure契合，可归入相关研究资讯，但非全面研究报告。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Shailendra Upadhyay",
+            "quote": "said Shailendra Upadhyay, Senior Principal Analyst at Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-08-26",
+          "quote": "SYDNEY, Australia, August 26, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner clients can read more in the report Forecasting the $16.4 Billion Opportunity in Securing AI."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "8159cfdd6b565839",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-09-gartner-identifies-four-shifts-shaping-the-future-of-work",
+      "title": "Gartner Identifies 4 Shifts Shaping the Future of Work",
+      "topics": [
+        "AI Infrastructure",
+        "AI Security"
+      ],
+      "analysts": [
+        "Tori Paulman"
+      ],
+      "published": "2026-09-09",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "该新闻稿介绍Gartner关于未来工作的四大转变，指出CIO需为AI驱动的工作方式变化做准备。文中提到2026年未来工作技术成熟度曲线，认为早期AI投资已进入失望低谷。Gartner预测到2029年部分因AI被裁员工需被重新聘用，并建议采用人才重组策略而非单纯削减成本。",
+      "outline": [
+        "转变一：通过人机关系扩展人类能力",
+        "转变二：赋能适应而非仅采用AI的员工队伍",
+        "转变三：深化上下文、判断力与意义",
+        "转变四：构建复利价值的基础",
+        "附加洞察：2026年未来工作技术成熟度曲线特别报告"
+      ],
+      "why": "推断：该内容为Gartner新闻稿，涉及AI基础设施、AI安全与云管理成本优化等话题，与AI基础设施和AI安全主题相关，但主要讨论未来工作与人才策略，与多数指定平台类主题关联较弱。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Tori Paulman",
+            "quote": "said Tori Paulman, VP Analyst at Gartner."
+          }
+        ],
+        "published": {
+          "value": "2026-09-09",
+          "quote": "STAMFORD, Conn., September 9, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "468758113524aad1",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units",
+      "title": "Gartner Survey Finds Only 22% of Organizations Have ...",
+      "topics": [
+        "AI Infrastructure"
+      ],
+      "analysts": [],
+      "published": "2026-09-01",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "Gartner新闻稿称，仅22%的组织成功在多业务单元规模化AI或采取AI优先策略；对1303名受访者的调查显示AI投入仍在加速，85%职能负责人计划2026年增加支出。高绩效者更常跟踪AI投资回报，多数职能仍以生产力为首要目标。",
+      "outline": [],
+      "why": "推断：属公开新闻稿，主题为AI规模化与ROI，与AI基础设施等议题仅间接相关，未涉及云或虚拟化产品评测。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": "2026-09-01",
+          "quote": "STAMFORD, Conn., September 1, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": "Gartner clients can read more in C-Suite AI Survey: How High AI Performers Differ From the Rest and C-Suite AI Survey Reveals Misdirected Bets and Overlooked Wins."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "c3e8d0f746b5e20b",
+      "url": "https://www.gartner.com/en/documents/7242030",
+      "title": "Predicts 2026: AI Agents Will Transform IT Infrastructure and Operations",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Ashish Banerjee",
+        "Cameron Haight",
+        "Chandra Mukhyala",
+        "Joe Antelmi",
+        "Jonathan Forest"
+      ],
+      "published": "2025-12-04",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "Gartner发布《预测2026：AI代理将变革IT基础设施与运营》，指出AI代理已开始在I&O组织中部署，未来几年使用将持续增长。报告建议I&O负责人既要评估其收益，也要认识其持续存在的挑战，以确保生产环境的安全和成功落地。",
+      "outline": [],
+      "why": "推断：标题含Predicts，属预测类研究；摘要仅给出主题概述，无具体目录；页面要求客户登录并联系销售，故判断为付费。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Cameron Haight",
+            "quote": "Cameron Haight,"
+          },
+          {
+            "value": "Ashish Banerjee",
+            "quote": "Ashish Banerjee,"
+          },
+          {
+            "value": "Joe Antelmi",
+            "quote": "Joe Antelmi,"
+          },
+          {
+            "value": "Jonathan Forest",
+            "quote": "Jonathan Forest,"
+          },
+          {
+            "value": "Chandra Mukhyala",
+            "quote": "Chandra Mukhyala"
+          }
+        ],
+        "published": {
+          "value": "2025-12-04",
+          "quote": "Published: 04 December 2025"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Forecast",
+          "quote": "Predicts 2026: AI Agents Will Transform IT Infrastructure and Operations"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nTo access these insights and much more, talk to Gartner today."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "438562d2f5c95e37",
+      "url": "https://www.gartner.com/en/documents/7180130",
+      "title": "Predicts 2026: The New Era of Agentic Automation Begins",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Adam Briggs",
+        "Arthur Villa",
+        "Sachin Joshi",
+        "Saikat Ray",
+        "Shubhangi Vashisth",
+        "Tushar Srivastava"
+      ],
+      "published": "2025-12-01",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "Gartner发布《2026预测：代理式自动化新时代开启》，指出代理式创新正颠覆传统自动化技术。报告建议企业应用负责人围绕编排、计算机使用、文档处理与流程智能等颠覆性趋势制定自动化战略。完整研究需联系Gartner获取。",
+      "outline": [
+        "代理式自动化趋势概览",
+        "编排",
+        "计算机使用",
+        "文档处理",
+        "流程智能",
+        "战略规划建议"
+      ],
+      "why": "推断：标题含Predicts 2026，属年度预测类报告，主题为代理式AI驱动的自动化，与Agentic AI主题直接相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Arthur Villa",
+            "quote": "Arthur Villa, "
+          },
+          {
+            "value": "Saikat Ray",
+            "quote": "Saikat Ray, "
+          },
+          {
+            "value": "Sachin Joshi",
+            "quote": "Sachin Joshi, "
+          },
+          {
+            "value": "Adam Briggs",
+            "quote": "Adam Briggs, "
+          },
+          {
+            "value": "Tushar Srivastava",
+            "quote": "Tushar Srivastava, "
+          },
+          {
+            "value": "Shubhangi Vashisth",
+            "quote": "Shubhangi Vashisth"
+          }
+        ],
+        "published": {
+          "value": "2025-12-01",
+          "quote": "Published: 01 December 2025"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Forecast",
+          "quote": "Predicts 2026: The New Era of Agentic Automation Begins"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "To access these insights and much more, talk to Gartner today."
+        }
+      },
+      "status": "补充背景"
+    }
+  ],
+  "analysis": {
+    "core": [
+      {
+        "text": "本周新增两条Gartner新闻稿均指向AI驱动的支出扩张：全球AI支出2026年预计达2.7万亿美元、同比增长49.5%，其中AI基础设施需求强劲[citation:4ca14cd1bdf66f30]；澳大利亚IT支出2027年超1922亿澳元，AI优化IaaS增速达58.5%[citation:db9a5f6bd302fff3]。",
+        "sources": [
+          "4ca14cd1bdf66f30",
+          "db9a5f6bd302fff3"
+        ]
+      },
+      {
+        "text": "AI安全被单列为增长市场：Gartner预计保障AI市场2027年达47.83亿美元，同比增长68.7%，细分包含AI应用安全、使用控制、治理平台与网关，AI代理攻击与供应链风险为主要推动力[citation:ba5bde83f980f49c]。",
+        "sources": [
+          "ba5bde83f980f49c"
+        ]
+      },
+      {
+        "text": "规模化落地仍是瓶颈：Gartner调查称仅22%的组织成功在多业务单元规模化AI，但85%职能负责人计划2026年增加支出[citation:468758113524aad1]，显示投入与产出之间存在落差。",
+        "sources": [
+          "468758113524aad1"
+        ]
+      }
+    ],
+    "themes": {
+      "Cloud / Private & Hybrid": [
+        {
+          "text": "现有记录未提供私有云或混合云平台的具体研究；仅澳大利亚IT支出预测提及IaaS与GenAI融入云软件的趋势[citation:db9a5f6bd302fff3]，证据不足以支撑本周该主题的独立判断。",
+          "sources": [
+            "db9a5f6bd302fff3"
+          ]
+        }
+      ],
+      "Virtualization": [
+        {
+          "text": "Gartner首份评估认为I&O负责人应认真考虑Proxmox作为服务器虚拟化替代方案，原因是其提供24/7企业级支持、消除了此前主要顾虑；该记录日期未知，属首次发现而非本周新增[citation:02333e7b63e21f43]。",
+          "sources": [
+            "02333e7b63e21f43"
+          ]
+        },
+        {
+          "text": "另一条记录指导基础设施架构师选择V2V迁移工具，含概述、对比与分析章节，日期未知，为首次发现[citation:5154094fc1b73ae8]。",
+          "sources": [
+            "5154094fc1b73ae8"
+          ]
+        }
+      ],
+      "HCI": [
+        {
+          "text": "现有记录中没有直接关于HCI平台或市场的研究。半导体收入预测因AI数据中心带动CPU、网络芯片与光互连投资而被标注相关[citation:5137183dd0b6c78]，但这属推断性关联，不足以支撑HCI主题结论。",
+          "sources": [
+            "c5137183dd0b6c78"
+          ]
+        }
+      ],
+      "Kubernetes": [],
+      "Cloud Management & FinOps": [
+        {
+          "text": "澳大利亚IT支出预测显示软件仍是最大支出类别、超过680亿澳元，受GenAI与代理型AI融入云软件推动[citation:db9a5f6bd302fff3]；结合仅22%组织成功规模化AI的调查[citation:468758113524aad1]，推断FinOps关注点将从单纯降本转向AI投资回报跟踪。",
+          "sources": [
+            "db9a5f6bd302fff3",
+            "468758113524aad1"
+          ]
+        }
+      ],
+      "AI Infrastructure": [
+        {
+          "text": "Gartner预测2026年全球AI支出2.7万亿美元、增长49.5%，AI优化IaaS、服务器、网络与芯片需求强劲，数据中心扩建为最大支出领域，并上调AI应用开发平台与生成式AI模型增速预期[citation:4ca14cd1bdf66f30]。",
+          "sources": [
+            "4ca14cd1bdf66f30"
+          ]
+        },
+        {
+          "text": "半导体侧，Gartner预测2026年全球收入达1.6万亿美元、2027年达1.9万亿美元，AI数据中心占半导体收入比重将从2026年36.5%升至2030年53%以上[citation:5137183dd0b6c78]；该记录属补充背景、非本周新增。",
+          "sources": [
+            "c5137183dd0b6c78"
+          ]
+        }
+      ],
+      "Agentic AI": [
+        {
+          "text": "两条2025年12月的预测报告（均为补充背景、非本周新增）指出：AI代理已开始在I&O组织中部署且使用将持续增长[citation:c3e8d0f746b5e20b]；代理式创新正颠覆传统自动化，企业应用负责人应围绕编排、计算机使用、文档处理与流程智能制定战略[citation:438562d2f5c95e37]。",
+          "sources": [
+            "c3e8d0f746b5e20b",
+            "438562d2f5c95e37"
+          ]
+        },
+        {
+          "text": "支出侧亦印证该方向：Gartner在AI支出预测中已分拆跨职能智能体并纳入消费级智能体[citation:4ca14cd1bdf66f30]。",
+          "sources": [
+            "4ca14cd1bdf66f30"
+          ]
+        }
+      ],
+      "AI Security": [
+        {
+          "text": "Gartner预测保障AI市场2026年约28.35亿美元、2027年约47.83亿美元（增长68.7%）、2028年近77亿美元；AI应用安全支出最大，AI使用控制增速最快，并预计出现整合与收购[citation:ba5bde83f980f49c]。",
+          "sources": [
+            "ba5bde83f980f49c"
+          ]
+        }
+      ]
+    },
+    "signals": [
+      {
+        "text": "AI支出扩张与AI安全市场独立成型相互印证：支出预测将AI基础设施列为最大领域[citation:4ca14cd1bdf66f30]，同时专用AI安全市场被单列并以近七成增速扩张[citation:ba5bde83f980f49c]，推断安全将随基础设施同步成为预算独立项。",
+        "sources": [
+          "4ca14cd1bdf66f30",
+          "ba5bde83f980f49c"
+        ]
+      },
+      {
+        "text": "投入加速与落地不足并存：85%职能负责人计划2026年增加AI支出[citation:468758113524aad1]，但仅22%成功规模化；结合AI基础设施支出强劲预测[citation:4ca14cd1bdf66f30]，推断组织当前更偏基础设施先行、价值实现滞后。",
+        "sources": [
+          "468758113524aad1",
+          "4ca14cd1bdf66f30"
+        ]
+      },
+      {
+        "text": "智能体从概念走向预算条目：代理型AI预测报告指出I&O已开始部署[citation:c3e8d0f746b5e20b]，而AI支出预测已单列跨职能与消费级智能体[citation:4ca14cd1bdf66f30]，跨主题印证智能体正进入采购与运营规划。",
+        "sources": [
+          "c3e8d0f746b5e20b",
+          "4ca14cd1bdf66f30"
+        ]
+      }
+    ]
+  },
+  "errors": [],
+  "stats": {
+    "queries": 32,
+    "discovered": 14,
+    "processed": 14
+  },
+  "quality": "公开检索完成 · 不保证穷尽全部研究",
+  "new_count": 2,
+  "unchanged_count": 1
+}

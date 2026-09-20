@@ -1,0 +1,364 @@
+{
+  "schema": 2,
+  "demo": false,
+  "records": {
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond": {
+      "fingerprint": "e9fd21da854e79bba5f0c7b82d46c718a62122e7f27d7caabaaf8d71b4565409",
+      "metadata": {
+        "published": "2026-09-15",
+        "updated": null,
+        "analysts": [
+          "Daryl Plummer"
+        ],
+        "research_type": "Press Release",
+        "access": "新闻稿公开可读"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/documents/8377781": {
+      "fingerprint": "84834e8981fcc0ce38ec24ee2cce0d2525f1c8a897daf09b97a17f7ae7d341e6",
+      "metadata": {
+        "published": "2026-09-14",
+        "updated": null,
+        "analysts": [
+          "Daniel Bowers",
+          "Owen Marino",
+          "Paul Delory",
+          "Tony Harvey",
+          "Tony Iams"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8381581": {
+      "fingerprint": "51efcfdba63f8e500dcb8d8f0e2d9306d02d1252f14e209388b0edab025c99c6",
+      "metadata": {
+        "published": "2026-09-14",
+        "updated": null,
+        "analysts": [
+          "Daniel Bowers",
+          "Paul Delory",
+          "Tony Harvey",
+          "Tony Iams"
+        ],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8367249": {
+      "fingerprint": "bce3186c1f6d336dfcc7810609018a1d46bb4c5fe4151374e76d924fcb130d89",
+      "metadata": {
+        "published": "2026-09-10",
+        "updated": null,
+        "analysts": [
+          "Mike Huskey"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8363049": {
+      "fingerprint": "63ca977de3122295fc86db7112b4de865c74c12183b6d24be4f28ff2d1f3081b",
+      "metadata": {
+        "published": "2026-09-09",
+        "updated": null,
+        "analysts": [
+          "Enrique Castera",
+          "Yahui Kang"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8353849": {
+      "fingerprint": "73b8fa0eec0f073e7f2e33a6fc2c3ba4322d47c2d24ee49cf65ed7daf447754b",
+      "metadata": {
+        "published": "2026-09-08",
+        "updated": null,
+        "analysts": [
+          "Bhuvie Chhabra",
+          "Dennis Smith",
+          "Lucas Albuquerque",
+          "Tony Iams",
+          "Wataru Katsurashima"
+        ],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8345417": {
+      "fingerprint": "9f73612b22792b5d762f21d76d6a39109fabcf1e583f18259568e17346243792",
+      "metadata": {
+        "published": "2026-09-07",
+        "updated": null,
+        "analysts": [
+          "Adrian Wong",
+          "Daniel Bowers",
+          "Elaine Zhang",
+          "Julia Palmer"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8353449": {
+      "fingerprint": "0b7494b73bcdd5d492e54879583e228311a545d7b9709ae52a6420b546ded271",
+      "metadata": {
+        "published": "2026-09-07",
+        "updated": null,
+        "analysts": [
+          "Lucas Albuquerque"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8340217": {
+      "fingerprint": "7ae11824436d0a84f4e78bcd716df755b89265537e342f7d718a0f51dec56bff",
+      "metadata": {
+        "published": "2026-09-02",
+        "updated": null,
+        "analysts": [
+          "Bhuvie Chhabra",
+          "Carolin Zhou",
+          "Dennis Smith",
+          "Lucas Albuquerque",
+          "Tony Iams",
+          "Wataru Katsurashima"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "需客户登录；是否单独付费未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8300053": {
+      "fingerprint": "1cec9dc5eecc1ca592c10ddd06993255cc88159ef04888db8bd9c6d704eff17e",
+      "metadata": {
+        "published": "2026-08-25",
+        "updated": null,
+        "analysts": [
+          "Adam Ronthal"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/documents/8287221": {
+      "fingerprint": "6a77fdb7d4904d8d5b1d9709f4a14f4af0aad3a7933219a86e51b73a9931c871",
+      "metadata": {
+        "published": "2026-08-20",
+        "updated": null,
+        "analysts": [
+          "Chandra Mukhyala",
+          "Jaishiv Prakash"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-it-spending-in-australia-to-exceed-192-billion-in-2027": {
+      "fingerprint": "07662bc77644f5dfb6d8cd9fba7c4f039d2fc1dfd60a53aaa828b3a6e7f52e97",
+      "metadata": {
+        "published": "2026-09-16",
+        "updated": null,
+        "analysts": [
+          "John-David Lovelock",
+          "Neil Osmond"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026": {
+      "fingerprint": "a2f9a4ac096e6e8caec090fe5d29eacac48a89b0c5e9ec97e2f4c2459ffb499e",
+      "metadata": {
+        "published": "2026-09-16",
+        "updated": null,
+        "analysts": [
+          "John-David Lovelock"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/documents/7180130": {
+      "fingerprint": "bfbd7bb8c08c5088e6e15db6e384829772639c22f9fe4db34261de67a69376c4",
+      "metadata": {
+        "published": "2025-12-01",
+        "updated": null,
+        "analysts": [
+          "Adam Briggs",
+          "Arthur Villa",
+          "Sachin Joshi",
+          "Saikat Ray",
+          "Shubhangi Vashisth",
+          "Tushar Srivastava"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/documents/7242030": {
+      "fingerprint": "f211bb58c4e0b498b2e2bda76f1543d26b5fb4863b2ad0c69bcd92e52ad12dc0",
+      "metadata": {
+        "published": "2025-12-04",
+        "updated": null,
+        "analysts": [
+          "Ashish Banerjee",
+          "Cameron Haight",
+          "Chandra Mukhyala",
+          "Joe Antelmi",
+          "Jonathan Forest"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/documents/8098997": {
+      "fingerprint": "4b7ed9b9f343867c16b722dc0e7909a55a0f373567eb4a20709f408bac3359d5",
+      "metadata": {
+        "published": null,
+        "updated": "2026-09-07",
+        "analysts": [
+          "Anna Krasniewska",
+          "Mark O'Neill"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": "2026-09-07",
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/documents/8351117": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/documents/8356849": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026": {
+      "fingerprint": "142374307f5c7a455ba08136fc89f4a9bbfa3bb069faf9632548810e6a2afe71",
+      "metadata": {
+        "published": "2026-08-24",
+        "updated": null,
+        "analysts": [
+          "Ben Lee",
+          "Shrish Pant"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-forecasts-the-market-for-securing-ai-will-reach-almost-5-billion-in-2027": {
+      "fingerprint": "d91e0b500fdb918007f9a621c39f43a32dd1b712f92d9caa48c4d857468e1b52",
+      "metadata": {
+        "published": "2026-08-26",
+        "updated": null,
+        "analysts": [
+          "Shailendra Upadhyay"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-09-gartner-identifies-four-shifts-shaping-the-future-of-work": {
+      "fingerprint": "6d9fa7d36c087176a15c8b55ef579327aca0af68fb70e03c34b969ce8db49587",
+      "metadata": {
+        "published": "2026-09-09",
+        "updated": null,
+        "analysts": [
+          "Tori Paulman"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units": {
+      "fingerprint": "d94634bc342bf512b3f0eaa567ffef04022cefabb0c66efdf1e8b850bbaf610a",
+      "metadata": {
+        "published": "2026-09-01",
+        "updated": null,
+        "analysts": [],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-20"
+    }
+  },
+  "deliveries": {}
+}

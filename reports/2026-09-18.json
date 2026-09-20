@@ -1,0 +1,504 @@
+{
+  "initial": true,
+  "start": "2026-08-19",
+  "end": "2026-09-18",
+  "demo": false,
+  "topics": [
+    "Cloud / Private & Hybrid",
+    "Virtualization",
+    "HCI",
+    "Kubernetes",
+    "Cloud Management & FinOps",
+    "AI Infrastructure",
+    "Agentic AI",
+    "AI Security"
+  ],
+  "created": "2026-09-18T17:19:17.232695+08:00",
+  "records": [
+    {
+      "id": "8e47fa95de3997b0",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond",
+      "title": "Gartner Unveils Top Strategic Predictions for 2027 and Beyond",
+      "published": "2026-09-15",
+      "updated": null,
+      "analysts": [
+        "Daryl Plummer"
+      ],
+      "research_type": "Press Release（公开发言分析师）",
+      "topics": [
+        "Cloud Management & FinOps",
+        "Agentic AI",
+        "AI Security"
+      ],
+      "summary": "公开预测提出推理路径上的实时成本治理、成本耗尽攻击和运行时治理；这些是未来预测，不是已发生的市场事实。",
+      "outline": [
+        "AI 成本耗尽风险",
+        "成本与价值映射",
+        "推理阶段的 FinOps",
+        "运行时治理与责任"
+      ],
+      "why": "推断：AI 网关可把预算、配额、遥测与安全控制放在同一调用路径，但具体能力仍需产品验证。",
+      "access": "新闻稿公开可读",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "a65509988a97d7a0",
+      "url": "https://www.gartner.com/en/documents/8377781",
+      "title": "Gartner Magic Quadrant for Server Virtualization Platforms",
+      "published": "2026-09-14",
+      "updated": null,
+      "analysts": [
+        "Tony Harvey",
+        "Daniel Bowers",
+        "Paul Delory",
+        "Tony Iams",
+        "Owen Marino"
+      ],
+      "research_type": "Magic Quadrant",
+      "topics": [
+        "Virtualization"
+      ],
+      "summary": "服务器虚拟化市场发生显著变化，基础设施负责人需要重新评估供应商和技术选择。",
+      "outline": [
+        "市场定义",
+        "厂商优势与注意事项",
+        "纳入标准",
+        "评估标准",
+        "市场概览"
+      ],
+      "why": "推断：ZSphere/ZVF 的市场定位应围绕工作负载需求与迁移决策展开，不能仅用公开摘要推断厂商排名。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8377781"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "9957225c4c02e5d4",
+      "url": "https://www.gartner.com/en/documents/8381581",
+      "title": "Critical Capabilities for Server Virtualization Platforms",
+      "published": "2026-09-14",
+      "updated": null,
+      "analysts": [
+        "Tony Iams",
+        "Daniel Bowers",
+        "Tony Harvey",
+        "Paul Delory"
+      ],
+      "research_type": "Critical Capabilities",
+      "topics": [
+        "Virtualization",
+        "Cloud / Private & Hybrid",
+        "AI Infrastructure"
+      ],
+      "summary": "研究以工作负载需求比较虚拟化平台能力；公开目录涵盖私有云、传统应用和 AI 等用例。",
+      "outline": [
+        "隔离与计算",
+        "网络与管理",
+        "客户机操作系统",
+        "私有云",
+        "传统应用支持",
+        "AI 用例"
+      ],
+      "why": "推断：私有云与虚拟化产品应建立共同的场景评估表，将基础能力与具体客户用例对应。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8381581"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "3316694d4af53d1e",
+      "url": "https://www.gartner.com/en/documents/8367249",
+      "title": "Securing Agentic AI Against Insider Data Risks",
+      "published": "2026-09-10",
+      "updated": null,
+      "analysts": [
+        "Mike Huskey"
+      ],
+      "research_type": "Insights",
+      "topics": [
+        "Agentic AI",
+        "AI Security"
+      ],
+      "summary": "智能体可能放大权限提升和数据外泄等内部风险；研究讨论如何识别、评估和缓解这些风险。",
+      "outline": [
+        "分析",
+        "建议",
+        "结论"
+      ],
+      "why": "推断：Zentrix 的模型与工具调用治理可重点关注权限边界、调用审计和敏感数据流向。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8367249"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "8816a83a2aae06b4",
+      "url": "https://www.gartner.com/en/documents/8363049",
+      "title": "Leverage Open-Weight AI Models to Optimize AI Infrastructure Economics",
+      "published": "2026-09-09",
+      "updated": null,
+      "analysts": [
+        "Enrique Castera",
+        "Yahui Kang"
+      ],
+      "research_type": "Insights",
+      "topics": [
+        "AI Infrastructure",
+        "Cloud Management & FinOps"
+      ],
+      "summary": "开放权重模型的效率进步推动推理规模扩大；基础设施优化需要联合考虑编排、利用率、异构计算与网络。",
+      "outline": [
+        "战略假设",
+        "问题",
+        "影响",
+        "启示"
+      ],
+      "why": "推断：AIOS 的价值评估应从资源供给延伸到推理服务成本、调度效果与完整软件栈效率。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8363049"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "ca6dac24150de111",
+      "url": "https://www.gartner.com/en/documents/8353849",
+      "title": "Critical Capabilities for Container Management",
+      "published": "2026-09-08",
+      "updated": null,
+      "analysts": [
+        "Tony Iams",
+        "Wataru Katsurashima",
+        "Lucas Albuquerque",
+        "Dennis Smith",
+        "Bhuvie Chhabra"
+      ],
+      "research_type": "Critical Capabilities",
+      "topics": [
+        "Kubernetes",
+        "Cloud / Private & Hybrid",
+        "AI Infrastructure",
+        "Cloud Management & FinOps"
+      ],
+      "summary": "容器平台的能力评价覆盖本地与混合部署、AI 训练推理，以及分布式集群管理和成本治理。",
+      "outline": [
+        "容器基础设施",
+        "平台能力",
+        "分布式集群管理",
+        "FinOps 与可持续性",
+        "安全治理",
+        "AI 训练与推理"
+      ],
+      "why": "推断：把 Zaku 的能力按部署环境、AI 负载与运营治理分组，有助于与客户的选型指标对齐。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8353849"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "c6c4a564bdbde37e",
+      "url": "https://www.gartner.com/en/documents/8345417",
+      "title": "Gartner Magic Quadrant for Distributed Hybrid Infrastructure",
+      "published": "2026-09-07",
+      "updated": null,
+      "analysts": [
+        "Julia Palmer",
+        "Elaine Zhang",
+        "Adrian Wong",
+        "Daniel Bowers"
+      ],
+      "research_type": "Magic Quadrant",
+      "topics": [
+        "Cloud / Private & Hybrid",
+        "Cloud Management & FinOps"
+      ],
+      "summary": "分布式混合基础设施通过统一管理与控制平面降低多环境运维复杂度，并保持工作负载管理和策略执行一致。",
+      "outline": [
+        "市场定义",
+        "厂商评估",
+        "纳入标准",
+        "评价标准",
+        "市场概览"
+      ],
+      "why": "推断：Cloud 与 CMP 的价值可以围绕跨环境的一致操作、资源管理和策略执行来表达。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8345417"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "ec8ad6c936e73ebf",
+      "url": "https://www.gartner.com/en/documents/8353449",
+      "title": "Where AI Agents Add Immediate Value in K8s Ops",
+      "published": "2026-09-07",
+      "updated": null,
+      "analysts": [
+        "Lucas Albuquerque"
+      ],
+      "research_type": "Insights",
+      "topics": [
+        "Kubernetes",
+        "Agentic AI"
+      ],
+      "summary": "AI 智能体可切入 Kubernetes 的安全、可观测性与韧性问题，采用先只读诊断、再受控修复的渐进路径。",
+      "outline": [
+        "问题陈述",
+        "研究方法",
+        "指导框架",
+        "风险与陷阱"
+      ],
+      "why": "推断：容器与私有云运维智能体可优先落地只读排障，再逐步引入有审批和回退机制的变更。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8353449"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "ea80b06282cde0ae",
+      "url": "https://www.gartner.com/en/documents/8340217",
+      "title": "Gartner Magic Quadrant for Container Management",
+      "published": "2026-09-02",
+      "updated": null,
+      "analysts": [
+        "Dennis Smith",
+        "Tony Iams",
+        "Wataru Katsurashima",
+        "Lucas Albuquerque",
+        "Carolin Zhou",
+        "Bhuvie Chhabra"
+      ],
+      "research_type": "Magic Quadrant",
+      "topics": [
+        "Kubernetes",
+        "AI Infrastructure",
+        "Agentic AI"
+      ],
+      "summary": "容器管理正在同时承接复杂应用架构与 AI 需求，关注智能体基础设施、运行一致性和安全能力。",
+      "outline": [
+        "市场定义",
+        "厂商优势与注意事项",
+        "纳入标准",
+        "评价标准",
+        "市场概览"
+      ],
+      "why": "推断：Zaku 与 AI Infra 的组合应展示统一运行与管理能力，而不只强调容器集群部署。",
+      "access": "需客户登录；是否单独付费未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8340217"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "221a518cf4b77932",
+      "url": "https://www.gartner.com/en/documents/8300053",
+      "title": "How to Optimize the ROI for Data Agents",
+      "published": "2026-08-25",
+      "updated": null,
+      "analysts": [
+        "Adam Ronthal"
+      ],
+      "research_type": "Insights",
+      "topics": [
+        "Agentic AI",
+        "Cloud Management & FinOps"
+      ],
+      "summary": "数据智能体的投资回报需要同时评估业务价值与成本驱动因素，尤其要治理高迭代次数的智能体。",
+      "outline": [
+        "影响",
+        "行动",
+        "注意事项",
+        "执行方法",
+        "成功衡量"
+      ],
+      "why": "推断：Zentrix 除统计 Token 外，还可围绕任务预算、调用迭代与价值衡量设计产品叙事。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8300053"
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "045e410d3494d5c8",
+      "url": "https://www.gartner.com/en/documents/8287221",
+      "title": "AI Infrastructure Health Quadrant: A Framework to Optimize Performance and Token Efficiency",
+      "published": "2026-08-20",
+      "updated": null,
+      "analysts": [
+        "Chandra Mukhyala",
+        "Jaishiv Prakash"
+      ],
+      "research_type": "Insights",
+      "topics": [
+        "AI Infrastructure",
+        "Cloud Management & FinOps"
+      ],
+      "summary": "较高的设备利用率不一定产生有效 AI 输出；基础设施团队需要同时衡量 Token 输出效率。",
+      "outline": [
+        "战略假设",
+        "问题",
+        "影响",
+        "进一步说明"
+      ],
+      "why": "推断：AIOS 与 Zentrix 可在指标层衔接资源消耗、有效推理产出与单位任务成本。",
+      "access": "未知",
+      "evidence_level": "官方公开索引摘要 · 人工核对",
+      "proof": {
+        "checked_on": "2026-09-18",
+        "source_url": "https://www.gartner.com/en/documents/8287221"
+      },
+      "status": "本周新增"
+    }
+  ],
+  "analysis": {
+    "core": [
+      {
+        "text": "推断：私有云的研究坐标应同时观察虚拟化与分布式混合基础设施，两类研究分别强调工作负载适配与统一管理。",
+        "sources": [
+          "9957225c4c02e5d4",
+          "c6c4a564bdbde37e"
+        ]
+      },
+      {
+        "text": "推断：容器与 AI Infra 的产品边界正在交汇。容器平台的评价已经纳入 AI 负载、集群运营与治理。",
+        "sources": [
+          "ea80b06282cde0ae",
+          "ca6dac24150de111"
+        ]
+      },
+      {
+        "text": "推断：AI 的经济性应衡量有效输出与任务成本；仅展示算力利用率不足以说明业务价值。",
+        "sources": [
+          "045e410d3494d5c8",
+          "221a518cf4b77932"
+        ]
+      }
+    ],
+    "themes": {
+      "Cloud / Private & Hybrid": [
+        {
+          "text": "公开信号：私有云是虚拟化关键能力中的明确用例；混合基础设施研究同时关注统一控制与策略执行。",
+          "sources": [
+            "9957225c4c02e5d4",
+            "c6c4a564bdbde37e"
+          ]
+        }
+      ],
+      "Virtualization": [
+        {
+          "text": "推断：ZVF/ZSphere 的对外论证应把市场变化、迁移选择和平台能力评估连起来。",
+          "sources": [
+            "a65509988a97d7a0",
+            "9957225c4c02e5d4"
+          ]
+        }
+      ],
+      "Kubernetes": [
+        {
+          "text": "推断：Zaku 的竞争维度可扩展到 AI 运行、运营一致性及平台治理，运维智能体宜从受控场景切入。",
+          "sources": [
+            "ca6dac24150de111",
+            "ec8ad6c936e73ebf"
+          ]
+        }
+      ],
+      "Cloud Management & FinOps": [
+        {
+          "text": "推断：CMP 与 Zentrix 可以共享“成本可见—任务归因—执行中控制”的分析框架，但云资源成本与模型调用成本仍需区分。",
+          "sources": [
+            "c6c4a564bdbde37e",
+            "221a518cf4b77932"
+          ]
+        }
+      ],
+      "AI Infrastructure": [
+        {
+          "text": "公开信号：AI Infra 的衡量从设备指标延伸至 Token 输出效率和推理经济性。",
+          "sources": [
+            "045e410d3494d5c8",
+            "8816a83a2aae06b4"
+          ]
+        }
+      ],
+      "Agentic AI": [
+        {
+          "text": "推断：智能体落地需要同时管理执行权限、操作风险和高迭代成本。",
+          "sources": [
+            "3316694d4af53d1e",
+            "ec8ad6c936e73ebf",
+            "221a518cf4b77932"
+          ]
+        }
+      ],
+      "AI Security": [
+        {
+          "text": "公开信号：智能体的权限提升与数据外泄风险需要单独评估；可将此作为 AI 网关治理设计的输入。",
+          "sources": [
+            "3316694d4af53d1e"
+          ]
+        }
+      ]
+    },
+    "signals": [
+      {
+        "text": "推断｜虚拟化 × 私有云：选型叙事需要把平台特性转为用例适配，并连接跨环境的管理一致性。",
+        "sources": [
+          "9957225c4c02e5d4",
+          "c6c4a564bdbde37e"
+        ]
+      },
+      {
+        "text": "推断｜容器 × AI Infra：容器平台不仅承载传统应用，也成为训练、推理与智能体运行能力的组织方式。",
+        "sources": [
+          "ea80b06282cde0ae",
+          "ca6dac24150de111"
+        ]
+      },
+      {
+        "text": "推断｜AI Infra × FinOps × Agent：资源利用、有效输出与智能体任务成本需要贯通观察。",
+        "sources": [
+          "045e410d3494d5c8",
+          "221a518cf4b77932"
+        ]
+      }
+    ]
+  },
+  "errors": [],
+  "stats": {
+    "queries": 0,
+    "discovered": 11,
+    "processed": 11
+  },
+  "quality": "首期近一个月 · 公开资料人工整理 · 非 Gartner 全库扫描",
+  "new_count": 11,
+  "unchanged_count": 0,
+  "coverage_note": "本期由公开网页检索和人工核对整理，收录 11 项 Gartner 官方研究摘要/新闻稿，发布日期为 2026-08-20 至 2026-09-15。搜索索引可见不等于付费正文可读；未将目录或摘要之外的信息当作研究结论。超融合专项检索未确认窗口内可独立收录的研究；不以 Peer Insights 评论更新替代研究报告。"
+}
