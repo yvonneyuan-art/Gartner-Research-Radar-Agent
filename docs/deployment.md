@@ -70,7 +70,7 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 | `initial_max_documents` / `max_documents` | 100 / 60，月度/周度处理上限 |
 | `topics` | 八个主题，每主题两组同义词；无需你手工填写 |
 | `excluded_primary_topics` | GPU、存储、备份容灾、桌面云、边缘云等排除方向 |
-| `.github/workflows/weekly.yml` | 每周五北京时间 09:17；GitHub 高负载时可能延迟 |
+| `.github/workflows/weekly.yml` | 每周一北京时间 09:00；GitHub 高负载时可能延迟 |
 
 研究数据来自公开索引，处理上限不是完整性保证。默认首轮约 16 次高级检索，周度约 32 次，最多分别 100/60 次逐条模型分析，另一次综合；失败重试可能增加调用。为 Tavily/DeepSeek 账户设置适合自己的预算。
 
