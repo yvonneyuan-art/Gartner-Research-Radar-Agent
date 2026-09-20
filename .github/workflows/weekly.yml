@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '17 1 * * 5' # Friday 09:17 Asia/Shanghai
   workflow_dispatch:
+    inputs:
+      refresh_only:
+        description: '只更新页面排版，不搜索、不调用模型、不重复推送'
+        type: boolean
+        default: false
 permissions:
   contents: write
   pages: write
@@ -56,7 +61,11 @@ jobs:
           if [ ! -f .runtime/state.json ]; then
             python -m radar.runner import-report --input bootstrap/2026-09-18.json --data-dir .runtime
           fi
+      - name: Rebuild page from saved research
+        if: ${{ inputs.refresh_only == true }}
+        run: python -m radar.runner render --data-dir .runtime
       - name: Research and render
+        if: ${{ inputs.refresh_only != true }}
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -82,6 +91,7 @@ jobs:
         id: deploy
         uses: actions/deploy-pages@v4
       - name: Send Feishu notification after successful deployment
+        if: ${{ inputs.refresh_only != true }}
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}

@@ -43,7 +43,7 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 
 若不希望公开网页，可保留私有仓库并选择下面的飞书应用文件模式；需要调整默认工作流，跳过 Pages 三个步骤以及 job 的 Pages environment URL。这不是当前默认部署方式。
 
-网页地址通常为 `https://yvonneyuan-art.github.io/Gartner-Research-Radar-Agent/`。本项目只有 `index.html`，以后每周仍然打开这个地址。飞书会附加 `#edition-日期`，只改变定位，不改变页面文件。
+网页地址通常为 `https://yvonneyuan-art.github.io/Gartner-Research-Radar-Agent/`。本项目只有 `index.html`，以后每周仍然打开这个地址。飞书会附加 `#edition-日期`，定位到核心判断模块中的对应日期，不改变页面文件。
 
 ## 第四步：先手动跑一遍
 
@@ -104,3 +104,5 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 - [飞书自定义机器人](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)
 - [飞书上传文件](https://open.feishu.cn/document/server-docs/im-v1/file/create)
 - [飞书发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
+
+页面现在按模块累计，研究汇总从老到新排列并跨期去重。手动运行勾选 `refresh_only` 可只更新排版，保留已有资料，不消耗搜索或模型额度，也不重复推送飞书。

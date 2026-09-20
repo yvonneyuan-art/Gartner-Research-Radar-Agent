@@ -7,6 +7,7 @@ import time
 import uuid
 from urllib.parse import urlsplit
 from .network import call, ServiceError
+from .presentation import prose, TITLE
 
 
 def required(name):
@@ -32,11 +33,11 @@ def webhook(report, link):
     p = urlsplit(url)
     if p.scheme != 'https' or p.hostname != 'open.feishu.cn' or not p.path.startswith('/open-apis/bot/v2/hook/'):
         raise ServiceError('Expected official Feishu custom-bot HTTPS webhook')
-    points = '\n'.join('• ' + x['text'] for x in report['analysis']['core'])
+    points = '\n'.join('• ' + prose(x['text']) for x in report['analysis']['core'])
     payload = {'msg_type': 'text', 'content': {'text':
-        f"Gartner Research Radar | {report['start']} — {report['end']}\n"
+        f"{TITLE} | {report['start']} — {report['end']}\n"
         f"新增/更新 {report['new_count']} 项 · 本期收录 {len(report['records'])} 项\n"
-        f"{report['quality']}\n{points[:1800]}\n持续研究笔记（本期）：{link}"}}
+        f"{report['quality']}\n{points[:1800]}\nGartner 周报：{link}"}}
     secret = os.environ.get('FEISHU_WEBHOOK_SECRET')
     if secret:
         payload['timestamp'] = str(int(time.time()))

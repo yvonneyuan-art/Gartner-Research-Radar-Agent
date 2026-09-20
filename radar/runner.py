@@ -9,6 +9,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .network import ServiceError
 from .research import discover, llm, clean_record, classify, synthesize, EXTRACT
 from . import delivery
+from .presentation import notebook, prose
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -123,12 +124,12 @@ def decorate(report):
 
 def render(report, site):
     env = Environment(loader=FileSystemLoader(str(ROOT / 'radar' / 'templates')),
-                      autoescape=select_autoescape(['html']))
+                      autoescape=select_autoescape(['html']), finalize=prose)
     # Structured editions are persisted; every render rebuilds one cumulative HTML.
     editions = {p.stem: load(p, {}) for p in (site.parent / 'reports').glob('????-??-??.json')}
     editions[report['end']] = report
-    ordered = [decorate(editions[k]) for k in sorted(editions, reverse=True)]
-    output = env.get_template('notebook.html').render(editions=ordered, latest=ordered[0])
+    ordered = [decorate(editions[k]) for k in sorted(editions)]
+    output = env.get_template('notebook.html').render(**notebook(ordered))
     site.mkdir(parents=True, exist_ok=True)
     temp = site / 'index.html.tmp'
     temp.write_text(output, encoding='utf-8')
@@ -187,7 +188,7 @@ def notify(data, issue, base_url, mode):
 
 def main():
     parser = argparse.ArgumentParser(description='Gartner public research weekly radar')
-    parser.add_argument('command', choices=['generate', 'notify', 'import-report'])
+    parser.add_argument('command', choices=['generate', 'notify', 'import-report', 'render'])
     parser.add_argument('--config', type=Path, default=ROOT / 'config.json')
     parser.add_argument('--data-dir', type=Path, default=ROOT / 'data')
     parser.add_argument('--as-of', type=date.fromisoformat)
@@ -201,7 +202,13 @@ def main():
         if not config:
             raise ServiceError('Missing config.json')
         end = args.as_of or datetime.now(ZoneInfo(config['timezone'])).date()
-        if args.command == 'import-report':
+        if args.command == 'render':
+            report = load(args.data_dir / 'latest.json', None)
+            if not report:
+                raise ServiceError('No existing report to render')
+            render(report, args.data_dir / 'site')
+            print('Rebuilt cumulative modules from saved research')
+        elif args.command == 'import-report':
             if not args.input:
                 raise ServiceError('--input is required')
             report = import_report(args.input, args.data_dir)

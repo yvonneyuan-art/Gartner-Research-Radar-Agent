@@ -158,7 +158,7 @@ class RadarTests(unittest.TestCase):
             html = (data / 'site/index.html').read_text()
             self.assertIn('id="edition-2026-09-18"', html)
             self.assertIn('id="edition-2026-09-25"', html)
-            self.assertLess(html.index('id="edition-2026-09-25"'), html.index('id="edition-2026-09-18"'))
+            self.assertLess(html.index('id="edition-2026-09-18"'), html.index('id="edition-2026-09-25"'))
             self.assertEqual(len(list((data / 'site').glob('*.html'))), 1)
             self.assertEqual(second['new_count'], 0)
             from radar.runner import decorate
