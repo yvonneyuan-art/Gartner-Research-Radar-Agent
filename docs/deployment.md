@@ -105,4 +105,4 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 - [飞书上传文件](https://open.feishu.cn/document/server-docs/im-v1/file/create)
 - [飞书发送消息](https://open.feishu.cn/document/server-docs/im-v1/message/create)
 
-页面现在按模块累计，研究汇总从老到新排列并跨期去重。手动运行勾选 `refresh_only` 可只更新排版，保留已有资料，不消耗搜索或模型额度，也不重复推送飞书。
+页面现在按模块累计，研究汇总从新到老排列并跨期去重。手动运行勾选 `refresh_only` 可只更新排版，保留已有资料，不消耗搜索或模型额度，也不重复推送飞书。
