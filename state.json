@@ -15,7 +15,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/documents/8377781": {
       "fingerprint": "84834e8981fcc0ce38ec24ee2cce0d2525f1c8a897daf09b97a17f7ae7d341e6",
@@ -189,7 +189,7 @@
       "last_seen": "2026-09-18"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-it-spending-in-australia-to-exceed-192-billion-in-2027": {
-      "fingerprint": "07662bc77644f5dfb6d8cd9fba7c4f039d2fc1dfd60a53aaa828b3a6e7f52e97",
+      "fingerprint": "e66b4e8ce3bb4898ccad5c3262c03839698d89896badbfe91f2d47747daeac7b",
       "metadata": {
         "published": "2026-09-16",
         "updated": null,
@@ -197,12 +197,12 @@
           "John-David Lovelock",
           "Neil Osmond"
         ],
-        "research_type": "Press Release",
+        "research_type": "Forecast",
         "access": "未知"
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026": {
       "fingerprint": "a2f9a4ac096e6e8caec090fe5d29eacac48a89b0c5e9ec97e2f4c2459ffb499e",
@@ -217,7 +217,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/documents/7180130": {
       "fingerprint": "bfbd7bb8c08c5088e6e15db6e384829772639c22f9fe4db34261de67a69376c4",
@@ -256,7 +256,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/documents/8098997": {
       "fingerprint": "4b7ed9b9f343867c16b722dc0e7909a55a0f373567eb4a20709f408bac3359d5",
@@ -314,7 +314,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-forecasts-the-market-for-securing-ai-will-reach-almost-5-billion-in-2027": {
       "fingerprint": "d91e0b500fdb918007f9a621c39f43a32dd1b712f92d9caa48c4d857468e1b52",
@@ -329,7 +329,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-09-gartner-identifies-four-shifts-shaping-the-future-of-work": {
       "fingerprint": "6d9fa7d36c087176a15c8b55ef579327aca0af68fb70e03c34b969ce8db49587",
@@ -344,7 +344,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units": {
       "fingerprint": "d94634bc342bf512b3f0eaa567ffef04022cefabb0c66efdf1e8b850bbaf610a",
@@ -357,7 +357,53 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20"
+      "last_seen": "2026-09-21"
+    },
+    "https://www.gartner.com/en/documents/8398581": {
+      "fingerprint": "bd8e1311ee85da157757cfd7ac34d825d00b091e9e3e7078802f4696aca766e1",
+      "metadata": {
+        "published": "2026-09-17",
+        "updated": null,
+        "analysts": [
+          "Anson Chen",
+          "Chiara Girardi",
+          "Craig Lawson",
+          "John Watts",
+          "Niyati Daftary",
+          "Wayne Hankins"
+        ],
+        "research_type": "First Take",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21"
+    },
+    "https://www.gartner.com/en/documents/8401381": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21"
+    },
+    "https://www.gartner.com/en/documents/8401481": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21"
     }
   },
   "deliveries": {
