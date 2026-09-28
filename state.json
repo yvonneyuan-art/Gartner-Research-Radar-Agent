@@ -34,7 +34,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-18"
+      "last_seen": "2026-09-28"
     },
     "https://www.gartner.com/en/documents/8381581": {
       "fingerprint": "51efcfdba63f8e500dcb8d8f0e2d9306d02d1252f14e209388b0edab025c99c6",
@@ -344,7 +344,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-21"
+      "last_seen": "2026-09-28"
     },
     "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units": {
       "fingerprint": "d94634bc342bf512b3f0eaa567ffef04022cefabb0c66efdf1e8b850bbaf610a",
@@ -357,7 +357,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-21"
+      "last_seen": "2026-09-28"
     },
     "https://www.gartner.com/en/documents/8398581": {
       "fingerprint": "bd8e1311ee85da157757cfd7ac34d825d00b091e9e3e7078802f4696aca766e1",
@@ -377,20 +377,33 @@
       },
       "updated": null,
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21"
+      "last_seen": "2026-09-28"
     },
     "https://www.gartner.com/en/documents/8401381": {
-      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "fingerprint": "61b5a529809f00f0d5f372cb26bb73ac2f2ffc7a6ee3874187da701ac6d97592",
       "metadata": {
-        "published": null,
+        "published": "2026-09-18",
         "updated": null,
-        "analysts": [],
+        "analysts": [
+          "Alastair Woolcock",
+          "Alfredo Ramirez IV",
+          "Fernando Pereiro",
+          "Frances Karamouzis",
+          "Jason Wong",
+          "Jeremy D'Hoinne",
+          "Jim Hare",
+          "John Watts",
+          "Luis Pinto",
+          "Mark Wah",
+          "Padraig Byrne",
+          "Robert Brown"
+        ],
         "research_type": "未知",
         "access": "未知"
       },
       "updated": null,
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21"
+      "last_seen": "2026-09-28"
     },
     "https://www.gartner.com/en/documents/8401481": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -404,6 +417,117 @@
       "updated": null,
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21"
+    },
+    "https://www.gartner.com/en/documents/8057633": {
+      "fingerprint": "d0466e39ced0a220563beb7f8f7ada4b470658d14cfa8d336d5d0a92ac09a2da",
+      "metadata": {
+        "published": null,
+        "updated": "2026-09-24",
+        "analysts": [
+          "Kameron Chao",
+          "Karen Brown",
+          "Susan Welsh"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": "2026-09-24",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    "https://www.gartner.com/en/documents/8060233": {
+      "fingerprint": "836f90083240fffd14ffc86cb74317867aef5e40bce95ea582ae012aaacca6ce",
+      "metadata": {
+        "published": null,
+        "updated": "2026-09-24",
+        "analysts": [
+          "Akif Khan",
+          "Alfredo Ramirez IV",
+          "Amber Boyes",
+          "Apeksha Kaushik",
+          "David Senf"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": "2026-09-24",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-survey-finds-41-percent-of-cisos-reported-at-least-one-social-engineering-incident-involving-a-deepfake-in-the-past-12-months": {
+      "fingerprint": "ad8d3664aad97a2ffdf6f9a69f0150575e1a8d9f3c54c7cd2ac4aca324d2f4f5",
+      "metadata": {
+        "published": "2026-09-22",
+        "updated": null,
+        "analysts": [
+          "Craig Porter"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-23-gartner-security-and-risk-management-summit-emea-2026-day-2-highlights": {
+      "fingerprint": "7377cd41aae49e7a170703c41c24e5ddeae34eca49c29f608f1fcc812a6968e2",
+      "metadata": {
+        "published": "2026-09-23",
+        "updated": null,
+        "analysts": [
+          "Marty Resnick",
+          "Thomas Lintemuth"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-24-gartner-says-cfos-must-take-a-more-disciplined-approach": {
+      "fingerprint": "c854e13ba37ab0b5108697c53dcf3b39b3ecdcd085c3058fd37d4b78ce3592b1",
+      "metadata": {
+        "published": "2026-09-24",
+        "updated": null,
+        "analysts": [
+          "Marco Steecker"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    "https://www.gartner.com/en/documents/8393581": {
+      "fingerprint": "bb99eefd1bb59a2bb1b46d2789d3fe94e5f742a4ed53d795dbe0b0c31f6fcf68",
+      "metadata": {
+        "published": "2026-09-21",
+        "updated": null,
+        "analysts": [
+          "Alex Coqueiro",
+          "Shiva Varma"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    "https://www.gartner.com/en/documents/8402381": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
     }
   },
   "deliveries": {
