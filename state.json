@@ -15,7 +15,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-21"
+      "last_seen": "2026-10-05"
     },
     "https://www.gartner.com/en/documents/8377781": {
       "fingerprint": "84834e8981fcc0ce38ec24ee2cce0d2525f1c8a897daf09b97a17f7ae7d341e6",
@@ -217,7 +217,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-21"
+      "last_seen": "2026-10-05"
     },
     "https://www.gartner.com/en/documents/7180130": {
       "fingerprint": "bfbd7bb8c08c5088e6e15db6e384829772639c22f9fe4db34261de67a69376c4",
@@ -344,7 +344,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-28"
+      "last_seen": "2026-10-05"
     },
     "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units": {
       "fingerprint": "d94634bc342bf512b3f0eaa567ffef04022cefabb0c66efdf1e8b850bbaf610a",
@@ -467,7 +467,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28"
+      "last_seen": "2026-10-05"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-23-gartner-security-and-risk-management-summit-emea-2026-day-2-highlights": {
       "fingerprint": "7377cd41aae49e7a170703c41c24e5ddeae34eca49c29f608f1fcc812a6968e2",
@@ -517,6 +517,37 @@
       "last_seen": "2026-09-28"
     },
     "https://www.gartner.com/en/documents/8402381": {
+      "fingerprint": "58031ca46a422abe3166412cfe5fc1f806ef386d0a23d944c3a6d3fb12b97971",
+      "metadata": {
+        "published": "2026-09-21",
+        "updated": null,
+        "analysts": [
+          "Daniel Bowers",
+          "Jeff Vogel"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8395881": {
+      "fingerprint": "c693cea6e60b59edcd27c4f7e3db7846020ea52c7a9bd8fa296c02742b414e0f",
+      "metadata": {
+        "published": "2026-10-01",
+        "updated": null,
+        "analysts": [
+          "Jessica Kranish"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8449113": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
       "metadata": {
         "published": null,
@@ -526,8 +557,122 @@
         "access": "未知"
       },
       "updated": null,
-      "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28"
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8449413": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8450513": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8451313": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8451613": {
+      "fingerprint": "1c62898ccc1bd038c01cc971191b03da38f64d5b7df3fabb003c3e20445e8965",
+      "metadata": {
+        "published": "2026-09-30",
+        "updated": null,
+        "analysts": [
+          "Alex Curry",
+          "Carolyn Botz",
+          "Svetlana Golden",
+          "Wallace Puckett"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/documents/8452613": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": {
+      "fingerprint": "ceb52d24193535f96720ce9839491480ab0e5dfc18cb442967920b0bd9edc892",
+      "metadata": {
+        "published": "2026-09-29",
+        "updated": null,
+        "analysts": [],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-predicts-70-percent-of-enterprises-will-abandon-agentic-ai-built-by-vendor-forward-deployed-engineering-by-2028": {
+      "fingerprint": "17f5572a74312d0cfe24addfe60d18bab8bb65fcc87a2b8e0c51fac2590b338c",
+      "metadata": {
+        "published": "2026-09-29",
+        "updated": null,
+        "analysts": [
+          "Mukul Saha"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-30-gartner-identifies-top-five-actions-for-cisos-to-take-by-end-of-2026": {
+      "fingerprint": "20bce77b258cedbffe589b25f98ba8faa35b1f0d992547696197719726efa21c",
+      "metadata": {
+        "published": "2026-09-30",
+        "updated": null,
+        "analysts": [
+          "Christopher Mixter",
+          "Luis Castillo"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05"
     }
   },
   "deliveries": {
