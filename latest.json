@@ -1,7 +1,7 @@
 {
   "initial": false,
-  "start": "2026-09-29",
-  "end": "2026-10-05",
+  "start": "2026-10-06",
+  "end": "2026-10-12",
   "demo": false,
   "topics": [
     "Cloud / Private & Hybrid",
@@ -13,60 +13,709 @@
     "Agentic AI",
     "AI Security"
   ],
-  "created": "2026-10-05T14:29:43.227925+08:00",
+  "created": "2026-10-12T14:53:06.579381+08:00",
   "records": [
     {
-      "id": "19a21cbd4c2408d0",
-      "url": "https://www.gartner.com/en/documents/8451613",
-      "title": "AI Use-Case Assessment for Product Development in R&D",
+      "id": "7d1e13f2e89d3974",
+      "url": "https://www.gartner.com/en/documents/8460745",
+      "title": "2027 Planning Guide for Software Architecture and Integration",
       "topics": [
-        "Agentic AI"
+        "Agentic AI",
+        "AI Infrastructure"
       ],
       "analysts": [
-        "Alex Curry",
-        "Carolyn Botz",
-        "Svetlana Golden",
-        "Wallace Puckett"
+        "Gary Olliffe",
+        "Harprit Singh",
+        "Kevin Matheny",
+        "Kyle Davis",
+        "Matt Brasier",
+        "Richard Watson",
+        "Steve Deng"
       ],
-      "published": "2026-09-30",
+      "published": "2026-10-07",
       "updated": null,
       "research_type": "未知",
       "access": "未知",
-      "summary": "该研究识别并比较14个AI用例，这些用例将改变研发在产品开发活动与工作流中的创新、决策、执行和风险管理方式。研发负责人可据此识别既有业务价值又可行的AI投资方向。",
+      "summary": "该规划指南指出，为降低风险并最大化代理式AI的价值，软件架构师须重建稳健的API管理、模块化应用设计与文档等基础能力。公开摘要仅列出概览、软件架构与集成趋势、优先级设定等章节及分析师名单。",
       "outline": [
-        "概述",
-        "如何使用",
-        "用例评分分解",
-        "注1：评分分解说明"
+        "概览",
+        "软件架构与集成趋势",
+        "设定优先级"
       ],
-      "why": "推断：主题偏向研发场景AI用例评估，与Agentic AI相关但未涉及虚拟化等技术基础设施内容。",
+      "why": "推断：该研究涉及代理式AI所需的架构与API管理基础，与AI基础设施、代理式AI主题相关，仅摘要公开。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Wallace Puckett",
-            "quote": "Analysts:\nWallace Puckett,Svetlana Golden,Carolyn Botz,Alex Curry"
+            "value": "Richard Watson",
+            "quote": "Richard Watson,"
           },
           {
-            "value": "Svetlana Golden",
-            "quote": "Analysts:\nWallace Puckett,Svetlana Golden,Carolyn Botz,Alex Curry"
+            "value": "Kevin Matheny",
+            "quote": "Kevin Matheny,"
           },
           {
-            "value": "Carolyn Botz",
-            "quote": "Analysts:\nWallace Puckett,Svetlana Golden,Carolyn Botz,Alex Curry"
+            "value": "Gary Olliffe",
+            "quote": "Gary Olliffe,"
           },
           {
-            "value": "Alex Curry",
-            "quote": "Analysts:\nWallace Puckett,Svetlana Golden,Carolyn Botz,Alex Curry"
+            "value": "Kyle Davis",
+            "quote": "Kyle Davis,"
+          },
+          {
+            "value": "Steve Deng",
+            "quote": "Steve Deng,"
+          },
+          {
+            "value": "Harprit Singh",
+            "quote": "Harprit Singh,"
+          },
+          {
+            "value": "Matt Brasier",
+            "quote": "Matt Brasier"
           }
         ],
         "published": {
-          "value": "2026-09-30",
-          "quote": "Published: 30 September 2026"
+          "value": "2026-10-07",
+          "quote": "Published: 07 October 2026"
         },
         "updated": {
           "value": null,
           "quote": ""
+        },
+        "research_type": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "6da94b3ef9aaaa4d",
+      "url": "https://www.gartner.com/en/documents/8472145",
+      "title": "Accelerate Innovation With AI: From Idea to Impact",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Christian Stephan",
+        "Gunjita Mundeja"
+      ],
+      "published": "2026-10-06",
+      "updated": null,
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该Gartner Insights摘要指出，全球数字化领导者面临压力，需借助AI能力加速执行以实现业务成果。CIO与创新领导者需要一条由AI主导的流程，覆盖从顶级用例选择到业务影响评估的全过程。",
+      "outline": [
+        "洞察概览",
+        "战略规划假设",
+        "影响",
+        "行动",
+        "如何执行",
+        "成功衡量"
+      ],
+      "why": "推断：公开摘要显示为付费客户专属的Gartner Insights报告，主题涉及利用AI加速创新与执行，与Agentic AI等议题相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Gunjita Mundeja",
+            "quote": "Analysts:\nGunjita Mundeja, \nChristian Stephan"
+          },
+          {
+            "value": "Christian Stephan",
+            "quote": "Analysts:\nGunjita Mundeja, \nChristian Stephan"
+          }
+        ],
+        "published": {
+          "value": "2026-10-06",
+          "quote": "Published: 06 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "99d756776ff89b7c",
+      "url": "https://www.gartner.com/en/documents/8487745",
+      "title": "Act Quickly to Remediate Shadow AI Data Loss",
+      "topics": [
+        "AI Security"
+      ],
+      "analysts": [
+        "Antonia Roesler",
+        "Joel Backaler",
+        "Stefan Dumitrescu"
+      ],
+      "published": "2026-10-08",
+      "updated": null,
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该Gartner洞察摘要指出，披露给影子AI的数据会散布在日志、历史记录、备份和训练管道中，不会停留在一处。安全负责人需梳理个人数据的留存位置，判断哪些仍可恢复、哪些已不可逆，并在数据无法删除之前完成补救。",
+      "outline": [
+        "概览要点",
+        "影响",
+        "行动",
+        "注意事项",
+        "如何执行",
+        "成功指标"
+      ],
+      "why": "推断：内容聚焦影子AI导致的数据泄露与补救，属AI安全范畴，与虚拟化主题关联较弱。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Stefan Dumitrescu",
+            "quote": "Stefan Dumitrescu, "
+          },
+          {
+            "value": "Antonia Roesler",
+            "quote": "Antonia Roesler, "
+          },
+          {
+            "value": "Joel Backaler",
+            "quote": "Joel Backaler"
+          }
+        ],
+        "published": {
+          "value": "2026-10-08",
+          "quote": "Published: 08 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "963d086bdd1db83e",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-8-gartner-hr-symposium-xpo-london-day-3-highlights",
+      "title": "Gartner HR Symposium/Xpo, London: Day 3 Highlights",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Carolina Engels",
+        "Ingrid Laman",
+        "Stephanie Clement",
+        "Tony Guadagni"
+      ],
+      "published": "2026-10-08",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "Gartner伦敦HR Symposium/Xpo第三天会议要点：绩效管理未能有效推动高绩效文化；HR智能体AI项目成功率低，需关注工作适配、可靠性与自主性经济性；管理者控制幅度将扩大；并探讨哪些管理任务不应自动化。",
+      "outline": [
+        "绩效管理为何未驱动高绩效文化",
+        "提升AI智能体路线图的三大要素",
+        "让扩大的管理控制幅度更可管理",
+        "可自动化但不该自动化的管理任务"
+      ],
+      "why": "推断：该内容为Gartner会议新闻稿，主题围绕HR与智能体AI，涉及企业AI落地与治理，属in-scope平台话题的附带提及。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Tony Guadagni",
+            "quote": "Presented by Tony Guadagni, Director Analyst, Gartner"
+          },
+          {
+            "value": "Stephanie Clement",
+            "quote": "Presented by Stephanie Clement, Senior Director Analyst, Gartner"
+          },
+          {
+            "value": "Ingrid Laman",
+            "quote": "Presented by Ingrid Laman, Vice President Analyst, Gartner"
+          },
+          {
+            "value": "Carolina Engels",
+            "quote": "Presented by Carolina Engels, Senior Principal Analyst, Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-10-08",
+          "quote": "LONDON, U.K., October 8, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom\n/\nHuman Resources\n/\nConference Updates"
+        },
+        "access": {
+          "value": "free",
+          "quote": "Journalists can receive additional information and/or request an interview with Stephanie Clement"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "f9272d19cf5097ce",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-7-gartner-survey-finds-only-38-percent-of-chros-and-cios-share-an-understanding-of-how-ai-impacts-the-future-of-work",
+      "title": "Gartner Survey Finds Only 38% of CHROs and CIOs Share an Understanding of How AI Impacts the Future of Work",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Rachel Juley"
+      ],
+      "published": "2026-10-07",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "Gartner新闻稿称仅38%的CHRO与CIO就AI对未来工作的影响有共同理解。分析师Rachel Juley在伦敦Gartner HR Symposium/Xpo提出CHRO应了解CIO的四点：CIO正承担人才领导职责、面临领导身份危机、只关注最显性AI成本、缺乏主导端到端AI转型的信心，并建议HR嵌入AI交付团队、共同承担并衡量责任、将人才与组织成本纳入AI商业论证。",
+      "outline": [],
+      "why": "推断：属人力资源与AI转型主题的新闻稿，虽提及AI成本与组织变革，但与所列云、虚拟化、Kubernetes等基础设施主题关联薄弱，仅因AI相关而保留。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Rachel Juley",
+            "quote": "Rachel Juley, Senior Director Analyst, in the Gartner HR practice"
+          }
+        ],
+        "published": {
+          "value": "2026-10-07",
+          "quote": "LONDON, U.K., October 7, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom\n/\nHuman Resources\n/\nPress Release"
+        },
+        "access": {
+          "value": "free",
+          "quote": ""
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "bb76ce70328e5164",
+      "url": "https://www.gartner.com/en/documents/8471245",
+      "title": "Magic Quadrant for Agentic Software Quality Assurance Platforms",
+      "topics": [
+        "Agentic AI",
+        "Kubernetes"
+      ],
+      "analysts": [
+        "C.A. Swan",
+        "Ross Power",
+        "Sushant Singhal"
+      ],
+      "published": "2026-10-06",
+      "updated": null,
+      "research_type": "Magic Quadrant",
+      "access": "未知",
+      "summary": "该魔力象限报告评估智能体软件质量保障平台厂商，指出测试厂商已从AI增强测试工具扩展为在SDLC中持续保障质量的专用智能体平台，供企业据此选型；摘要说明评估范围含市场定义、魔力象限、纳入排除标准、厂商优劣势及评估标准等，并列出被评估与荣誉提及的相关厂商。",
+      "outline": [
+        "战略规划假设",
+        "市场定义与描述",
+        "魔力象限",
+        "纳入与排除标准",
+        "厂商优势与注意事项",
+        "评估标准与市场概述"
+      ],
+      "why": "推断：正文未直接涉及所列主题，仅站点导航含Agentic AI、Kubernetes等相关条目，主题归属依据标题与导航链接推定。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Ross Power",
+            "quote": "Analysts:\nRoss Power,Sushant Singhal,C.A. Swan"
+          },
+          {
+            "value": "Sushant Singhal",
+            "quote": "Analysts:\nRoss Power,Sushant Singhal,C.A. Swan"
+          },
+          {
+            "value": "C.A. Swan",
+            "quote": "Analysts:\nRoss Power,Sushant Singhal,C.A. Swan"
+          }
+        ],
+        "published": {
+          "value": "2026-10-06",
+          "quote": "Published: 06 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Magic Quadrant",
+          "quote": "Gartner Magic Quadrant for Agentic Software Quality Assurance Platforms"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In\nTo access these insights and much more, talk to Gartner today."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "df1509bef81a7c73",
+      "url": "https://www.gartner.com/en/documents/8483345",
+      "title": "Tech CEOs Must Go Beyond Multiagent AI Product Deployment to Grow Revenue Past Pilots",
+      "topics": [
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [
+        "Adrian Lee",
+        "Andrew Newman"
+      ],
+      "published": "2026-10-07",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该Gartner洞察指出，随着企业从单一智能体转向多智能体生态，价值正从产品本身转向编排层，包括上下文路由、权限、治理与护栏。供应商需嵌入并推动业务流程变革，才能将智能体AI解决方案的销售推进到概念验证之后。",
+      "outline": [
+        "洞察速览",
+        "问题",
+        "影响",
+        "更多细节",
+        "概述"
+      ],
+      "why": "推断：该文属Gartner公开洞察摘要，主题为智能体AI产品化与治理，与Agentic AI及AI Security主题直接相关；页面要求客户登录，故为付费。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Andrew Newman",
+            "quote": "Analysts:\nAndrew Newman, \nAdrian Lee"
+          },
+          {
+            "value": "Adrian Lee",
+            "quote": "Analysts:\nAndrew Newman, \nAdrian Lee"
+          }
+        ],
+        "published": {
+          "value": "2026-10-07",
+          "quote": "Published: 07 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "00e1db1a8f7b46e9",
+      "url": "https://www.gartner.com/en/documents/7249630",
+      "title": "AI Vendor Race: Siemens is the Company to Beat in Manufacturing AI",
+      "topics": [
+        "AI Infrastructure",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Scot Kim",
+        "Sudip Pattanayak"
+      ],
+      "published": null,
+      "updated": "2026-10-07",
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该Gartner洞察摘要评估制造业AI领域的厂商竞争，认为西门子凭借其广泛的工业资产、集中式数据平台及收购布局占据领先地位，竞争对手可通过开放数据平台和面向智能体的工具追赶。",
+      "outline": [
+        "概述",
+        "分析",
+        "洞察演进历史"
+      ],
+      "why": "推断：属供应商竞争分析类洞察，涉及工业AI基础设施与智能体工具，且未以被排除主题为主，故与所列AI相关主题相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Scot Kim",
+            "quote": "Analysts: Scot Kim, Sudip Pattanayak"
+          },
+          {
+            "value": "Sudip Pattanayak",
+            "quote": "Analysts: Scot Kim, Sudip Pattanayak"
+          }
+        ],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": "2026-10-07",
+          "quote": "Last Updated: 07 October 2026"
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log in for personalized search results."
+        }
+      },
+      "status": "本周更新"
+    },
+    {
+      "id": "76a682e440839992",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-23-gartner-security-and-risk-management-summit-emea-2026-day-2-highlights",
+      "title": "Gartner Security & Risk Management Summit 2026 London: Day 2 Highlights",
+      "topics": [
+        "AI Infrastructure",
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [
+        "Marty Resnick",
+        "Peter Firstbrook",
+        "Thomas Lintemuth"
+      ],
+      "published": "2026-09-23",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该页面为Gartner安全与风险管理峰会2026伦敦站第二日亮点汇总，涵盖多场分析师演讲。内容包括CISO需关注的七大新兴威胁（如AI代理无序扩张）、AI代理滥用与主权碎片化的相关预测、后量子密码迁移的三个阶段，以及网络安全2030年技能与技术展望。",
+      "outline": [
+        "Gartner调研：41%的CISO报告过去12个月遭遇涉及深度伪造的社会工程事件",
+        "2026动荡报告：威胁组织未来的七种力量",
+        "遏制量子威胁：后量子密码的三波浪潮",
+        "Gartner主题演讲：网络安全2030——技能、AI与技术"
+      ],
+      "why": "推断：该页面为Gartner会议新闻稿，涉及AI代理治理、AI安全及量子安全等议题，与AI基础设施、智能体AI和AI安全主题相关，但未专门讨论云管理或虚拟化。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Marty Resnick",
+            "quote": "Marty Resnick, VP Analyst, Gartner"
+          },
+          {
+            "value": "Thomas Lintemuth",
+            "quote": "Thomas Lintemuth, VP Analyst, Gartner"
+          },
+          {
+            "value": "Peter Firstbrook",
+            "quote": "Peter Firstbrook, Distinguished VP Analyst, Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-09-23",
+          "quote": "London, U.K., September 23, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom"
+        },
+        "access": {
+          "value": "free",
+          "quote": "Journalists can receive additional information and/or request an interview with Marty Resnick by contacting Laurence Goasduff"
+        }
+      },
+      "status": "元数据变化·待核实"
+    },
+    {
+      "id": "02bf9fd75b017643",
+      "url": "https://www.gartner.com/en/documents/8485345",
+      "title": "Implement 7 AI Quick Wins to Elevate Cybersecurity ...",
+      "topics": [
+        "AI Security",
+        "Agentic AI"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该文档标题指出通过七项AI快速见效举措提升网络安全，属于Gartner研究内容。提供的摘要仅说明Gartner研究包含专有深度研究，并提及人工智能、机器学习、算法、软件或相关技术，未给出具体分析师、发布日期或报告全文细节。",
+      "outline": [],
+      "why": "推断：标题与AI安全主题直接相关，应属研究报告；但公开片段过少，无法确认类型、作者与访问方式。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "5f6f0ad315905562",
+      "url": "https://www.gartner.com/en/documents/8489845",
+      "title": "Measure Human vs. AI Agent Impact Across the SDLC ...",
+      "topics": [
+        "AI Security"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该Gartner文档标题聚焦衡量在软件开发生命周期中人类与AI代理的影响，涉及人工智能、机器学习、算法及相关技术。搜索摘要仅显示其为Gartner专有研究，未提供分析师、发布日期或具体内容细节。",
+      "outline": [],
+      "why": "推断：标题与摘要表明这是Gartner关于AI代理在SDLC中影响的研究，属于AI安全相关主题；但缺乏分析师与日期等元数据。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "unknown",
+          "quote": "Gartner research, which includes in-depth proprietary studies"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "e3916ee11d5163d0",
+      "url": "https://www.gartner.com/en/documents/8480845",
+      "title": "Select the Right Enterprise AI Assistant for Each Employee",
+      "topics": [
+        "AI Security"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该Gartner文档标题为《为每位员工选择合适的企业AI助手》，主题涉及AI安全。公开摘要仅提及Gartner研究涵盖人工智能、机器学习、算法、软件及相关技术的专有研究，未披露具体分析内容、数据或结论。",
+      "outline": [],
+      "why": "推断：标题涉及企业AI助手选型，属AI应用治理范畴，与AI Security主题相关；但摘要过短，无法确认报告类型、作者或发布日期。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "e6d54fd76a84f82c",
+      "url": "https://www.gartner.com/en/documents/7873777",
+      "title": "Taming the AI Cost Curve: AI Cost Optimization Strategies",
+      "topics": [
+        "Cloud Management & FinOps",
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Michelle Carlsen",
+        "Nauman Abbasi",
+        "Paul Quinn",
+        "Vaughan Archer"
+      ],
+      "published": null,
+      "updated": "2026-07-21",
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该研究探讨AI成本优化策略，认为AI价值流失常源于成本攀升而非技术失败，如模型定价、代币成本与使用量激增。建议将AI视为高变动成本中心进行管理。全文包含分析、研究要点和概述。",
+      "outline": [
+        "分析",
+        "研究要点",
+        "概述"
+      ],
+      "why": "推断：该文档涉及AI成本管理，与FinOps及AI基础设施主题存在关联，但非直接核心，故相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Vaughan Archer",
+            "quote": "Analysts:\nVaughan Archer,"
+          },
+          {
+            "value": "Paul Quinn",
+            "quote": "Analysts:\nVaughan Archer, \nPaul Quinn,"
+          },
+          {
+            "value": "Nauman Abbasi",
+            "quote": "Vaughan Archer, \nPaul Quinn, \nNauman Abbasi,"
+          },
+          {
+            "value": "Michelle Carlsen",
+            "quote": "Nauman Abbasi, \nMichelle Carlsen"
+          }
+        ],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": "2026-07-21",
+          "quote": "Last Updated: 21 July 2026"
         },
         "research_type": {
           "value": "unknown",
@@ -74,192 +723,37 @@
         },
         "access": {
           "value": "paid",
-          "quote": "To access these insights and much more, talk to Gartner today."
+          "quote": "Already a Gartner client?\nLog In"
         }
       },
-      "status": "本周新增"
+      "status": "首次发现·日期未知"
     },
     {
-      "id": "d41b6301c3dfcbe1",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
-      "title": "Gartner Announces Gartner IT Symposium/Xpo, November 16-18, in Kochi, India",
+      "id": "fbfaf8d9267eee4c",
+      "url": "https://www.gartner.com/en/documents/8456813",
+      "title": "Agentic AI Use-Case Examples: Creating Value for Retail",
       "topics": [
-        "Agentic AI",
-        "Cloud Management & FinOps"
-      ],
-      "analysts": [],
-      "published": "2026-09-29",
-      "updated": null,
-      "research_type": "Press Release",
-      "access": "未知",
-      "summary": "这是Gartner关于2026年11月16-18日在印度科钦举办IT Symposium/Xpo大会的新闻稿，主题为“Ignite Intelligence”，面向CIO与IT高管，涵盖生成式AI、AI经济、网络安全、新兴技术、高管领导力等议题，设有多场主题演讲与Signature Series。",
-      "outline": [
-        "2027年CIO与技术高管议程",
-        "AI、主权、SaaS大变革及CIO 2027年路径",
-        "2027年顶级战略技术趋势",
-        "2027年及以后的顶级战略预测",
-        "新兴趋势愿景2027——重新思考人机协作"
-      ],
-      "why": "推断：该文本为会议宣传稿，未含产品或供应商评估内容，仅与AI战略及FinOps等管理议题弱相关。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": "2026-09-29",
-          "quote": "Kochi, India, September 29, 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Press Release",
-          "quote": "Newsroom/Information Technology/Press Release"
-        },
-        "access": {
-          "value": "free",
-          "quote": "For complete conference and registration details, please visit Gartner IT Symposium/Xpo 2026."
-        }
-      },
-      "status": "本周新增"
-    },
-    {
-      "id": "ecd3166198ba6bdb",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-predicts-70-percent-of-enterprises-will-abandon-agentic-ai-built-by-vendor-forward-deployed-engineering-by-2028",
-      "title": "Gartner Predicts 70% of Enterprises Will Abandon Agentic AI Built by Vendor Forward-Deployed Engineering by 2028",
-      "topics": [
-        "Agentic AI",
-        "AI Infrastructure",
-        "Cloud Management & FinOps"
-      ],
-      "analysts": [
-        "Mukul Saha"
-      ],
-      "published": "2026-09-29",
-      "updated": null,
-      "research_type": "Press Release",
-      "access": "未知",
-      "summary": "Gartner预测到2028年，70%的企业将放弃由供应商前置部署工程（FDE）构建的智能体AI，原因包括成本飙升与自身无法持续演进。Gartner分析师Mukul Saha指出，FDE项目往往先在结构上失败，软件工程领导者需在签约前、交付中和退出三个阶段把控范围、激励、治理、知识产权与退出策略。Gartner还预测到2028年不足20%的FDE项目会把客户需求沉淀为供应商核心产品能力，从而暴露“FDE washing”风险。",
-      "outline": [
-        "签约前：仅在需要深度产品专长、快速适配或紧密集成的场景使用FDE",
-        "签约前：明确高管赞助人及交付物、知识转移、知识产权、退出责任等合同要求",
-        "合作期间：将FDE与内部领域专家、工程师和最终用户共同协作",
-        "合作期间：建立迭代式业务验证节奏，明确决策权与自主性/人工监督平衡",
-        "退出与独立性验证：按初始退出计划执行，避免因内部团队未就绪而延长合作",
-        "FDE应被视为一种交付模式，而非单纯标签"
-      ],
-      "why": "推断：该文为Gartner新闻稿，与Agentic AI及云管理治理相关，属公开摘要；主题偏AI交付与治理，仅间接涉及所列基础设施技术方向。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [
-          {
-            "value": "Mukul Saha",
-            "quote": "said Mukul Saha, Sr Director Analyst at Gartner"
-          }
-        ],
-        "published": {
-          "value": "2026-09-29",
-          "quote": "STAMFORD, Conn., September 29, 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Press Release",
-          "quote": "Newsroom/Information Technology/Press Release"
-        },
-        "access": {
-          "value": "paid",
-          "quote": "Gartner clients can read more in The Forward-Deployed Engineering Playbook."
-        }
-      },
-      "status": "本周新增"
-    },
-    {
-      "id": "86247afe37c17572",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-30-gartner-identifies-top-five-actions-for-cisos-to-take-by-end-of-2026",
-      "title": "Page Gartner Identifies Top Five Actions for CISOs To Take by End of 2026",
-      "topics": [
-        "AI Security",
         "Agentic AI"
       ],
       "analysts": [
-        "Christopher Mixter",
-        "Luis Castillo"
-      ],
-      "published": "2026-09-30",
-      "updated": null,
-      "research_type": "Press Release",
-      "access": "未知",
-      "summary": "这是Gartner新闻稿，介绍CISO到2026年底应采取的五大行动。内容涉及将AI安全纳入CISO权威、把前沿AI部署视为内部风险、不再以人脸识别作为身份凭证、为主动防御能力做预算，以及在2027年前试点后量子密码迁移。文中还提及智能体治理、深度伪造威胁与相关调查数据，并推介付费报告及AI治理评估工具。",
-      "outline": [
-        "确立AI安全中的角色与权威",
-        "将前沿AI部署视为内部风险",
-        "不再以识别作为身份证明",
-        "为主动网络安全能力做预算",
-        "开始试点后量子密码迁移"
-      ],
-      "why": "推断：该页面为Gartner官方新闻稿，主题是CISO网络安全行动，其中AI安全与智能体治理内容可映射至AI安全、Agentic AI；其余如云管理、FinOps等主题在正文中无实质内容，不纳入。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [
-          {
-            "value": "Christopher Mixter",
-            "quote": "Christopher Mixter, VP Analyst at Gartner"
-          },
-          {
-            "value": "Luis Castillo",
-            "quote": "Luis Castillo, Senior Director Analyst at Gartner"
-          }
-        ],
-        "published": {
-          "value": "2026-09-30",
-          "quote": "STAMFORD, Conn., September 30, 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Press Release",
-          "quote": "Newsroom/Information Technology/Press Release"
-        },
-        "access": {
-          "value": "unknown",
-          "quote": "Gartner clients can learn more in The Cybersecurity Executive Outlook, 4Q26. Non-clients can learn more about the top five actions to take here."
-        }
-      },
-      "status": "本周新增"
-    },
-    {
-      "id": "c34e662c220d6d1b",
-      "url": "https://www.gartner.com/en/documents/8395881",
-      "title": "The CFO Report: 4Q26",
-      "topics": [
-        "Cloud Management & FinOps",
-        "Agentic AI"
-      ],
-      "analysts": [
-        "Jessica Kranish"
+        "Robert Hetu"
       ],
       "published": "2026-10-01",
       "updated": null,
-      "research_type": "未知",
+      "research_type": "Insights",
       "access": "未知",
-      "summary": "该报告指出三大障碍可能扰乱CFO的2027年战略：AI成本意外、员工变革疲劳以及财务领导团队失调，建议CFO提前采取行动以减轻影响。摘要仅提及AI成本相关风险，未涉及云管理或AI安全的具体技术内容。",
+      "summary": "该Gartner洞察摘要介绍零售业代理式AI用例，帮助零售领导者超越炒作，识别当前可产生实际成果的高价值与高可行性用例，并说明成功原因，以及AI购物助手等能力如何改善客户互动、转化率与运营表现。",
       "outline": [
-        "分析",
-        "研究要点",
+        "高层概述",
         "概述"
       ],
-      "why": "推断：主题标注含云管理与AI安全，但公开摘要仅涉及AI成本与组织变革，故相关性有限。",
+      "why": "推断：该文以代理式AI零售用例为主线，与Agentic AI主题直接相关，且无排除主题作为主旨。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Jessica Kranish",
-            "quote": "Analysts:\nJessica Kranish"
+            "value": "Robert Hetu",
+            "quote": "Analysts:\nRobert Hetu"
           }
         ],
         "published": {
@@ -271,377 +765,305 @@
           "quote": ""
         },
         "research_type": {
-          "value": "Research Note",
-          "quote": "Included in Full Research\nAnalysis;)\nResearch Highlights;)\nOverview;)"
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
         },
         "access": {
           "value": "paid",
-          "quote": "Access Insights\nAlready a Gartner client?\nLog In\nTo access these insights and much more, talk to Gartner today."
+          "quote": "Already a Gartner client?\nLog In"
         }
       },
-      "status": "本周新增"
+      "status": "补充背景"
     },
     {
-      "id": "2a99e7cbc57769fc",
-      "url": "https://www.gartner.com/en/documents/8402381",
-      "title": "Gartner Magic Quadrant for Infrastructure Platform Consumption Services",
+      "id": "41fd5be77a4d7ff9",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-21-gartner-predicts-60-percent-of-organizations-that-ignore-data-governance-culture-challenges-will-fail-to-govern-ai-successfully-by-2027",
+      "title": "Gartner Predicts 60% of Organizations That Ignore Data Governance Culture Challenges Will Fail to Govern AI Successfully by 2027",
       "topics": [
-        "Kubernetes",
-        "Cloud Management & FinOps"
+        "Cloud Management & FinOps",
+        "AI Security"
       ],
       "analysts": [
-        "Daniel Bowers",
-        "Jeff Vogel"
+        "Anurag Raj"
       ],
       "published": "2026-09-21",
       "updated": null,
-      "research_type": "Magic Quadrant",
+      "research_type": "Press Release",
       "access": "未知",
-      "summary": "该文档为Gartner基础设施平台消费服务魔力象限摘要，发布于2026年9月21日，由Jeff Vogel与Daniel Bowers撰写。文档说明此类供应商通过智能、有SLA保障的混合云平台提供集成存储与计算能力，供I&O负责人对标混合型即服务平台提供商，以支撑现代基础设施战略。全文包含战略规划假设、市场定义、魔力象限、纳入与排除标准、供应商优劣势、评估标准与市场概述等章节。",
+      "summary": "Gartner预测到2027年，未能应对数据与分析治理文化挑战的组织中60%将无法成功治理AI。分析师Anurag Raj指出，文化阻力比资金约束更常导致治理失败，组织需从“AI就绪数据”扩展到“AI就绪利益相关者”。建议将治理对齐业务成果、重塑为业务赋能者、并嵌入业务流程。",
       "outline": [
-        "战略规划假设",
-        "市场定义与说明",
-        "魔力象限",
-        "纳入与排除标准",
-        "供应商优势与注意事项",
-        "评估标准与市场概述"
+        "将治理对齐业务成果以维持高管支持",
+        "将数据治理重塑为业务赋能者与团队协作",
+        "把数据治理与数据文化嵌入业务流程"
       ],
-      "why": "推断：该魔力象限聚焦混合云基础设施平台消费服务，涉及Kubernetes与云管理相关议题，属于所列主题范围内的研究。",
+      "why": "推断：内容属数据与AI治理文化研究，虽非直接云平台报告，但与AI治理议题相关；未涉及云、虚拟化等技术细节。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Jeff Vogel",
-            "quote": "Analysts:\nJeff Vogel, \nDaniel Bowers"
-          },
-          {
-            "value": "Daniel Bowers",
-            "quote": "Analysts:\nJeff Vogel, \nDaniel Bowers"
+            "value": "Anurag Raj",
+            "quote": "Anurag Raj, Director Analyst at Gartner"
           }
         ],
         "published": {
           "value": "2026-09-21",
-          "quote": "Published: 21 September 2026"
+          "quote": "MUMBAI, India, September 21, 2026"
         },
         "updated": {
           "value": null,
           "quote": ""
         },
         "research_type": {
-          "value": "Magic Quadrant",
-          "quote": "Gartner Magic Quadrant for Infrastructure Platform Consumption Services"
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner clients can learn more in 3 Tips to Tackle Cultural Inhibitors to Data Governance Success."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "276f98bac812e538",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-security-and-risk-management-summit-emea-2026-day-1-highlights",
+      "title": "Gartner Security & Risk Management Summit 2026 London: Day 1 Highlights",
+      "topics": [
+        "AI Security",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Christopher Mixter",
+        "Eric Grenier",
+        "Michael McFerron"
+      ],
+      "published": "2026-09-22",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "这是Gartner安全与风险管理峰会伦敦站首日会议纪要，汇总主题演讲与分析师观点。内容涉及AI加速下的安全、身份与创新领导力，公共部门AI投资回报不佳的原因，以及2026至2027年威胁态势，包括AI应用入侵、深度伪造身份冒充、软件供应链风险和提示注入四类关键威胁。",
+      "outline": [
+        "首日主题演讲：把握时机",
+        "公共部门AI领导者误区与应对",
+        "网络威胁态势展望：用ThreatScape确定优先级"
+      ],
+      "why": "推断：这是会议新闻稿而非正式研究报告，无报告目录；与AI安全、Agentic AI等主题相关，但未提供付费或订阅要求。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Christopher Mixter",
+            "quote": "Presented by Christopher Mixter, Distinguished VP Analyst, Gartner"
+          },
+          {
+            "value": "Michael McFerron",
+            "quote": "Presented by Michael McFerron, Sr Director Analyst, Gartner"
+          },
+          {
+            "value": "Eric Grenier",
+            "quote": "Presented by Eric Grenier, Sr Director Analyst, Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-09-22",
+          "quote": "London, U.K., September 22, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "We are bringing you news and highlights from theGartner Security & Risk Management Summit"
+        },
+        "access": {
+          "value": "free",
+          "quote": ""
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "c646ba6d953b93df",
+      "url": "https://www.gartner.com/en/documents/8457913",
+      "title": "Govern AI Agent Communications Using Gartner’s REACH Framework",
+      "topics": [
+        "AI Security"
+      ],
+      "analysts": [
+        "Rizvan Hussain"
+      ],
+      "published": "2026-10-05",
+      "updated": null,
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该Gartner洞察指出，随着AI代理日益自主行动与通信，I&O负责人需要一套通信问责、监督与可审计的治理框架，否则难以调查事件、应对合规挑战并为AI代理通信辩护。摘要仅列出全文所含章节与分析师，完整洞察需客户登录访问。",
+      "outline": [
+        "速览洞察",
+        "战略规划假设",
+        "问题",
+        "影响",
+        "启示",
+        "概述"
+      ],
+      "why": "推断：页面明确标注为Gartner Insights摘要，主题涉及AI代理通信治理与安全，与AI Security直接相关；属完整研究摘要，全文需登录，故为付费。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Rizvan Hussain",
+            "quote": "Analysts:\nRizvan Hussain"
+          }
+        ],
+        "published": {
+          "value": "2026-10-05",
+          "quote": "Published: 05 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
         },
         "access": {
           "value": "paid",
           "quote": "Gartner client? Log\nin for personalized search results."
         }
       },
-      "status": "元数据变化·待核实"
-    },
-    {
-      "id": "0cc21141169c6f82",
-      "url": "https://www.gartner.com/en/documents/8449413",
-      "title": "AI Agents Ignite a Fight for Control Between Application ...",
-      "topics": [
-        "Agentic AI"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该 Gartner 研究探讨 AI 智能体引发应用厂商与数据厂商之间对控制权的争夺。搜索摘要仅显示标题与零散栏目文字，未披露分析师、发布日期或具体结论，无法确认报告类型与获取方式。",
-      "outline": [],
-      "why": "推断：属 Gartner 研究条目且主题为 Agentic AI，在给定主题范围内；证据不足故多数元数据留空。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Research Note",
-          "quote": "Gartner Research on AI Agents Ignite a Fight for Control Between Application and Data Vendors"
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "4d1fdb9c9efe57d0",
-      "url": "https://www.gartner.com/en/documents/8452613",
-      "title": "Machine-Driven Agents Will Destroy Legacy SaaS ...",
-      "topics": [
-        "Agentic AI"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该研究指出，智能体AI需求上升正在威胁传统软件收入模式与平台价值，并为产品高管提供四项战略指导。",
-      "outline": [],
-      "why": "推断：该内容为研究摘要，涉及智能体AI对软件平台的影响，与所列AI代理主题相关。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "8d870d13701919b0",
-      "url": "https://www.gartner.com/en/documents/8450513",
-      "title": "Market Overview for Mainframe and Midrange Migration ...",
-      "topics": [
-        "Virtualization"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该文档探讨利用 IBM Z 的组织正在转向原地现代化，同时降低将工作负载部署到其他平台的风险与工作量。",
-      "outline": [],
-      "why": "推断：内容涉及虚拟化与迁移现代化主题，但为搜索摘要、缺少分析师与日期等元数据。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "paid",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "0a590a706ba61006",
-      "url": "https://www.gartner.com/en/documents/8449113",
-      "title": "Secure AI Agents With Workload IAM Architecture",
-      "topics": [
-        "Agentic AI",
-        "AI Security"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该内容指出网络安全负责人需立即行动，构建坚实的工作负载身份与访问管理（IAM）基础，以确保AI智能体的使用既安全又可扩展，并涉及编排方面。",
-      "outline": [],
-      "why": "推断：标题与摘要聚焦AI智能体安全与工作负载IAM架构，属Agentic AI与AI安全范畴，且未以被排除主题为主。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "7894f9658d3e6892",
-      "url": "https://www.gartner.com/en/documents/8451313",
-      "title": "The Blueprint for a Platform-Centric I&O Organizational ...",
-      "topics": [
-        "Kubernetes"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该Gartner资料是一份工具包，帮助I&O负责人界定在规模化交付以平台为中心的I&O时所需的角色、组织架构与能力。",
-      "outline": [],
-      "why": "推断：该工具包面向I&O组织与平台工程能力建设，与Kubernetes及平台化运营主题相关。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
+      "status": "补充背景"
     }
   ],
   "analysis": {
     "core": [
       {
-        "text": "本期新增可确认的记录集中在AI代理治理与AI安全：Gartner预测到2028年70%企业将放弃由供应商前置部署工程（FDE）构建的智能体AI（ecd3166198ba6bdb），CISO五项行动提出把前沿AI部署视为内部风险并试点后量子密码迁移（86247afe37c17572）。",
+        "text": "本周（10月6-8日）集中出现多份智能体AI落地与治理研究：规划指南强调需重建API管理、模块化设计等基础能力[7d1e13f2e89d3974]；另有研究指出价值正从产品转向上下文路由、权限、治理与护栏等编排层[df1509bef81a7c73]，以及AI代理通信治理框架[007c646ba6]缺失将影响事件调查与合规。",
         "sources": [
-          "ecd3166198ba6bdb",
-          "86247afe37c17572"
+          "7d1e13f2e89d3974",
+          "df1509bef81a7c73",
+          "c646ba6d953b93df"
         ]
       },
       {
-        "text": "基础设施侧本期仅有一条可核实事件：基础设施平台消费服务魔力象限更新（2a99e7cbc57769fc），状态为元数据变化·待核实，涉及混合云平台消费服务与Kubernetes，但无实质结论。",
+        "text": "AI安全风险面持续扩大：影子AI数据散落日志、备份与训练管道需尽快补救[99d756776ff89b7c]；CISO关注AI代理无序扩张、深度伪造等新型威胁[76a682e440839992]，峰会亦列出AI应用入侵、提示注入等四类关键威胁[276f98bac812e538]。",
         "sources": [
-          "2a99e7cbc57769fc"
+          "99d756776ff89b7c",
+          "76a682e440839992",
+          "276f98bac812e538"
         ]
       },
       {
-        "text": "窗口内另有多条记录发布日期为2026-09-29至10-01，含IT Symposium/Xpo新闻稿（d41b6301c3dfcbe1）与CFO报告4Q26（c34e662c220d6d1b），内容多为会议与预算预告，未提供云、虚拟化、HCI层面的新技术结论。",
+        "text": "AI组织与文化短板凸显：仅38%的CHRO与CIO就AI如何影响未来工作达成共识[f9272d19cf5097ce]；HR场景中智能体AI项目成功率低，需关注工作适配、可靠性与自主性经济性[963d086bdd1db83e]。",
         "sources": [
-          "d41b6301c3dfcbe1",
-          "c34e662c220d6d1b"
+          "f9272d19cf5097ce",
+          "963d086bdd1db83e"
         ]
       }
     ],
     "themes": {
       "Cloud / Private & Hybrid": [
         {
-          "text": "仅魔力象限摘要提及有SLA保障的混合云平台消费服务，用于对标混合型即服务平台提供商（2a99e7cbc57769fc）。窗口内无私有云架构或混合云部署的实质新增证据，不足以形成判断。",
+          "text": "未见直接讨论私有云或混合云的实质内容。仅AI成本管理研究涉及将AI视为高变动成本中心[6d54fd76a84f8]，可作为云上AI成本视角的间接背景，不足以支撑独立结论。",
           "sources": [
-            "2a99e7cbc57769fc"
+            "e6d54fd76a84f82c"
           ]
         }
       ],
-      "Virtualization": [
-        {
-          "text": "仅有搜索引擎摘要显示一条关于IBM Z原地现代化、降低迁移风险的研究（8d870d13701919b0），无日期、无分析师、无正文结论。推断：不足以支撑虚拟化趋势判断。",
-          "sources": [
-            "8d870d13701919b0"
-          ]
-        }
-      ],
+      "Virtualization": [],
       "HCI": [],
       "Kubernetes": [
         {
-          "text": "魔力象限涉及平台消费服务与I&O对标（2a99e7cbc57769fc），另有平台为中心I&O组织工具包摘要（7894f9658d3e6892）。二者均为摘要级信息，未披露Kubernetes具体能力或版本内容。",
+          "text": "仅魔力象限报告在站点导航层面出现Kubernetes关联[bb76ce70328e5164]，正文为智能体质量保障平台评估，无Kubernetes实质证据。",
           "sources": [
-            "2a99e7cbc57769fc",
-            "7894f9658d3e6892"
+            "bb76ce70328e5164"
           ]
         }
       ],
       "Cloud Management & FinOps": [
         {
-          "text": "FDE预测指出智能体AI项目成本飙升是放弃主因（ecd3166198ba6bdb）；CFO报告提示AI成本意外可能扰乱2027战略（c34e662c220d6d1b）。两者共同指向AI成本治理议题，但均未给出FinOps方法论细节。",
+          "text": "AI成本优化研究指出AI价值流失常源于成本攀升而非技术失败，需按高变动成本中心管理[6d54fd76a84f8]，属FinOps思路在AI场景的延伸。",
           "sources": [
-            "ecd3166198ba6bdb",
-            "c34e662c220d6d1b"
+            "e6d54fd76a84f82c"
+          ]
+        },
+        {
+          "text": "数据治理文化预测提到缺乏治理将导致AI治理失败[41fd5be77a4d7ff]，侧重治理而非云支出管理，与FinOps仅间接相关。",
+          "sources": [
+            "41fd5be77a4d7ff9"
           ]
         }
       ],
       "AI Infrastructure": [
         {
-          "text": "仅有FDE新闻稿将成本与可持续演进列为核心问题（ecd3166198ba6bdb），未涉及算力、加速器或集群架构。本期无AI基础设施技术侧的新增证据。",
+          "text": "AI成本优化研究将模型定价、代币成本与使用量激增列为核心风险，要求将AI视为高变动成本中心管理[6d54fd76a84f8]，为AI基础设施经济性提供参考。",
           "sources": [
-            "ecd3166198ba6bdb"
+            "e6d54fd76a84f82c"
+          ]
+        },
+        {
+          "text": "制造业AI厂商分析认为西门子凭工业资产与集中式数据平台领先，竞争者可通过开放数据平台与面向智能体的工具追赶[00e1db1a8f7b46e9]，属厂商竞争推断。",
+          "sources": [
+            "00e1db1a8f7b46e9"
           ]
         }
       ],
       "Agentic AI": [
         {
-          "text": "FDE预测：签约前需明确高管赞助人、交付物、知识转移、知识产权与退出责任，合作中建立迭代业务验证与人工监督平衡（ecd3166198ba6bdb）。",
+          "text": "多份研究聚焦智能体AI从试点到规模化：需重建API管理、模块化设计等架构基础[7d1e13f2e89d3974]；价值转向编排层，含上下文路由、权限与护栏[df1509bef81a7c73]；另有零售用例识别高价值场景[fbfaf8d9267eee4c]。",
           "sources": [
-            "ecd3166198ba6bdb"
+            "7d1e13f2e89d3974",
+            "df1509bef81a7c73",
+            "fbfaf8d9267eee4c"
           ]
         },
         {
-          "text": "另有两条无日期摘要：智能体引发应用与数据厂商控制权争夺（0cc21141169c6f82）、机器驱动智能体冲击传统SaaS收入模式（4d1fdb9c9efe57d0）。属首次发现·日期未知，不能视为本周新增。",
+          "text": "智能体AI落地面临组织障碍：HR场景项目成功率低，需关注工作适配、可靠性与自主性经济性[963d086bdd1db83e]；CIO与CHRO对AI影响未来工作缺乏共识，仅38%达成一致[f9272d19cf5097ce]。",
           "sources": [
-            "0cc21141169c6f82",
-            "4d1fdb9c9efe57d0"
+            "963d086bdd1db83e",
+            "f9272d19cf5097ce"
           ]
         }
       ],
       "AI Security": [
         {
-          "text": "CISO五项行动含确立AI安全权威、将前沿AI部署视为内部风险、为主动防御预算、试点后量子密码迁移（86247afe37c17572）。",
+          "text": "影子AI数据散落于日志、历史记录、备份和训练管道，安全负责人需梳理留存位置并优先补救不可逆数据[99d756776ff89b7c]。",
           "sources": [
-            "86247afe37c17572"
+            "99d756776ff89b7c"
           ]
         },
         {
-          "text": "工作负载IAM架构摘要主张以身份与访问管理保障智能体安全可扩展（0a590a706ba61006）。无日期，属首次发现·日期未知。",
+          "text": "AI代理通信需通信问责、监督与可审计治理框架，否则难以调查事件与应对合规挑战[c646ba6d953b93df]；峰会亦将AI代理无序扩张、提示注入列为关键威胁[76a682e440839992][276f98bac812e538]。",
           "sources": [
-            "0a590a706ba61006"
+            "c646ba6d953b93df",
+            "76a682e440839992",
+            "276f98bac812e538"
           ]
         }
       ]
     },
     "signals": [
       {
-        "text": "跨主题：AI代理交付成本与安全治理被同时提及——FDE成本失控预测（ecd3166198ba6bdb，Agentic AI/Cloud Management & FinOps）与CISO将前沿AI部署视为内部风险（86247afe37c17572，AI Security/Agentic AI），显示成本与安全正被并入同一治理议程。",
+        "text": "智能体AI治理与安全风险已跨议题并存：多智能体编排层治理需求[df1509bef81a7c73]与AI代理通信治理框架[c646ba6d953b93df]呼应，峰会进一步把AI代理无序扩张、提示注入列为威胁[76a682e440839992]。",
         "sources": [
-          "ecd3166198ba6bdb",
-          "86247afe37c17572"
+          "df1509bef81a7c73",
+          "c646ba6d953b93df",
+          "76a682e440839992"
         ]
       },
       {
-        "text": "跨主题：身份与访问管理成为连接智能体落地与安全的前提条件，工作负载IAM（0a590a706ba61006，Agentic AI/AI Security）与CISO权威建设（86247afe37c17572，AI Security）指向同一方向。注意前者日期未知，仅为背景信号。",
+        "text": "AI成本管理与治理文化被同时视为成败变量：AI被视为高变动成本中心[6d54fd76a84f8]，而忽视数据治理文化将导致60%组织难以成功治理AI[41fd5be77a4d7ff]，二者分属成本与治理两条线。",
         "sources": [
-          "0a590a706ba61006",
-          "86247afe37c17572"
+          "e6d54fd76a84f82c",
+          "41fd5be77a4d7ff9"
         ]
       },
       {
-        "text": "跨主题：AI成本压力同时出现在代理交付（ecd3166198ba6bdb，Agentic AI）与CFO预算（c34e662c220d6d1b，Cloud Management & FinOps），暗示FinOps范围可能向AI支出延伸，但证据仅为摘要级提示。",
+        "text": "AI落地从技术转向组织与流程：架构基础需重建[7d1e13f2e89d3974]，HR智能体项目成功率低且需明确不应自动化的管理任务[963d086bdd1db83e]，CHRO与CIO共识不足[f9272d19cf5097ce]表明跨部门协同是规模化前提。",
         "sources": [
-          "ecd3166198ba6bdb",
-          "c34e662c220d6d1b"
+          "7d1e13f2e89d3974",
+          "963d086bdd1db83e",
+          "f9272d19cf5097ce"
         ]
       }
     ]
@@ -649,10 +1071,10 @@
   "errors": [],
   "stats": {
     "queries": 32,
-    "discovered": 20,
-    "processed": 20
+    "discovered": 27,
+    "processed": 27
   },
   "quality": "公开检索完成 · 不保证穷尽全部研究",
-  "new_count": 5,
-  "unchanged_count": 4
+  "new_count": 8,
+  "unchanged_count": 5
 }
