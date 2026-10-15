@@ -51,7 +51,10 @@ def notebook(editions):
             topic_points = points(edition['analysis']['themes'].get(topic, []), topic)
             if topic_points:
                 themes.setdefault(topic, []).append({'date': end, 'points': topic_points})
-    ordered = sorted(records.values(), key=lambda r: (r.get('published') or r['first_seen'], r['first_seen'], r['title']), reverse=True)
-    return dict(title=TITLE, records=ordered, aliases=aliases, cores=cores[::-1],
+    ordered = sorted(records.values(), key=lambda r: (r.get('published') or r['first_seen'], r['first_seen'], r['title'], r['url']))
+    for number, record in enumerate(ordered, start=1):
+        record['number'] = f'{number:03d}'
+    numbers = {r['anchor']: r['number'] for r in ordered}
+    return dict(title=TITLE, records=ordered[::-1], aliases=aliases, numbers=numbers, cores=cores[::-1],
                 signals=signals[::-1], themes={topic: blocks[::-1] for topic, blocks in themes.items()},
                 latest=editions[-1], editions=editions[::-1])

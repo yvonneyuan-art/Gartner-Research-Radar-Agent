@@ -26,12 +26,17 @@ class PresentationTests(unittest.TestCase):
         self.assertEqual(len(result['records']), len(old['records']))
         self.assertEqual(result['aliases']['alternate-id'], old['records'][0]['id'])
         self.assertFalse(any(r['is_new'] for r in result['records']))
+        self.assertEqual([r['number'] for r in reversed(result['records'])],
+                         [f'{n:03d}' for n in range(1, len(result['records']) + 1)])
+        expected = result['numbers'][result['aliases']['alternate-id']]
         with tempfile.TemporaryDirectory() as directory:
             data = Path(directory)
             save(data / 'reports/2026-09-18.json', old)
             render(new, data / 'site')
             html = (data / 'site/index.html').read_text()
             self.assertNotIn('[citation:', html)
+            self.assertNotIn('[依据', html)
+            self.assertIn('>[%s]</a>' % expected, html)
             self.assertNotIn('<table', html)
             self.assertEqual(html.count('<h2>研究汇总</h2>'), 1)
             self.assertEqual(html.count('<article '), len(old['records']))
