@@ -11,6 +11,8 @@ class PresentationTests(unittest.TestCase):
         self.assertEqual(prose('本周AI支出2026年增49.5%[citation:abc123]。'),
                          '本周 AI 支出 2026 年增 49.5%。')
         self.assertEqual(prose('https://example.com/AI2026'), 'https://example.com/AI2026')
+        self.assertEqual(prose('治理【b870fbd16e94e034】，参考[062]与[df1509bef81a7c73]。'),
+                         '治理，参考[062]与。')
 
     def test_modules_merge_updates_and_preserve_source_links(self):
         old = load(ROOT / 'bootstrap/2026-09-18.json', {})

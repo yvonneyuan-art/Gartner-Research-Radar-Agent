@@ -222,7 +222,7 @@ def synthesize(records, config):
 core: array of {text,sources}; themes: object keyed by the supplied topic names, each value array of {text,sources};
 signals: array of {text,sources}. sources must be existing record IDs.
 The reporting window is supplied; it may be a monthly baseline. Never call the entire baseline this week. Write Chinese. Separate evidence from inference explicitly. Never call old/background or undated items new this week.
-Each substantive statement must cite supporting IDs. Cross-topic signals require at least 2 distinct records spanning 2 topics.
+Each substantive statement must cite supporting IDs exclusively in its sources array. Never put record IDs, citation tokens or reference markers in text; the renderer adds numbered links. Cross-topic signals require at least 2 distinct records spanning 2 topics.
 No invented facts, rankings or Gartner recommendations. If evidence is insufficient say so. 3 core points maximum;
 2 points per theme maximum; 3 signals maximum; <=180 Chinese characters per point.''',
         {'window_days': config['window_days'], 'topics': list(config['topics']), 'records': [{k: v for k, v in r.items() if k != 'proof'} for r in records]}, config)

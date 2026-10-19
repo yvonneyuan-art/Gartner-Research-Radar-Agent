@@ -10,6 +10,7 @@ def prose(value):
     if isinstance(value, Markup) or not isinstance(value, str) or value.startswith(('https://', 'http://')):
         return value
     value = re.sub(r'\[citation\s*:[^\]]*\]', '', value, flags=re.I)
+    value = re.sub(r'(?:【\s*[0-9a-f]{12,64}\s*】|\[\s*[0-9a-f]{12,64}\s*\])', '', value, flags=re.I)
     value = re.sub(r'(?<=[\u3400-\u9fff])(?=[A-Za-z0-9])', ' ', value)
     value = re.sub(r'(?<=[A-Za-z0-9%％])(?=[\u3400-\u9fff])', ' ', value)
     return value
