@@ -1,0 +1,761 @@
+{
+  "initial": false,
+  "start": "2026-10-13",
+  "end": "2026-10-19",
+  "demo": false,
+  "topics": [
+    "Cloud / Private & Hybrid",
+    "Virtualization",
+    "HCI",
+    "Kubernetes",
+    "Cloud Management & FinOps",
+    "AI Infrastructure",
+    "Agentic AI",
+    "AI Security"
+  ],
+  "created": "2026-10-19T13:35:30.499894+08:00",
+  "records": [
+    {
+      "id": "b870fbd16e94e034",
+      "url": "https://www.gartner.com/en/documents/8508377",
+      "title": "First Take: Workday’s C1.ai Acquisition Expands Agentic Identity, but Independent Controls Must Be Retained",
+      "topics": [
+        "AI Infrastructure",
+        "AI Security"
+      ],
+      "analysts": [
+        "Dennis Gaughan",
+        "Mosella Henry",
+        "Rebecca Archambault",
+        "Zachary Smith"
+      ],
+      "published": "2026-10-14",
+      "updated": null,
+      "research_type": "First Take",
+      "access": "未知",
+      "summary": "该First Take讨论Workday收购C1.ai后扩展的智能体身份能力，建议CISO建立跨职能治理，勿将其视为IAM替代品；将HR与C1.ai合并可简化智能体治理，但需保留专门控制以防身份与访问权限过度集中于Workday。",
+      "outline": [],
+      "why": "推断：公开摘要聚焦AI智能体身份治理与IAM管控风险，属AI安全及AI基础设施相关研究短文，但深度内容需订阅。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Rebecca Archambault",
+            "quote": "Analysts:\nRebecca Archambault,"
+          },
+          {
+            "value": "Zachary Smith",
+            "quote": "Zachary Smith,"
+          },
+          {
+            "value": "Dennis Gaughan",
+            "quote": "Dennis Gaughan,"
+          },
+          {
+            "value": "Mosella Henry",
+            "quote": "Mosella Henry"
+          }
+        ],
+        "published": {
+          "value": "2026-10-14",
+          "quote": "Published: 14 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "First Take",
+          "quote": "Gartner First Takes"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In\nFirst Takes are just a sliver of what Gartner clients get"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "42b3d7c77d4b7b5e",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030",
+      "title": "Gartner Says Over $3.5 Trillion of AI Infrastructure Spending Could Be Exposed to Impairment by the End of 2030",
+      "topics": [
+        "AI Infrastructure",
+        "Cloud Management & FinOps"
+      ],
+      "analysts": [
+        "Will Sommer"
+      ],
+      "published": "2026-10-14",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "该新闻稿基于Gartner预测，讨论AI基础设施资本支出与AI收入之间的失衡：若维持当前投资节奏，到2030年或有超3.5万亿美元AI基础设施支出面临减值风险，并预测多数neocloud厂商将停止独立运营。",
+      "outline": [],
+      "why": "推断：该稿聚焦AI基础设施投资回报与融资可持续性，涉及云服务商与FinOps/成本议题，可支撑AI基础设施及云经济相关分析。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Will Sommer",
+            "quote": "said Will Sommer, Sr Director Analyst at Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-10-14",
+          "quote": "STAMFORD, Conn., October 14, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom\n/\nInformation Technology\n/\nPress Release"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": "Gartner clients can learn more in Prepare for AI Market Consolidation: Capital Write-Downs Could Exceed $4 Trillion by 2032."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "00d420617abf05b6",
+      "url": "https://www.gartner.com/en/documents/7988937",
+      "title": "Emerging Market Quadrant for No-Code Agent Builders — Startup Vendors",
+      "topics": [
+        "AI Infrastructure",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Eric Goodness",
+        "Jason Wong",
+        "Justin Tung",
+        "Keith Guttridge",
+        "Kelli Smith"
+      ],
+      "published": null,
+      "updated": "2026-10-13",
+      "research_type": "Emerging Market Quadrant",
+      "access": "未知",
+      "summary": "该研究聚焦无代码智能体构建器（NCAB）这一新兴市场，分析领先的初创厂商。摘要指出NCAB让公民开发者无需深厚技术或编码能力即可构建和部署AI智能体，而成熟厂商可能因初创企业在颠覆性创新、治理能力和平台灵活性上的优势而失去先机。",
+      "outline": [
+        "摘要市场定义",
+        "新兴市场象限分析",
+        "详细市场定义",
+        "概述"
+      ],
+      "why": "推断：属于新兴市场象限类研究报告，主题涉及智能体构建平台，与AI基础设施及云上平台治理相关，故判定相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Kelli Smith",
+            "quote": "Kelli Smith"
+          },
+          {
+            "value": "Jason Wong",
+            "quote": "Jason Wong"
+          },
+          {
+            "value": "Keith Guttridge",
+            "quote": "Keith Guttridge"
+          },
+          {
+            "value": "Justin Tung",
+            "quote": "Justin Tung"
+          },
+          {
+            "value": "Eric Goodness",
+            "quote": "Eric Goodness"
+          }
+        ],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": "2026-10-13",
+          "quote": "Last Updated: 13 October 2026"
+        },
+        "research_type": {
+          "value": "Emerging Market Quadrant",
+          "quote": "Emerging Market Quadrant for No-Code Agent Builders — Startup Vendors"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周更新"
+    },
+    {
+      "id": "8e35ef634db664d1",
+      "url": "https://www.gartner.com/en/documents/8057633",
+      "title": "AI Vendor Race: Lumen Is the Company to Beat in Enterprise WAN and Connectivity Services for AI",
+      "topics": [
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Kameron Chao",
+        "Karen Brown",
+        "Susan Welsh"
+      ],
+      "published": null,
+      "updated": "2026-09-24",
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该洞察摘要讨论企业AI正重新定义网络与连接服务，价值从带宽转向时延确定性、边缘邻近与服务集成，并提出Lumen凭借统一服务平台在AI广域网与连接服务领域处于领先。",
+      "outline": [
+        "概述",
+        "分析",
+        "注1：领先企业",
+        "洞察演变历史"
+      ],
+      "why": "推断：内容聚焦企业WAN与连接服务，仅与AI基础设施主题边缘相关，且主主题偏网络，需注意是否超出范围。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Kameron Chao",
+            "quote": "Analysts:\nKameron Chao,"
+          },
+          {
+            "value": "Susan Welsh",
+            "quote": "Susan Welsh,"
+          },
+          {
+            "value": "Karen Brown",
+            "quote": "Karen Brown"
+          }
+        ],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": "2026-09-24",
+          "quote": "Last Updated: 24 September 2026"
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "元数据变化·待核实"
+    },
+    {
+      "id": "76a682e440839992",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-23-gartner-security-and-risk-management-summit-emea-2026-day-2-highlights",
+      "title": "Gartner Security & Risk Management Summit 2026 London: Day 2 Highlights",
+      "topics": [
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [
+        "Marty Resnick",
+        "Peter Firstbrook",
+        "Thomas Lintemuth"
+      ],
+      "published": "2026-09-23",
+      "updated": null,
+      "research_type": "Conference Updates",
+      "access": "未知",
+      "summary": "本文为Gartner安全与风险管理峰会伦敦站第二天内容汇总，涵盖CISO需关注的七类新兴威胁（含AI代理蔓延与代理式AI）、后量子加密迁移的三波路径，以及2030年网络安全技能与技术展望等分析师观点。",
+      "outline": [
+        "Gartner调查称41%的CISO在过去12个月中至少遭遇过一次涉及深度伪造的社会工程事件",
+        "Turbulence报告2026：威胁组织未来的七种力量（Marty Resnick）",
+        "阻止量子威胁：PQC的三波推进（Thomas Lintemuth）",
+        "Gartner主题演讲：2030年网络安全——技能、AI与技术（Peter Firstbrook）"
+      ],
+      "why": "推断：文中涉及代理式AI治理与AI安全议题，与Agentic AI、AI Security相关，但整体属安全会议报道，与所列基础设施主题关联有限。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Marty Resnick",
+            "quote": "Presented by Marty Resnick, VP Analyst, Gartner"
+          },
+          {
+            "value": "Thomas Lintemuth",
+            "quote": "Presented by Thomas Lintemuth, VP Analyst, Gartner"
+          },
+          {
+            "value": "Peter Firstbrook",
+            "quote": "Presented by Peter Firstbrook, Distinguished VP Analyst, Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-09-23",
+          "quote": "London, U.K., September 23, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Conference Updates",
+          "quote": "Conference Updates"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "元数据变化·待核实"
+    },
+    {
+      "id": "df1509bef81a7c73",
+      "url": "https://www.gartner.com/en/documents/8483345",
+      "title": "Tech CEOs Must Go Beyond Multiagent AI Product Deployment to Grow Revenue Past Pilots",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Adrian Lee",
+        "Andrew Newman"
+      ],
+      "published": "2026-10-07",
+      "updated": null,
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该洞察指出，随着企业从单一智能体转向多智能体生态，价值正从产品本身转向编排层，包括上下文路由、权限、治理与护栏；供应商需嵌入并推动业务流程变革，才能把智能体AI方案从试点推向规模化销售。",
+      "outline": [
+        "概览",
+        "问题",
+        "影响",
+        "更多细节",
+        "总述"
+      ],
+      "why": "推断：面向技术CEO的智能体AI商业化研究，涉及多智能体编排与治理，属Agentic AI主题，与AI安全治理有交集但非主线。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Andrew Newman",
+            "quote": "Analysts:\nAndrew Newman,"
+          },
+          {
+            "value": "Adrian Lee",
+            "quote": "Andrew Newman, \nAdrian Lee"
+          }
+        ],
+        "published": {
+          "value": "2026-10-07",
+          "quote": "Published: 07 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "元数据变化·待核实"
+    },
+    {
+      "id": "6d4fd92ec7ea8e5d",
+      "url": "https://www.gartner.com/en/documents/8406413",
+      "title": "Critical Capabilities for Infrastructure Platform Consumption ...",
+      "topics": [
+        "Cloud Management & FinOps",
+        "Kubernetes"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "Critical Capabilities",
+      "access": "未知",
+      "summary": "该文档为基础设施平台消费服务的关键能力研究，摘要指出其帮助领导者更深入了解相关消费服务。",
+      "outline": [],
+      "why": "推断：标题与摘要显示其为云平台消费服务评估类研究，契合云管理与Kubernetes主题。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Critical Capabilities",
+          "quote": "Critical Capabilities for Infrastructure Platform Consumption Services"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "4d1fb24e2684cc12",
+      "url": "https://www.gartner.com/en/documents/8509477",
+      "title": "First Take: NVIDIA's Open-Sourcing of Run:ai Reshapes ...",
+      "topics": [
+        "AI Infrastructure",
+        "Kubernetes"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该 First Take 认为，NVIDIA 将 Run:ai 平台整体开源，会加速 GPU 感知的 Kubernetes 基础设施标准化，但同时带来额外的运维负担。",
+      "outline": [],
+      "why": "推断：主题属于 AI 基础设施与 Kubernetes 编排，未触及被排除主题；摘要过短，未提供分析师、日期或付费信息。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "First Take",
+          "quote": "First Take: NVIDIA's Open-Sourcing of Run:ai Reshapes"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "0b600facdd420802",
+      "url": "https://www.gartner.com/en/documents/8436513",
+      "title": "Critical Capabilities for API Management",
+      "topics": [
+        "AI Security",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "John Santoro",
+        "Nicholas Carter",
+        "Shameen Pillai"
+      ],
+      "published": "2026-09-28",
+      "updated": null,
+      "research_type": "Critical Capabilities",
+      "access": "未知",
+      "summary": "该Gartner关键能力报告评估API管理平台，既覆盖传统API场景，也涉及智能体与生成式AI等新型场景，并按多个关键用例对比多款厂商方案，帮助组织按需选型。",
+      "outline": [
+        "概述与须知",
+        "纳入标准与厂商清单",
+        "API与AI消费",
+        "AI网关支持",
+        "API安全与监控分析",
+        "关键能力方法论"
+      ],
+      "why": "推断：报告属API管理关键能力研究，与AI安全及Agentic AI相关，但与Kubernetes等主题关联较弱。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Shameen Pillai",
+            "quote": "Shameen Pillai,"
+          },
+          {
+            "value": "Nicholas Carter",
+            "quote": "Nicholas Carter,"
+          },
+          {
+            "value": "John Santoro",
+            "quote": "John Santoro"
+          }
+        ],
+        "published": {
+          "value": "2026-09-28",
+          "quote": "Published: 28 September 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Critical Capabilities",
+          "quote": "Critical Capabilities for API Management"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "d6e06ee8a2919bc1",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-data-and-analytics-summit-2026-india-day-2-highlights",
+      "title": "Gartner Data & Analytics Summit 2026 India: Day 2 Highlights",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Deepak Seth",
+        "Prasad Pore",
+        "Ramke Ramakrishnan"
+      ],
+      "published": "2026-09-22",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "Gartner数据与分析峰会印度站第二天新闻稿，汇集多位分析师关于非结构化数据为AI就绪、2026年D&A预测以及代理式AI对数据管理架构冲击的主题演讲要点与预测。",
+      "outline": [
+        "Gartner预测：忽视数据治理文化挑战的组织到2027年将有60%无法成功治理AI",
+        "非结构化数据是打造AI就绪数据的关键要素",
+        "2026年数据与分析领域顶级预测",
+        "代理式AI如何即时影响并颠覆数据管理学科与技术"
+      ],
+      "why": "推断：内容聚焦数据管理与代理式AI，与Agentic AI主题直接相关，但涉及较少云基础设施平台内容。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Prasad Pore",
+            "quote": "Presented by Prasad Pore, Sr Director Analyst, Gartner"
+          },
+          {
+            "value": "Deepak Seth",
+            "quote": "Presented by Deepak Seth, Sr Director Analyst, Gartner"
+          },
+          {
+            "value": "Ramke Ramakrishnan",
+            "quote": "Presented by Ramke Ramakrishnan, VP Analyst, Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-09-22",
+          "quote": "Mumbai, India, September 22, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom\n/\nInformation Technology\n/\nConference Updates"
+        },
+        "access": {
+          "value": "free",
+          "quote": "Journalists can receive additional information and/or request an interview with Prasad Pore by contacting Sonika Choubey at sonika.choubey@gartner.com."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "c6ad67401c6d1cbf",
+      "url": "https://www.gartner.com/en/documents/8469045",
+      "title": "Unnecessary Agent Complexity Is Draining Your Budget",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Diarmuid Curran"
+      ],
+      "published": "2026-10-05",
+      "updated": null,
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该Gartner洞察指出，智能体工作流需求需与工具、技能、智能体及多智能体系统相匹配，只有当能力收益超过运营成本时才应引入额外架构复杂度；数据与分析负责人可用“最小可行智能体分解”框架为具体业务场景选择合适架构。",
+      "outline": [
+        "概览",
+        "议题",
+        "影响",
+        "更多细节",
+        "综述"
+      ],
+      "why": "推断：内容聚焦智能体架构与成本权衡，属Agentic AI主题的架构决策类研究，与云基础设施主题关联较弱。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Diarmuid Curran",
+            "quote": "Analysts:\nDiarmuid Curran"
+          }
+        ],
+        "published": {
+          "value": "2026-10-05",
+          "quote": "Published: 05 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "补充背景"
+    }
+  ],
+  "analysis": {
+    "core": [
+      {
+        "text": "本周新增证据集中于代理式AI治理与AI基础设施经济性：Workday收购C1.ai扩展智能体身份能力，Gartner建议CISO保留独立IAM控制，避免身份与访问过度集中【b870fbd16e94e034】。",
+        "sources": [
+          "b870fbd16e94e034"
+        ]
+      },
+      {
+        "text": "Gartner新闻稿提出，若维持当前投资节奏，到2030年或有超3.5万亿美元AI基础设施支出面临减值风险，并预计多数neocloud厂商将停止独立运营【42b3d7c77d4b7b5e】。此为预测性观点，非既成事实。",
+        "sources": [
+          "42b3d7c77d4b7b5e"
+        ]
+      },
+      {
+        "text": "多智能体价值正从产品转向编排层（上下文路由、权限、治理与护栏），供应商需推动业务流程变革才能把试点转为规模化销售【df1509bef81a7c73】。",
+        "sources": [
+          "df1509bef81a7c73"
+        ]
+      }
+    ],
+    "themes": {
+      "Cloud / Private & Hybrid": [
+        {
+          "text": "本周无直接涉及私有云/混合云部署形态的新增记录；AI基础设施减值风险讨论间接指向云服务商商业模式可持续性，但未给出私有云结论【42b3d7c77d4b7b5e】。",
+          "sources": [
+            "42b3d7c77d4b7b5e"
+          ]
+        }
+      ],
+      "Virtualization": [
+        {
+          "text": "本周记录未涉及服务器虚拟化。唯一相关线索是NVIDIA开源Run:ai被描述为加速GPU感知Kubernetes标准化并增加运维负担，但这属容器与GPU编排而非传统虚拟化【4d1fb24e2684cc12】。",
+          "sources": [
+            "4d1fb24e2684cc12"
+          ]
+        }
+      ],
+      "HCI": [],
+      "Kubernetes": [
+        {
+          "text": "据搜索摘要，NVIDIA将Run:ai整体开源，可能加速GPU感知的Kubernetes基础设施标准化，同时带来额外运维负担；该记录日期与分析机构信息缺失，且仅为摘要级证据【4d1fb24e2684cc12】。",
+          "sources": [
+            "4d1fb24e2684cc12"
+          ]
+        },
+        {
+          "text": "基础设施平台消费服务的关键能力研究被标注涉及Kubernetes主题，但仅有搜索摘要、无发布日期，内容深度无法核实【6d4fd92ec7ea8e5d】。",
+          "sources": [
+            "6d4fd92ec7ea8e5d"
+          ]
+        }
+      ],
+      "Cloud Management & FinOps": [
+        {
+          "text": "AI基础设施资本支出与AI收入失衡的风险讨论，与云成本及投资回报管理直接相关，提示FinOps需关注资产减值敞口【42b3d7c77d4b7b5e】。",
+          "sources": [
+            "42b3d7c77d4b7b5e"
+          ]
+        },
+        {
+          "text": "智能体架构成本议题提出“最小可行智能体分解”框架，主张仅在能力收益超过运营成本时增加复杂度【c6ad67401c6d1cbf】。此为架构成本视角，非云账单管理。",
+          "sources": [
+            "c6ad67401c6d1cbf"
+          ]
+        }
+      ],
+      "AI Infrastructure": [
+        {
+          "text": "本周新增两项AI基础设施证据：一是3.5万亿美元支出减值风险预测【42b3d7c77d4b7b5e】；二是Workday通过C1.ai扩展智能体身份，属基础设施中的身份控制层【b870fbd16e94e034】。",
+          "sources": [
+            "42b3d7c77d4b7b5e",
+            "b870fbd16e94e034"
+          ]
+        },
+        {
+          "text": "无代码智能体构建器新兴市场研究（本周更新、发布日期未知）称初创厂商在颠覆性创新、治理与平台灵活性上可能领先成熟厂商【00d420617abf05b6】。",
+          "sources": [
+            "00d420617abf05b6"
+          ]
+        }
+      ],
+      "Agentic AI": [
+        {
+          "text": "本周新增代理式AI商业洞察：多智能体生态中价值向编排层转移【df1509bef81a7c73】；另有研究指出无代码构建器或使成熟厂商失去先机【00d420617abf05b6】。",
+          "sources": [
+            "df1509bef81a7c73",
+            "00d420617abf05b6"
+          ]
+        },
+        {
+          "text": "峰会内容将AI代理蔓延列为CISO需关注的七类新兴威胁之一；此为会议报道，非本周新增研究【76a682e440839992】。",
+          "sources": [
+            "76a682e440839992"
+          ]
+        }
+      ],
+      "AI Security": [
+        {
+          "text": "本周新增证据指向智能体身份治理：建议CISO建立跨职能治理，不将厂商方案视为IAM替代品，并保留专门控制以防权限过度集中【b870fbd16e94e034】。",
+          "sources": [
+            "b870fbd16e94e034"
+          ]
+        },
+        {
+          "text": "API管理关键能力报告覆盖AI网关支持与API安全监控，用于智能体与生成式AI场景选型；发布时间为9月28日，非本周新增【0b600facdd420802】。",
+          "sources": [
+            "0b600facdd420802"
+          ]
+        }
+      ]
+    },
+    "signals": [
+      {
+        "text": "跨主题信号：智能体治理正从产品功能转向独立控制层——Workday身份整合需保留外部控制【b870fbd16e94e034】，多智能体编排强调权限与护栏【df1509bef81a7c73】，API网关承担AI安全职责【0b600facdd420802】。",
+        "sources": [
+          "b870fbd16e94e034",
+          "df1509bef81a7c73",
+          "0b600facdd420802"
+        ]
+      },
+      {
+        "text": "跨主题信号：AI基础设施投入与回报失衡风险【42b3d7c77d4b7b5e】，叠加智能体架构成本权衡框架【c6ad67401c6d1cbf】，共同指向“先算经济账再扩规模”的决策取向。",
+        "sources": [
+          "42b3d7c77d4b7b5e",
+          "c6ad67401c6d1cbf"
+        ]
+      },
+      {
+        "text": "推断：GPU感知Kubernetes开源化【4d1fb24e2684cc12】与无代码智能体构建器兴起【00d420617abf05b6】，可能同时降低AI平台与智能体开发门槛；两条记录均日期未知，属背景而非本周新增。",
+        "sources": [
+          "4d1fb24e2684cc12",
+          "00d420617abf05b6"
+        ]
+      }
+    ]
+  },
+  "errors": [],
+  "stats": {
+    "queries": 32,
+    "discovered": 19,
+    "processed": 19
+  },
+  "quality": "公开检索完成 · 不保证穷尽全部研究",
+  "new_count": 3,
+  "unchanged_count": 4
+}

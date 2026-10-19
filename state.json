@@ -419,7 +419,7 @@
       "last_seen": "2026-09-21"
     },
     "https://www.gartner.com/en/documents/8057633": {
-      "fingerprint": "d0466e39ced0a220563beb7f8f7ada4b470658d14cfa8d336d5d0a92ac09a2da",
+      "fingerprint": "1dea0b7b3a943530b09a28e23eb7651e033f59fc5bae41b106dfc7ef0e7b15bf",
       "metadata": {
         "published": null,
         "updated": "2026-09-24",
@@ -428,12 +428,12 @@
           "Karen Brown",
           "Susan Welsh"
         ],
-        "research_type": "未知",
+        "research_type": "Insights",
         "access": "未知"
       },
       "updated": "2026-09-24",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/documents/8060233": {
       "fingerprint": "836f90083240fffd14ffc86cb74317867aef5e40bce95ea582ae012aaacca6ce",
@@ -470,7 +470,7 @@
       "last_seen": "2026-10-05"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-23-gartner-security-and-risk-management-summit-emea-2026-day-2-highlights": {
-      "fingerprint": "2cc411eb0a779b9413bda22abc1d3bd75041528ed90d5b871c696b51e3f2fb3b",
+      "fingerprint": "448abc0e8b593c9d86488ebd39fa7027d8fadbeef5a15eb9e465c4e2b3321b61",
       "metadata": {
         "published": "2026-09-23",
         "updated": null,
@@ -479,12 +479,12 @@
           "Peter Firstbrook",
           "Thomas Lintemuth"
         ],
-        "research_type": "未知",
+        "research_type": "Conference Updates",
         "access": "未知"
       },
       "updated": null,
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-24-gartner-says-cfos-must-take-a-more-disciplined-approach": {
       "fingerprint": "c854e13ba37ab0b5108697c53dcf3b39b3ecdcd085c3058fd37d4b78ce3592b1",
@@ -531,7 +531,7 @@
       },
       "updated": null,
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-05"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/documents/8395881": {
       "fingerprint": "c693cea6e60b59edcd27c4f7e3db7846020ea52c7a9bd8fa296c02742b414e0f",
@@ -657,7 +657,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-09-30-gartner-identifies-top-five-actions-for-cisos-to-take-by-end-of-2026": {
       "fingerprint": "20bce77b258cedbffe589b25f98ba8faa35b1f0d992547696197719726efa21c",
@@ -673,7 +673,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/documents/7249630": {
       "fingerprint": "b005723f4f3aa2776dc4a81be37dc611fa0216e7402ac561df8fdbbf489d9c47",
@@ -689,7 +689,7 @@
       },
       "updated": "2026-10-07",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/documents/7873777": {
       "fingerprint": "df05d0bca28d8bacca0fe89a582640a6531ed41e51c654604bbdc9db55f2eef6",
@@ -792,7 +792,7 @@
       "last_seen": "2026-10-12"
     },
     "https://www.gartner.com/en/documents/8483345": {
-      "fingerprint": "8a4b170fcb5a2ee60c1b61b8aed036e6f37f25a1a13a5089d94336b2ed880cc3",
+      "fingerprint": "5621abf6d0795753e3cb09519db430d82fc0228c48af10d21349370ba9648b43",
       "metadata": {
         "published": "2026-10-07",
         "updated": null,
@@ -800,12 +800,12 @@
           "Adrian Lee",
           "Andrew Newman"
         ],
-        "research_type": "未知",
+        "research_type": "Insights",
         "access": "未知"
       },
       "updated": null,
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-10-19"
     },
     "https://www.gartner.com/en/documents/8485345": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -929,6 +929,133 @@
       "updated": null,
       "first_seen": "2026-10-12",
       "last_seen": "2026-10-12"
+    },
+    "https://www.gartner.com/en/documents/7988937": {
+      "fingerprint": "869ef5253d299aaa04838a0aa6f779a09e566fa9c0ecc63a5a6cfbd7b55d45b2",
+      "metadata": {
+        "published": null,
+        "updated": "2026-10-13",
+        "analysts": [
+          "Eric Goodness",
+          "Jason Wong",
+          "Justin Tung",
+          "Keith Guttridge",
+          "Kelli Smith"
+        ],
+        "research_type": "Emerging Market Quadrant",
+        "access": "未知"
+      },
+      "updated": "2026-10-13",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/documents/8508377": {
+      "fingerprint": "a3897987533ab1b5e097db71aa029fd7361ce625ae2961426f9340d376eca01d",
+      "metadata": {
+        "published": "2026-10-14",
+        "updated": null,
+        "analysts": [
+          "Dennis Gaughan",
+          "Mosella Henry",
+          "Rebecca Archambault",
+          "Zachary Smith"
+        ],
+        "research_type": "First Take",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/documents/8509477": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030": {
+      "fingerprint": "708e691f83e6a016e92e03f2f08e5bd70c2157529f80c61e334d394c6be0ecbd",
+      "metadata": {
+        "published": "2026-10-14",
+        "updated": null,
+        "analysts": [
+          "Will Sommer"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/documents/8406413": {
+      "fingerprint": "9cdcc3cdb9d7798176ae84cdf93e1dc7609a722e032cb9cbae0fbf407bdff86e",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/documents/8436513": {
+      "fingerprint": "c487452d4eda117a3dcbecedd8f04d38a664c1aacef9dfd615cee2d41c605ac9",
+      "metadata": {
+        "published": "2026-09-28",
+        "updated": null,
+        "analysts": [
+          "John Santoro",
+          "Nicholas Carter",
+          "Shameen Pillai"
+        ],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/documents/8469045": {
+      "fingerprint": "a361d2489850a601f8929dabc8f33ed660c09edc3697393454bb39767b0beaf8",
+      "metadata": {
+        "published": "2026-10-05",
+        "updated": null,
+        "analysts": [
+          "Diarmuid Curran"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-data-and-analytics-summit-2026-india-day-2-highlights": {
+      "fingerprint": "e3bcd06ea395e33cfc9ff82a7e8f9e734cabbb85feeaf4e3c08fe53876a36adb",
+      "metadata": {
+        "published": "2026-09-22",
+        "updated": null,
+        "analysts": [
+          "Deepak Seth",
+          "Prasad Pore",
+          "Ramke Ramakrishnan"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19"
     }
   },
   "deliveries": {
