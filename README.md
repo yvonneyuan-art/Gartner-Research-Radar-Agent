@@ -29,9 +29,9 @@
 
 - 全站只有 `site/index.html`，不再生成每周一个 HTML；每期 JSON 是内部数据，不是阅读页面。
 - 新内容按期号追加，重跑同一期不重复。历史期的 HTML 锚点包含期号，同一报告更新后也不会造成链接冲突。
-- 独立主题框只展示本期有确认新增/更新研究的主题。只有旧背景、日期不明、元数据待核实的主题不占框。
+- 本期主题进展只增加有确认新增/更新研究的主题内容；历史主题洞察继续保留并默认折叠，不创建无新增的本期空框。
 - 期末一句话汇总无新增的主题；检索失败会注明，不能把失败说成“没有发布”。
-- 表格和来源区仍保留必要的背景或待核实线索，并显著标记其状态。
+- 研究汇总只保留一份完整摘要与来源。类型与核实状态保留在内部数据；页面仅用“本周新增”标签，未知日期等事实保留在元数据中。
 - 网页每次从历史 JSON 重建，并以原子替换更新 `index.html`；已有旧格式数据会迁移，移除旧的日期 HTML。
 
 ## 本地使用
@@ -71,8 +71,8 @@ Tavily 负责联网发现 Gartner 公开网页；DeepSeek 负责元数据提取�
 
 | 配置位置 | 内容 |
 |---|---|
-| Actions Secrets | 检索、模型和飞书密钥 |
-| Actions Variables | 可选模型名、飞书发送模式 |
+| Actions Secrets | 检索、模型、飞书及 Cloudflare 发布密钥 |
+| Actions Variables | 模型名、飞书模式、`HOSTING_PROVIDER`、`CLOUDFLARE_PROJECT_NAME` |
 | `config.json` | 主题、同义词、时间窗口、处理上限 |
 | `.github/workflows/weekly.yml` | 定时计划 |
 | `radar-data` 分支 | 历史 JSON、去重记录、唯一 HTML |
@@ -80,7 +80,7 @@ Tavily 负责联网发现 Gartner 公开网页；DeepSeek 负责元数据提取�
 发布后：
 
 ```sh
-python -m radar.runner notify --data-dir data --as-of 2026-09-18 --base-url https://OWNER.github.io/Gartner-Research-Radar-Agent
+python -m radar.runner notify --data-dir data --as-of 2026-09-18 --base-url https://enterprise-research-weekly.pages.dev/
 ```
 
 链接为 `/index.html#edition-2026-09-18`。可选应用模式上传的是同一个累计 HTML，使用 `notify --mode app`；配置 app_id/app_secret/chat_id 环境变量即可。文件能否在线预览由飞书客户端决定。
@@ -103,7 +103,6 @@ python -m radar.runner notify --data-dir data --as-of 2026-09-18 --base-url http
 radar/research.py               发现、元数据证据、分类、趋势
 radar/runner.py                 月度初始化、每周追加、状态、发送
 radar/templates/notebook.html   单一累计 HTML 外壳
-radar/templates/edition.html    每期内容模板
 radar/delivery.py               飞书 webhook 与应用上传
 bootstrap/2026-09-18.json        已核对的首期公开数据
 examples/index.html             可直接阅读的首期
@@ -132,3 +131,13 @@ config.json                    非敏感配置
 ## Cloudflare Pages
 
 支持将网页改为 Cloudflare Pages 免费网址，后台仍按原计划每周运行。迁移配置见 [Cloudflare 部署指南](docs/cloudflare.md)。设置 `HOSTING_PROVIDER=cloudflare` 才会切换；配置期间原发布流程继续有效。
+
+## 核心判断与历史折叠
+
+核心判断只写具体发现及产品/业务影响，区分 Gartner 观点与我们的产品启示。不以检索总结、资料数量、证据质量说明或空泛趋势凑数；每期可为 0–3 条。主题与跨主题趋势同样需要实质内容。
+
+核心判断、按主题看进展、跨主题趋势信号统一按日期展示：本周展开，历史默认折叠。只有本周核心判断使用深蓝底。最新维护约定见 [研究 skill](skills/gartner-research-radar/SKILL.md)。定时任务直接执行 Python，调整生成标准需同步模型提示词，不能只修改 skill。
+
+## 钉钉公司邮箱
+
+已通过本机钉钉邮箱发送一次本人预览，内容为核心判断、新增研究及 Cloudflare 链接。尚未配置云端定时邮件，也未确认正式收件人或邮件组。后续启用需验证持续授权方式；本机登录不能直接视为 GitHub Actions 已获授权。邮件发送后必须验证状态，页面刷新不触发重发。

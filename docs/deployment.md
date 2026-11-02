@@ -35,15 +35,11 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 
 不需要设置 GitHub token，Actions 自带 `GITHUB_TOKEN`。工作流已经声明写入历史分支与 Pages 所需权限；若组织策略阻止，再由管理员调整。
 
-## 第三步：启用网页托管
+## 第三步：网页托管（当前使用 Cloudflare）
 
-打开 [Settings → Pages](https://github.com/yvonneyuan-art/Gartner-Research-Radar-Agent/settings/pages)，Source 选择 **GitHub Actions**。
+本站已切换为 [Cloudflare 周报](https://enterprise-research-weekly.pages.dev/)，具体配置见 [Cloudflare 部署指南](cloudflare.md)。在 Secrets 配置 `CLOUDFLARE_ACCOUNT_ID` 与 `CLOUDFLARE_API_TOKEN`，在 Variables 配置 `HOSTING_PROVIDER=cloudflare`、`CLOUDFLARE_PROJECT_NAME=enterprise-research-weekly`。分享链接不含 GitHub 用户名。
 
-当前仓库保持私有。GitHub Pages 在私有仓库的可用性取决于账号套餐；如果设置页要求升级，不能只靠添加密钥解决。可以保留私有仓库并采用支持的套餐，或在确认可以公开代码后改为公开仓库。不要把“私有仓库”误认为“网页一定私有”：默认 Pages 网站是公开链接。
-
-若不希望公开网页，可保留私有仓库并选择下面的飞书应用文件模式；需要调整默认工作流，跳过 Pages 三个步骤以及 job 的 Pages environment URL。这不是当前默认部署方式。
-
-网页地址通常为 `https://yvonneyuan-art.github.io/Gartner-Research-Radar-Agent/`。本项目只有 `index.html`，以后每周仍然打开这个地址。飞书会附加 `#edition-日期`，定位到核心判断模块中的对应日期，不改变页面文件。
+GitHub Pages 仅作为保留的回退路径，当前发布无需开通其付费套餐。切换托管不会自动改变仓库可见性。Cloudflare 托管与 Tavily、DeepSeek API 的账户额度分别管理。
 
 ## 第四步：先手动跑一遍
 
@@ -53,7 +49,7 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 
 成功后检查三件事：
 
-1. `Deploy HTML archive` 成功，页面能看到首期及新的追加内容。
+1. `Deploy to Cloudflare Pages` 与 `Confirm public report URL` 成功，页面能看到累计内容。
 2. 飞书群收到一条摘要，链接打开同一个 HTML 并定位到本期。
 3. 仓库出现 `radar-data` 分支，保存 `reports/*.json`、`state.json`、`site/index.html`。
 
@@ -82,13 +78,13 @@ Tavily 是给程序调用的联网搜索服务：按关键词找出 Gartner 的�
 - `FEISHU_APP_SECRET`：应用密钥。
 - `FEISHU_CHAT_ID`：目标群 `chat_id`。
 
-再将 Variable `FEISHU_MODE` 设为 `app`。实现流程是获取 tenant token → 以 stream 类型上传累计 `index.html` → 发 file 消息。权限通常包括 `im:resource` 和 `im:message:send_as_bot`，以飞书控制台实际要求为准。HTML 在线预览由客户端决定，可下载后在浏览器打开。默认工作流仍会先发布 Pages；如选择完全私有文件路径，需要按第三步调整。
+再将 Variable `FEISHU_MODE` 设为 `app`。实现流程是获取 tenant token → 以 stream 类型上传累计 `index.html` → 发 file 消息。权限通常包括 `im:resource` 和 `im:message:send_as_bot`，以飞书控制台实际要求为准。HTML 在线预览由客户端决定，可下载后在浏览器打开。当前工作流仍会先发布 Cloudflare Pages；如选择完全私有文件路径，需要单独调整发布流程。
 
 ## 故障与恢复
 
 - 缺 key/401：检查 Secret 名字、所属仓库、有效期和 API 额度。
 - 429/5xx：检索与模型有限重试，仍失败则记录缺口/停止。飞书发送不盲目重试。
-- Pages 要求升级：账号套餐问题，与 API key 无关。
+- GitHub Pages 要求升级：当前使用 Cloudflare，先检查 `HOSTING_PROVIDER=cloudflare` 是否配置正确。
 - 数据分支推送失败：检查仓库 Actions 写权限及 `radar-data` 分支规则；不要删除历史。
 - 飞书失败：检查机器人签名、关键词、群成员或应用权限。业务失败不会记为成功。
 - 飞书超时但群已收到：发送结果可能不确定；重跑前先确认，Webhook 无严格幂等保证。
