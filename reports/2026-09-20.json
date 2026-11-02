@@ -580,127 +580,36 @@
   "analysis": {
     "core": [
       {
-        "text": "本周新增两条Gartner新闻稿均指向AI驱动的支出扩张：全球AI支出2026年预计达2.7万亿美元、同比增长49.5%，其中AI基础设施需求强劲[citation:4ca14cd1bdf66f30]；澳大利亚IT支出2027年超1922亿澳元，AI优化IaaS增速达58.5%[citation:db9a5f6bd302fff3]。",
-        "sources": [
-          "4ca14cd1bdf66f30",
-          "db9a5f6bd302fff3"
-        ]
-      },
-      {
-        "text": "AI安全被单列为增长市场：Gartner预计保障AI市场2027年达47.83亿美元，同比增长68.7%，细分包含AI应用安全、使用控制、治理平台与网关，AI代理攻击与供应链风险为主要推动力[citation:ba5bde83f980f49c]。",
+        "text": "AI安全被单列为增长市场：Gartner预计保障AI市场2027年达47.83亿美元，同比增长68.7%，细分包含AI应用安全、使用控制、治理平台与网关，AI代理攻击与供应链风险为主要推动力。",
         "sources": [
           "ba5bde83f980f49c"
         ]
       },
       {
-        "text": "规模化落地仍是瓶颈：Gartner调查称仅22%的组织成功在多业务单元规模化AI，但85%职能负责人计划2026年增加支出[citation:468758113524aad1]，显示投入与产出之间存在落差。",
+        "text": "规模化落地仍是瓶颈：Gartner调查称仅22%的组织成功在多业务单元规模化AI，但85%职能负责人计划2026年增加支出，显示投入与产出之间存在落差。",
         "sources": [
           "468758113524aad1"
         ]
       }
     ],
     "themes": {
-      "Cloud / Private & Hybrid": [
-        {
-          "text": "现有记录未提供私有云或混合云平台的具体研究；仅澳大利亚IT支出预测提及IaaS与GenAI融入云软件的趋势[citation:db9a5f6bd302fff3]，证据不足以支撑本周该主题的独立判断。",
-          "sources": [
-            "db9a5f6bd302fff3"
-          ]
-        }
-      ],
-      "Virtualization": [
-        {
-          "text": "Gartner首份评估认为I&O负责人应认真考虑Proxmox作为服务器虚拟化替代方案，原因是其提供24/7企业级支持、消除了此前主要顾虑；该记录日期未知，属首次发现而非本周新增[citation:02333e7b63e21f43]。",
-          "sources": [
-            "02333e7b63e21f43"
-          ]
-        },
-        {
-          "text": "另一条记录指导基础设施架构师选择V2V迁移工具，含概述、对比与分析章节，日期未知，为首次发现[citation:5154094fc1b73ae8]。",
-          "sources": [
-            "5154094fc1b73ae8"
-          ]
-        }
-      ],
-      "HCI": [
-        {
-          "text": "现有记录中没有直接关于HCI平台或市场的研究。半导体收入预测因AI数据中心带动CPU、网络芯片与光互连投资而被标注相关[citation:5137183dd0b6c78]，但这属推断性关联，不足以支撑HCI主题结论。",
-          "sources": [
-            "c5137183dd0b6c78"
-          ]
-        }
-      ],
+      "Cloud / Private & Hybrid": [],
+      "Virtualization": [],
+      "HCI": [],
       "Kubernetes": [],
-      "Cloud Management & FinOps": [
-        {
-          "text": "澳大利亚IT支出预测显示软件仍是最大支出类别、超过680亿澳元，受GenAI与代理型AI融入云软件推动[citation:db9a5f6bd302fff3]；结合仅22%组织成功规模化AI的调查[citation:468758113524aad1]，推断FinOps关注点将从单纯降本转向AI投资回报跟踪。",
-          "sources": [
-            "db9a5f6bd302fff3",
-            "468758113524aad1"
-          ]
-        }
-      ],
-      "AI Infrastructure": [
-        {
-          "text": "Gartner预测2026年全球AI支出2.7万亿美元、增长49.5%，AI优化IaaS、服务器、网络与芯片需求强劲，数据中心扩建为最大支出领域，并上调AI应用开发平台与生成式AI模型增速预期[citation:4ca14cd1bdf66f30]。",
-          "sources": [
-            "4ca14cd1bdf66f30"
-          ]
-        },
-        {
-          "text": "半导体侧，Gartner预测2026年全球收入达1.6万亿美元、2027年达1.9万亿美元，AI数据中心占半导体收入比重将从2026年36.5%升至2030年53%以上[citation:5137183dd0b6c78]；该记录属补充背景、非本周新增。",
-          "sources": [
-            "c5137183dd0b6c78"
-          ]
-        }
-      ],
-      "Agentic AI": [
-        {
-          "text": "两条2025年12月的预测报告（均为补充背景、非本周新增）指出：AI代理已开始在I&O组织中部署且使用将持续增长[citation:c3e8d0f746b5e20b]；代理式创新正颠覆传统自动化，企业应用负责人应围绕编排、计算机使用、文档处理与流程智能制定战略[citation:438562d2f5c95e37]。",
-          "sources": [
-            "c3e8d0f746b5e20b",
-            "438562d2f5c95e37"
-          ]
-        },
-        {
-          "text": "支出侧亦印证该方向：Gartner在AI支出预测中已分拆跨职能智能体并纳入消费级智能体[citation:4ca14cd1bdf66f30]。",
-          "sources": [
-            "4ca14cd1bdf66f30"
-          ]
-        }
-      ],
+      "Cloud Management & FinOps": [],
+      "AI Infrastructure": [],
+      "Agentic AI": [],
       "AI Security": [
         {
-          "text": "Gartner预测保障AI市场2026年约28.35亿美元、2027年约47.83亿美元（增长68.7%）、2028年近77亿美元；AI应用安全支出最大，AI使用控制增速最快，并预计出现整合与收购[citation:ba5bde83f980f49c]。",
+          "text": "Gartner预测保障AI市场2026年约28.35亿美元、2027年约47.83亿美元（增长68.7%）、2028年近77亿美元；AI应用安全支出最大，AI使用控制增速最快，并预计出现整合与收购。",
           "sources": [
             "ba5bde83f980f49c"
           ]
         }
       ]
     },
-    "signals": [
-      {
-        "text": "AI支出扩张与AI安全市场独立成型相互印证：支出预测将AI基础设施列为最大领域[citation:4ca14cd1bdf66f30]，同时专用AI安全市场被单列并以近七成增速扩张[citation:ba5bde83f980f49c]，推断安全将随基础设施同步成为预算独立项。",
-        "sources": [
-          "4ca14cd1bdf66f30",
-          "ba5bde83f980f49c"
-        ]
-      },
-      {
-        "text": "投入加速与落地不足并存：85%职能负责人计划2026年增加AI支出[citation:468758113524aad1]，但仅22%成功规模化；结合AI基础设施支出强劲预测[citation:4ca14cd1bdf66f30]，推断组织当前更偏基础设施先行、价值实现滞后。",
-        "sources": [
-          "468758113524aad1",
-          "4ca14cd1bdf66f30"
-        ]
-      },
-      {
-        "text": "智能体从概念走向预算条目：代理型AI预测报告指出I&O已开始部署[citation:c3e8d0f746b5e20b]，而AI支出预测已单列跨职能与消费级智能体[citation:4ca14cd1bdf66f30]，跨主题印证智能体正进入采购与运营规划。",
-        "sources": [
-          "c3e8d0f746b5e20b",
-          "4ca14cd1bdf66f30"
-        ]
-      }
-    ]
+    "signals": []
   },
   "errors": [],
   "stats": {

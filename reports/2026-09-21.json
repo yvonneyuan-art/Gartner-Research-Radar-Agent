@@ -220,87 +220,18 @@
     }
   ],
   "analysis": {
-    "core": [
-      {
-        "text": "窗口内公开记录显示：澳大利亚IT支出预测（2027年超1922亿澳元，同比+8.7%），IaaS增速最快22.1%，AI优化型IaaS预计增长58.5%，数据中心与服务器受GenAI与代理型AI推动上升。属预测性信息，非既有事实。",
-        "sources": [
-          "db9a5f6bd302fff3"
-        ]
-      },
-      {
-        "text": "存在两项AI供应商能力对比研究（AWS、Anthropic），声称覆盖10个关键AI能力层进行横向比较；但仅见简介或搜索摘要，无分析师、发布日期与具体结论。证据不足，无法据此判断排名或推荐。",
-        "sources": [
-          "cc7c5d03e5ce49b4",
-          "6ad354e364ae22c7"
-        ]
-      },
-      {
-        "text": "一项First Take讨论OpenAI错位行为披露，建议CISO关注拟议披露框架，并指出自主AI智能体故障与攻击需要负责任的事件披露与防护。属安全治理视角，未涉及所列基础设施主题。",
-        "sources": [
-          "5999b3c653f2541d"
-        ]
-      }
-    ],
+    "core": [],
     "themes": {
       "Cloud / Private & Hybrid": [],
       "Virtualization": [],
       "HCI": [],
       "Kubernetes": [],
-      "Cloud Management & FinOps": [
-        {
-          "text": "唯一相关记录为澳大利亚IT支出预测，提及IaaS增速最快及软件支出受嵌入式代理能力带动；未涉及FinOps实践、成本优化或云管理工具。该主题在本窗口内证据不足。",
-          "sources": [
-            "db9a5f6bd302fff3"
-          ]
-        }
-      ],
-      "AI Infrastructure": [
-        {
-          "text": "预测显示AI优化型IaaS预计增长58.5%，数据中心系统与服务器支出受GenAI与代理型AI推动上升，反映AI基础设施投入预期走强。",
-          "sources": [
-            "db9a5f6bd302fff3"
-          ]
-        },
-        {
-          "text": "两项供应商能力对比研究（AWS、Anthropic）可能覆盖AI基础设施能力层，但仅有标题与简介，无法确认具体内容、时点与结论。",
-          "sources": [
-            "cc7c5d03e5ce49b4",
-            "6ad354e364ae22c7"
-          ]
-        }
-      ],
-      "Agentic AI": [
-        {
-          "text": "预测将软件支出增长归因于GenAI与嵌入式代理能力，带动CRM与分析等领域需求；此为预测性判断。",
-          "sources": [
-            "db9a5f6bd302fff3"
-          ]
-        },
-        {
-          "text": "First Take指出自主AI智能体故障与攻击场景，提示需要安全事件披露框架与防护措施，属治理与安全视角。",
-          "sources": [
-            "5999b3c653f2541d"
-          ]
-        }
-      ],
-      "AI Security": [
-        {
-          "text": "唯一相关记录讨论OpenAI错位行为披露及拟议披露框架，建议CISO关注；涉及自主AI智能体故障与攻击的负责任披露与防护。",
-          "sources": [
-            "5999b3c653f2541d"
-          ]
-        }
-      ]
+      "Cloud Management & FinOps": [],
+      "AI Infrastructure": [],
+      "Agentic AI": [],
+      "AI Security": []
     },
-    "signals": [
-      {
-        "text": "跨主题信号（Agentic AI + AI Security）：代理型AI的投入预期与自主智能体故障/攻击的安全披露议题在窗口内同时出现，提示能力扩张与治理需求并行。属推断，两条记录分别来自预测与First Take，尚无直接因果证据。",
-        "sources": [
-          "db9a5f6bd302fff3",
-          "5999b3c653f2541d"
-        ]
-      }
-    ]
+    "signals": []
   },
   "errors": [],
   "stats": {

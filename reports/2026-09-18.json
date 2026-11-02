@@ -412,15 +412,7 @@
           ]
         }
       ],
-      "Virtualization": [
-        {
-          "text": "推断：ZVF/ZSphere 的对外论证应把市场变化、迁移选择和平台能力评估连起来。",
-          "sources": [
-            "a65509988a97d7a0",
-            "9957225c4c02e5d4"
-          ]
-        }
-      ],
+      "Virtualization": [],
       "Kubernetes": [
         {
           "text": "推断：Zaku 的竞争维度可扩展到 AI 运行、运营一致性及平台治理，运维智能体宜从受控场景切入。",
@@ -439,25 +431,8 @@
           ]
         }
       ],
-      "AI Infrastructure": [
-        {
-          "text": "公开信号：AI Infra 的衡量从设备指标延伸至 Token 输出效率和推理经济性。",
-          "sources": [
-            "045e410d3494d5c8",
-            "8816a83a2aae06b4"
-          ]
-        }
-      ],
-      "Agentic AI": [
-        {
-          "text": "推断：智能体落地需要同时管理执行权限、操作风险和高迭代成本。",
-          "sources": [
-            "3316694d4af53d1e",
-            "ec8ad6c936e73ebf",
-            "221a518cf4b77932"
-          ]
-        }
-      ],
+      "AI Infrastructure": [],
+      "Agentic AI": [],
       "AI Security": [
         {
           "text": "公开信号：智能体的权限提升与数据外泄风险需要单独评估；可将此作为 AI 网关治理设计的输入。",
@@ -473,13 +448,6 @@
         "sources": [
           "9957225c4c02e5d4",
           "c6c4a564bdbde37e"
-        ]
-      },
-      {
-        "text": "推断｜容器 × AI Infra：容器平台不仅承载传统应用，也成为训练、推理与智能体运行能力的组织方式。",
-        "sources": [
-          "ea80b06282cde0ae",
-          "ca6dac24150de111"
         ]
       },
       {
