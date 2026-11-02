@@ -689,7 +689,7 @@
       },
       "updated": "2026-10-07",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/7873777": {
       "fingerprint": "df05d0bca28d8bacca0fe89a582640a6531ed41e51c654604bbdc9db55f2eef6",
@@ -760,7 +760,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/8472145": {
       "fingerprint": "23cd65a7e670753690a91348e57991b67703229f7f7b08e7817511efbcbcab79",
@@ -852,7 +852,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-7-gartner-survey-finds-only-38-percent-of-chros-and-cios-share-an-understanding-of-how-ai-impacts-the-future-of-work": {
       "fingerprint": "58431e060b70c06676721383bbf172e8d487198cf654010e0ca94a18038a42e6",
@@ -885,7 +885,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/8456813": {
       "fingerprint": "5d5535b53db62df3a7b94b02f2f733fd8bd7b32b03b4fe87c2c57808ac071965",
@@ -951,7 +951,7 @@
       },
       "updated": "2026-10-13",
       "first_seen": "2026-10-19",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/8508377": {
       "fingerprint": "a3897987533ab1b5e097db71aa029fd7361ce625ae2961426f9340d376eca01d",
@@ -969,7 +969,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-19",
-      "last_seen": "2026-10-19"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/8509477": {
       "fingerprint": "7fa653a47f0b7b5ecb0881268f9c73860813ea3d47d3003ffd698b60e2adbdb5",
@@ -1001,7 +1001,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-19",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/8406413": {
       "fingerprint": "9cdcc3cdb9d7798176ae84cdf93e1dc7609a722e032cb9cbae0fbf407bdff86e",
@@ -1108,20 +1108,22 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-forecasts-worldwide-it-spending-to-grow-15-percent-in-2027-totaling-7-point-35-trillion": {
-      "fingerprint": "998d78c4e4e7cfbe20851b7d8f1e241dda2583c92cb1d53b7ccfc5b49381bf86",
+      "fingerprint": "c334c7edc0d834c6c99e14c96b00c2542790e1d5849cf0e1d722b68d901f0123",
       "metadata": {
         "published": "2026-10-21",
         "updated": null,
-        "analysts": [],
+        "analysts": [
+          "Lovelock"
+        ],
         "research_type": "Press Release",
         "access": "公开免费"
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-it-symposium-xpo-2026-orlando-day-3-highlights": {
       "fingerprint": "c0ec83cd69c75c803c338c49371590ff8bbb7c7f9e4cd74dca4dd8864d81abe9",
@@ -1225,7 +1227,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/documents/8461845": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -1258,6 +1260,330 @@
       "updated": null,
       "first_seen": "2026-10-26",
       "last_seen": "2026-10-26"
+    },
+    "https://www.gartner.com/en/documents/8535209": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8555273": {
+      "fingerprint": "bc39c5261744955b3c86f5fd0b29b979cb5649ff000d1f4df7b6fb3822bc809b",
+      "metadata": {
+        "published": "2026-10-28",
+        "updated": null,
+        "analysts": [
+          "Alec Pallin"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8558573": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8560473": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8562373": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8563173": {
+      "fingerprint": "30b2c14fc459a8f93e804eabb53fdbfb931a943999250e77f696b73cf0acf961",
+      "metadata": {
+        "published": "2026-10-28",
+        "updated": null,
+        "analysts": [
+          "Alex Levine",
+          "Heather Wilson"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8567173": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8568073": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/newsroom/2026-10-27-gartner-announces-gartner-it-infrastructure-operations-cloud-strategies-conference-2026": {
+      "fingerprint": "403fa7cc079ecccdcd98fe1ecef9c02acb502e5d63b9730281b99aceadf8c7ee",
+      "metadata": {
+        "published": "2026-10-27",
+        "updated": null,
+        "analysts": [
+          "Erin Pierre",
+          "Joe Rogus",
+          "Roger Williams"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8021169": {
+      "fingerprint": "5d1956665e81a9ab2a618bd37cf65f49921e38f428a6b40e03b3bc3c7cf5eba5",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8460245": {
+      "fingerprint": "5d1956665e81a9ab2a618bd37cf65f49921e38f428a6b40e03b3bc3c7cf5eba5",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8466145": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8470245": {
+      "fingerprint": "5d1956665e81a9ab2a618bd37cf65f49921e38f428a6b40e03b3bc3c7cf5eba5",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8471045": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8496177": {
+      "fingerprint": "ddb39b2364ed3856ed234152291518a22b7e67de56bac3adef317784c223236a",
+      "metadata": {
+        "published": "2026-10-12",
+        "updated": null,
+        "analysts": [
+          "Hao Yin",
+          "Jed Cawthorne"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8507977": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8531109": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8539309": {
+      "fingerprint": "2986ccc0cbb37352b30a7035e30bbeddafbf859631730606c2bd639b15a9d9a0",
+      "metadata": {
+        "published": "2026-10-22",
+        "updated": null,
+        "analysts": [
+          "Annisa Firdaus",
+          "Joel Backaler",
+          "Var Shankar"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8540009": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8552473": {
+      "fingerprint": "8751c59d99b0c23f1850c9b65543042f8be9455a6179b702627fdd785e6a5880",
+      "metadata": {
+        "published": "2026-10-26",
+        "updated": null,
+        "analysts": [
+          "Jaswant Kalay",
+          "Rob Schafer",
+          "Yolanda Harris"
+        ],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/documents/8568673": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-it-symposium-xpo-keynote-release-2026": {
+      "fingerprint": "26192556de4442fa517c89f5314a7c40d1886f5ce557c93804f1260f4999ce15",
+      "metadata": {
+        "published": "2026-10-19",
+        "updated": null,
+        "analysts": [
+          "Daryl Plummer",
+          "Kristin Moyer"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-identifies-the-top-ai-trends-in-infrastructure-and-it-operations-for-2027": {
+      "fingerprint": "3e88c25d473e35ab0c588143df713fab8a446f8842ae61039c9bad064c821153",
+      "metadata": {
+        "published": "2026-10-26",
+        "updated": null,
+        "analysts": [
+          "Jonathan Forest"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02"
     }
   },
   "deliveries": {
