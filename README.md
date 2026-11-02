@@ -67,7 +67,7 @@ Tavily 负责联网发现 Gartner 公开网页；DeepSeek 负责元数据提取�
 
 ## 云端与飞书
 
-默认 **GitHub Actions → GitHub Pages → 飞书 webhook**，每周一北京时间 09:00，无常驻服务器。配置步骤见 [逐步配置指南](docs/deployment.md)。
+当前站点使用 **GitHub Actions → Cloudflare Pages → 飞书 webhook**，每周一北京时间 09:00 开始运行，无常驻服务器。公开入口：[Gartner 周报](https://enterprise-research-weekly.pages.dev/)。当前配置见 [Cloudflare 部署指南](docs/cloudflare.md)，原 GitHub Pages 配置见 [逐步配置指南](docs/deployment.md)。
 
 | 配置位置 | 内容 |
 |---|---|

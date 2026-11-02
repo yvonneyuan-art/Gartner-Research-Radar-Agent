@@ -2,9 +2,11 @@
 
 现有定时研究仍由 GitHub Actions 执行，每周一北京时间 09:00 开始。Cloudflare 只托管生成的 HTML。新网址使用项目名称，不包含 GitHub 用户名。
 
+已于 2026-11-02 完成部署与公开页面一致性验证。本次只刷新发布，未重复发送飞书。
+
 ## 首次配置
 
-1. 登录 Cloudflare，在 Workers & Pages 创建 Pages 项目，选择 Direct Upload，建议项目名 `research-weekly`，生产分支设为 `main`。名称以实际可用结果为准。
+1. 登录 Cloudflare，在 Workers & Pages 创建 Pages 项目，选择 Direct Upload，本站已创建项目 `enterprise-research-weekly`，生产分支为 `main`。公开入口：[Gartner 周报](https://enterprise-research-weekly.pages.dev/)。
 2. 创建 API Token：仅授予目标账户的 `Account → Cloudflare Pages → Edit` 权限。
 3. 在 GitHub 仓库 Settings → Secrets and variables → Actions 添加 Secrets：`CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN`。不要在聊天、代码或文档中记录密钥值。
 4. 添加 Variables：`CLOUDFLARE_PROJECT_NAME` 填实际项目名称；准备好后将 `HOSTING_PROVIDER` 设置为 `cloudflare`。
