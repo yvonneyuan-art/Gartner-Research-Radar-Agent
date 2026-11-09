@@ -969,7 +969,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-19",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/documents/8509477": {
       "fingerprint": "7fa653a47f0b7b5ecb0881268f9c73860813ea3d47d3003ffd698b60e2adbdb5",
@@ -1001,7 +1001,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-19",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/documents/8406413": {
       "fingerprint": "9cdcc3cdb9d7798176ae84cdf93e1dc7609a722e032cb9cbae0fbf407bdff86e",
@@ -1108,7 +1108,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-forecasts-worldwide-it-spending-to-grow-15-percent-in-2027-totaling-7-point-35-trillion": {
       "fingerprint": "c334c7edc0d834c6c99e14c96b00c2542790e1d5849cf0e1d722b68d901f0123",
@@ -1123,7 +1123,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-it-symposium-xpo-2026-orlando-day-3-highlights": {
       "fingerprint": "c0ec83cd69c75c803c338c49371590ff8bbb7c7f9e4cd74dca4dd8864d81abe9",
@@ -1140,7 +1140,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-26"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/documents/7248830": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -1287,7 +1287,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/documents/8558573": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -1509,7 +1509,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/documents/8540009": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -1568,7 +1568,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-identifies-the-top-ai-trends-in-infrastructure-and-it-operations-for-2027": {
       "fingerprint": "3e88c25d473e35ab0c588143df713fab8a446f8842ae61039c9bad064c821153",
@@ -1583,7 +1583,238 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8595437": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8595537": {
+      "fingerprint": "6d11ef235dfdb4e84f44844b5c48886cbee649cce10348ac739afb7b3015becc",
+      "metadata": {
+        "published": "2026-11-03",
+        "updated": null,
+        "analysts": [
+          "Angela Zhao",
+          "Evan Zeng",
+          "Neil MacDonald"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8596837": {
+      "fingerprint": "93dd671193ad8a9b7d39ae2312019b05fda1c03930efd0ecc461a735c84978f8",
+      "metadata": {
+        "published": "2026-11-03",
+        "updated": null,
+        "analysts": [
+          "Alex Brady",
+          "Christian Titze",
+          "Martin Shreffler"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8600137": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8605237": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-11-04-gartner-customer-service-and-support-conference-day-1-highlights": {
+      "fingerprint": "442b914c342707b2362f7ea9f030594c7e6ad719d9c782dc4f3cba136177e52c",
+      "metadata": {
+        "published": "2026-11-04",
+        "updated": null,
+        "analysts": [
+          "Christopher Sladdin",
+          "Daniel O'Sullivan",
+          "Kathy Ross"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-11-05-gartner-survey-finds-21-percent-of-service-and-support-leaders-have-reduced-human-agent-headcount-because-of-ai": {
+      "fingerprint": "18eef3901af4a3478af218dc0d7bfe4b8c6d78620423651334e9466a0fefb1a8",
+      "metadata": {
+        "published": "2026-11-05",
+        "updated": null,
+        "analysts": [
+          "Emily Potosky",
+          "Kathy Ross"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8475745": {
+      "fingerprint": "8419cb668c1621544ec8424d93d7772059c7dc253b7a2f884200a830f4992dff",
+      "metadata": {
+        "published": "2026-10-16",
+        "updated": null,
+        "analysts": [
+          "Afraz Jaffri",
+          "Andrés García-Rodeja",
+          "Christopher Long",
+          "Gene Alvarez",
+          "Kjell Carlsson",
+          "Radu Miclaus",
+          "Rita Sallam"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8502877": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8524109": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/documents/8545809": {
+      "fingerprint": "cb6ca1a27c9877d3b983c47860deb6a1df862ae79d90044740238330619ed8f4",
+      "metadata": {
+        "published": "2026-10-26",
+        "updated": null,
+        "analysts": [
+          "Jaswant Kalay",
+          "Rob Schafer",
+          "Yolanda Harris"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai": {
+      "fingerprint": "70c30dc003efc17f9daeefb53438d0a93011e41329ffd0458f8b16782f6b75a5",
+      "metadata": {
+        "published": "2026-10-19",
+        "updated": null,
+        "analysts": [
+          "Alicia Mullery"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-says-44-percent-of-ceos-struggle-to-demonstrate-ai-financial-returns-as-technology-becomes-central-to-growth": {
+      "fingerprint": "a37ecb364d8d7d4b3e032ce5eb39886a2b075e8f6cb75e085e89d53ce6d2250b",
+      "metadata": {
+        "published": "2026-10-20",
+        "updated": null,
+        "analysts": [
+          "David Furlonger"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-hr-research-finds-77-percent-of-board-members-expect-ai-to-deliver-productivity-and-cost-savings-yet-just-3-percent-of-organizations-exceed-cost-savings-goals-via-productivity": {
+      "fingerprint": "bbb07b582a437d8d056237f356e93ab4c63ea82e49d846ef52c1d4577396f231",
+      "metadata": {
+        "published": "2026-10-26",
+        "updated": null,
+        "analysts": [
+          "Arj Bagga",
+          "CV Viverito"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26": {
+      "fingerprint": "efeda1dc8586a249a571cc6e6cf280a24fdf2bb859dec3226d763a48149fc944",
+      "metadata": {
+        "published": "2026-11-02",
+        "updated": null,
+        "analysts": [
+          "Kevin Mercado"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
     }
   },
   "deliveries": {
