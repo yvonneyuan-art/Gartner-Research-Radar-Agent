@@ -1,7 +1,7 @@
 {
   "initial": false,
-  "start": "2026-11-03",
-  "end": "2026-11-09",
+  "start": "2026-11-10",
+  "end": "2026-11-16",
   "demo": false,
   "topics": [
     "Cloud / Private & Hybrid",
@@ -13,109 +13,46 @@
     "Agentic AI",
     "AI Security"
   ],
-  "created": "2026-11-09T15:33:15.208776+08:00",
+  "created": "2026-11-16T15:33:56.405630+08:00",
   "records": [
     {
-      "id": "22d1f87069b78af5",
-      "url": "https://www.gartner.com/en/documents/8595537",
-      "title": "Emerging Tech: Agentic Security Fabric Is Needed to Control Agent Runtime Risks",
+      "id": "813e2c6699ed9f3c",
+      "url": "https://www.gartner.com/en/documents/8626533",
+      "title": "AI Agent-Driven Autonomous Operations Requires Codified Operational Knowledge",
       "topics": [
+        "Virtualization",
+        "AI Security",
         "Agentic AI",
-        "AI Security"
+        "Cloud Management & FinOps"
       ],
       "analysts": [
-        "Angela Zhao",
-        "Evan Zeng",
-        "Neil MacDonald"
+        "Jeff Vogel"
       ],
-      "published": "2026-11-03",
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该研究笔记提出，要实现AI智能体的可见性与控制，需要一套“智能体安全架构”，在资源访问、智能体运行时执行与独立监督三个边界上集成可执行控制，以应对智能体运行时风险。",
-      "outline": [
-        "概述",
-        "分析"
-      ],
-      "why": "推断：内容聚焦智能体运行时风险治理，属Agentic AI与AI安全交叉议题，与所列主题相关。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [
-          {
-            "value": "Evan Zeng",
-            "quote": "Evan Zeng"
-          },
-          {
-            "value": "Neil MacDonald",
-            "quote": "Neil MacDonald"
-          },
-          {
-            "value": "Angela Zhao",
-            "quote": "Angela Zhao"
-          }
-        ],
-        "published": {
-          "value": "2026-11-03",
-          "quote": "Published: 03 November 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Research Note",
-          "quote": "Emerging Tech: Agentic Security Fabric Is Needed to Control Agent Runtime Risks"
-        },
-        "access": {
-          "value": "paid",
-          "quote": "Already a Gartner client?\nLog In"
-        }
-      },
-      "status": "本周新增"
-    },
-    {
-      "id": "21a6b364f1a5e0a5",
-      "url": "https://www.gartner.com/en/documents/8596837",
-      "title": "Evaluate Emerging Technologies for Sourcing and Procurement",
-      "topics": [
-        "Agentic AI"
-      ],
-      "analysts": [
-        "Alex Brady",
-        "Christian Titze",
-        "Martin Shreffler"
-      ],
-      "published": "2026-11-03",
+      "published": "2026-11-11",
       "updated": null,
       "research_type": "Insights",
       "access": "未知",
-      "summary": "该洞察摘要介绍面向采购与寻源领域的Emerging Technology Evaluation Framework（ETEFx），用于在技术炒作中按适用性与采用复杂度评估25项新兴技术，帮助CPO识别真正带来业务成果的技术。",
+      "summary": "该Gartner洞察摘要指出，AI智能体实现自主运维需要可机器执行的专长，平台智能可将基础设施知识、实践与治理控制转化为软件定义的运维控制平面，从而支撑可信的自主服务级成果。",
       "outline": [
-        "摘要",
-        "完整研究包含内容",
-        "分析师",
-        "联系与访问方式"
+        "概览",
+        "战略规划假设",
+        "问题",
+        "影响",
+        "启示",
+        "贡献者"
       ],
-      "why": "推断：内容聚焦采购领域新兴技术评估方法，仅涉及Agentic AI等相邻主题，与所列基础设施主题关联有限，相关性偏弱但仍属研究类摘要。",
+      "why": "推断：属于AI运维与平台治理主题的洞察类研究，与虚拟化平台及AI安全治理相关，故列为相关。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Alex Brady",
-            "quote": "Analysts:\nAlex Brady,"
-          },
-          {
-            "value": "Martin Shreffler",
-            "quote": "Martin Shreffler,"
-          },
-          {
-            "value": "Christian Titze",
-            "quote": "Christian Titze"
+            "value": "Jeff Vogel",
+            "quote": "Analysts:\nJeff Vogel"
           }
         ],
         "published": {
-          "value": "2026-11-03",
-          "quote": "Published: 03 November 2026"
+          "value": "2026-11-11",
+          "quote": "Published: 11 November 2026"
         },
         "updated": {
           "value": null,
@@ -127,177 +64,57 @@
         },
         "access": {
           "value": "paid",
-          "quote": "Included in Full Research"
+          "quote": "Gartner client? Log\nin for personalized search results."
         }
       },
       "status": "本周新增"
     },
     {
-      "id": "f7308f1049e52b43",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-04-gartner-customer-service-and-support-conference-day-1-highlights",
-      "title": "Gartner Customer Service & Support Conference: Day 1 Highlights",
+      "id": "2ee97743181a17fb",
+      "url": "https://www.gartner.com/en/documents/8624933",
+      "title": "Critical Capabilities for Edge Distribution Platforms",
       "topics": [
-        "Agentic AI"
+        "AI Infrastructure",
+        "AI Security"
       ],
       "analysts": [
-        "Christopher Sladdin",
-        "Daniel O'Sullivan",
-        "Kathy Ross"
+        "Amol Nerlekar",
+        "Brandon Medford",
+        "Jimmy Chuang"
       ],
-      "published": "2026-11-04",
+      "published": "2026-11-12",
       "updated": null,
-      "research_type": "未知",
+      "research_type": "Critical Capabilities",
       "access": "未知",
-      "summary": "本文汇总Gartner客户服务与支持大会首日内容：多位分析师讨论AI投资回报偏低、以客户价值为导向的AI组合、贯穿交互全流程的AI协同，以及代理式AI应聚焦高价值用例与持续优化。",
+      "summary": "该报告为边缘分发平台关键能力评估的公开摘要，指出平台正演变为开发者与AI能力的竞争领域，CIO需借助边缘推理与AI原生安全工具推动AI转型。摘要列出评估概览、战略规划假设与多项能力维度，并点名多家参评厂商。",
       "outline": [
-        "开幕主题演讲：重塑服务与支持以释放AI价值",
-        "人机协作团队：加速智能支持的技术",
-        "客户服务中代理式AI的落地路径"
+        "概述",
+        "战略规划假设",
+        "须知事项",
+        "分析",
+        "关键能力评分",
+        "关键能力方法论"
       ],
-      "why": "推断：公开会议报道，具研究相关内容，仅涉及代理式AI，与服务/支持场景关联，非基础设施类研究报告。",
+      "why": "推断：页面属关键能力类研究摘要，主题涉AI推理与安全，但主对象为边缘分发平台，仅供参照。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Christopher Sladdin",
-            "quote": "Presented by Christopher Sladdin, Senior Director Analyst, Gartner"
+            "value": "Brandon Medford",
+            "quote": "Brandon Medford,"
           },
           {
-            "value": "Kathy Ross",
-            "quote": "Presented by Kathy Ross, VP Analyst, Gartner"
+            "value": "Amol Nerlekar",
+            "quote": "Amol Nerlekar,"
           },
           {
-            "value": "Daniel O'Sullivan",
-            "quote": "Presented by Daniel O'Sullivan, Senior Director Analyst, Gartner"
+            "value": "Jimmy Chuang",
+            "quote": "Jimmy Chuang"
           }
         ],
         "published": {
-          "value": "2026-11-04",
-          "quote": "DENVER, Colo., NOVEMBER 4, 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Press Release",
-          "quote": "Newsroom"
-        },
-        "access": {
-          "value": "free",
-          "quote": "We are bringing you news and highlights from the Gartner Customer Service and Support Conference"
-        }
-      },
-      "status": "本周新增"
-    },
-    {
-      "id": "632155631408452b",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-05-gartner-survey-finds-21-percent-of-service-and-support-leaders-have-reduced-human-agent-headcount-because-of-ai",
-      "title": "Gartner Survey Finds 21% of Service and Support Leaders Have Reduced Human Agent Headcount Because of AI",
-      "topics": [
-        "Agentic AI"
-      ],
-      "analysts": [
-        "Emily Potosky",
-        "Kathy Ross"
-      ],
-      "published": "2026-11-05",
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "Gartner基于2026年7-8月对275位服务与支持负责人的调研，指出仅21%的组织因AI减少人工坐席，部分组织已回聘员工，建议领导者以AI已验证的成效为前提再调整人力。",
-      "outline": [],
-      "why": "推断：内容聚焦客户服务人力与AI成效，与AI基础设施、代理式AI等话题关联偏弱，且本次补充话题未涵盖客户服务。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [
-          {
-            "value": "Kathy Ross",
-            "quote": "Kathy Ross  \nVP Analyst, Gartner"
-          },
-          {
-            "value": "Emily Potosky",
-            "quote": "we spoke with Kathy Ross and Emily Potosky, analysts in the Gartner Customer Service & Support Practice"
-          }
-        ],
-        "published": {
-          "value": "2026-11-05",
-          "quote": "DENVER, Colo., NOVEMBER 5, 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Press Release",
-          "quote": "Gartner Survey Finds 21% of Service and Support Leaders Have Reduced Human Agent Headcount Because of AI"
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "本周新增"
-    },
-    {
-      "id": "3910d4d17dea1b3b",
-      "url": "https://www.gartner.com/en/documents/8605237",
-      "title": "Coolest Vendor Innovations for Digital Sovereignty ...",
-      "topics": [
-        "Cloud / Private & Hybrid"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该报告摘要称，报告聚焦数字主权领域的创新实践，涵盖开源软件、开放标准、自托管、加密、机密计算以及与模型无关的设计。",
-      "outline": [],
-      "why": "推断：属研究笔记级摘要，主题为数字主权与云相关创新，与私有云/混合云相关，摘要未涉及被排除主题。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "866fd417aafa9142",
-      "url": "https://www.gartner.com/en/documents/8600137",
-      "title": "Critical Capabilities for Cloud ERP for Service-Centric ...",
-      "topics": [
-        "Cloud Management & FinOps",
-        "Agentic AI"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该研究以常见用例为框架评估服务型企业云ERP厂商，摘要提及智能体AI与编排AI方向，用于协助匹配业务需求。",
-      "outline": [],
-      "why": "推断：属Critical Capabilities研究方法，主题落在云管理与智能体AI，但摘要过短，缺乏分析师、日期与目录信息。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
+          "value": "2026-11-12",
+          "quote": "Published: 12 November 2026"
         },
         "updated": {
           "value": null,
@@ -305,266 +122,100 @@
         },
         "research_type": {
           "value": "Critical Capabilities",
-          "quote": "Critical Capabilities for Cloud ERP for Service-Centric"
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "7195f064a06d9fee",
-      "url": "https://www.gartner.com/en/documents/8595437",
-      "title": "Developing AI Fluency in Nontechnical Managers",
-      "topics": [
-        "AI Infrastructure"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "公开摘要指出AI已成为组织工作流与战略的基础，但仅约半数管理者表示自己具备开展AI工作的能力，这一差距带来负面影响。文档主题聚焦非技术管理者的AI素养培养。",
-      "outline": [],
-      "why": "推断：该文档关联AI基础设施与组织AI能力建设议题，而非云管理或FinOps主题，与所列主题关联较弱，但属于研究类内容。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "05c66d08cedde0c4",
-      "url": "https://www.gartner.com/en/documents/8502877",
-      "title": "How to Architect AI Agent Authorization - Gartner",
-      "topics": [
-        "Agentic AI",
-        "AI Security"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该文档探讨AI代理授权架构，指出AI代理会放大授权挑战，涉及委托权限、运行时强制与持续适应等方面。",
-      "outline": [],
-      "why": "推断：标题与摘要指向AI代理授权安全主题，属于AI安全/代理式AI范畴，但缺少分析师、类型与日期等元数据。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "423f8114e49a2684",
-      "url": "https://www.gartner.com/en/documents/8524109",
-      "title": "How to Select an AI-Augmented Low-Code Application Platform",
-      "topics": [
-        "Kubernetes"
-      ],
-      "analysts": [],
-      "published": null,
-      "updated": null,
-      "research_type": "未知",
-      "access": "未知",
-      "summary": "该研究面向软件工程负责人，提供六步方法来选择能够构建、维护、治理、验证、集成并核算成本的AI增强低代码应用平台。",
-      "outline": [],
-      "why": "推断：内容属低代码平台选型方法，与所列主题（尤其Kubernetes）关联薄弱，仅作为边缘相关记录保留。",
-      "evidence_level": "搜索摘要",
-      "proof": {
-        "analysts": [],
-        "published": {
-          "value": null,
-          "quote": ""
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "unknown",
-          "quote": ""
-        },
-        "access": {
-          "value": "unknown",
-          "quote": ""
-        }
-      },
-      "status": "首次发现·日期未知"
-    },
-    {
-      "id": "b9c5f8ad269438aa",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-hr-research-finds-77-percent-of-board-members-expect-ai-to-deliver-productivity-and-cost-savings-yet-just-3-percent-of-organizations-exceed-cost-savings-goals-via-productivity",
-      "title": "Gartner HR Research Finds 77% of Board Members Expect AI to Deliver Productivity and Cost Savings, Yet Just 3% of Organizations Exceed Cost Savings Goals Via Productivity",
-      "topics": [
-        "Cloud Management & FinOps",
-        "Agentic AI"
-      ],
-      "analysts": [
-        "Arj Bagga",
-        "CV Viverito"
-      ],
-      "published": "2026-10-26",
-      "updated": null,
-      "research_type": "Press Release",
-      "access": "未知",
-      "summary": "Gartner人力资源研究新闻稿指出，多数董事会期待AI带来生产力与成本节约，但极少组织仅靠生产力达标。文章提出HR应聚焦AI价值、加速协作、把释放出的产能转化为创新工作，并强调AI治理与技能培养。",
-      "outline": [],
-      "why": "推断：属人力资源视角的AI价值与治理研究新闻稿，与FinOps及AI基础设施仅在成本与治理层面间接相关。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [
-          {
-            "value": "CV Viverito",
-            "quote": "said CV Viverito, Senior Director Analyst in the Gartner HR practice"
-          },
-          {
-            "value": "Arj Bagga",
-            "quote": "said Arj Bagga, Vice President Analyst in the Gartner HR practice"
-          }
-        ],
-        "published": {
-          "value": "2026-10-26",
-          "quote": "ORLANDO, Fla., October 26, 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Press Release",
-          "quote": "Newsroom\n/\nHuman Resources\n/\nPress Release"
-        },
-        "access": {
-          "value": "free",
-          "quote": ""
-        }
-      },
-      "status": "补充背景"
-    },
-    {
-      "id": "d23ddf490029d0b5",
-      "url": "https://www.gartner.com/en/documents/8545809",
-      "title": "Gartner Magic Quadrant for Software Asset Management Managed Services",
-      "topics": [
-        "Cloud Management & FinOps"
-      ],
-      "analysts": [
-        "Jaswant Kalay",
-        "Rob Schafer",
-        "Yolanda Harris"
-      ],
-      "published": "2026-10-26",
-      "updated": null,
-      "research_type": "Magic Quadrant",
-      "access": "未知",
-      "summary": "该魔力象限报告评估软件资产管理（SAM）与FinOps托管服务提供商，指出IT技能短缺及软件与云复杂度上升推高IT支出，采购负责人转向此类服务，报告用于识别符合组织需求的提供商。",
-      "outline": [
-        "战略规划假设",
-        "市场定义与描述",
-        "魔力象限",
-        "纳入与排除标准",
-        "厂商优势与注意事项",
-        "评估标准"
-      ],
-      "why": "推断：报告主题为SAM与FinOps托管服务，与云管理及FinOps直接相关，属付费研究。",
-      "evidence_level": "公开页面提取",
-      "proof": {
-        "analysts": [
-          {
-            "value": "Yolanda Harris",
-            "quote": "Analysts:\nYolanda Harris,Jaswant Kalay,Rob Schafer"
-          },
-          {
-            "value": "Jaswant Kalay",
-            "quote": "Analysts:\nYolanda Harris,Jaswant Kalay,Rob Schafer"
-          },
-          {
-            "value": "Rob Schafer",
-            "quote": "Analysts:\nYolanda Harris,Jaswant Kalay,Rob Schafer"
-          }
-        ],
-        "published": {
-          "value": "2026-10-26",
-          "quote": "Published: 26 October 2026"
-        },
-        "updated": {
-          "value": null,
-          "quote": ""
-        },
-        "research_type": {
-          "value": "Magic Quadrant",
-          "quote": "Gartner Magic Quadrant for Software Asset Management Managed Services"
+          "quote": "Gartner Critical Capabilities Abstract"
         },
         "access": {
           "value": "paid",
-          "quote": "To access these insights and much more, talk to Gartner today."
+          "quote": "Already a Gartner client?\nLog In"
         }
       },
-      "status": "补充背景"
+      "status": "本周新增"
     },
     {
-      "id": "f3a6563425d7aace",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-says-44-percent-of-ceos-struggle-to-demonstrate-ai-financial-returns-as-technology-becomes-central-to-growth",
-      "title": "Gartner Says 44% of CEOs Struggle to Demonstrate AI Financial Returns as Technology Becomes Central to Growth",
+      "id": "eaf6ea4122b3cdbd",
+      "url": "https://www.gartner.com/en/documents/8624733",
+      "title": "Cybersecurity Platform Consolidation Will Produce Fewer Vendors and More Embedded Capabilities",
       "topics": [
-        "Agentic AI"
+        "AI Security"
       ],
       "analysts": [
-        "David Furlonger"
+        "Ganesh Ramamoorthy",
+        "Shailendra Upadhyay"
       ],
-      "published": "2026-10-20",
+      "published": "2026-11-11",
       "updated": null,
-      "research_type": "Press Release",
+      "research_type": "Insights",
       "access": "未知",
-      "summary": "Gartner新闻稿发布2027年CEO调查结果：44%的CEO难以向利益相关者证明AI带来的财务回报，但多数仍计划增加技术投入，并把重塑运营模式和部署AI智能体作为释放价值的关键举措。",
-      "outline": [],
-      "why": "推断：该新闻稿属调查类研究发布，涉及AI价值衡量与智能体部署，与主题相关但不涉及基础设施细节。",
+      "summary": "该洞察摘要讨论网络安全平台整合趋势：企业关系将集中于少数厂商，同时平台内嵌的专业能力增多；具备身份、网络执行、SecOps及数据或AI安全四层面上下文与策略控制力的厂商将获得市场优势。",
+      "outline": [
+        "概览要点",
+        "战略规划假设",
+        "问题",
+        "影响",
+        "启示",
+        "概述"
+      ],
+      "why": "推断：内容聚焦安全平台整合与AI安全，仅间接涉及Kubernetes与AI基础设施；非直接云平台或FinOps研究，故与所列主题关联有限。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "David Furlonger",
-            "quote": "said David Furlonger, Distinguished VP Analyst at Gartner"
+            "value": "Shailendra Upadhyay",
+            "quote": "Analysts:\nShailendra Upadhyay,"
+          },
+          {
+            "value": "Ganesh Ramamoorthy",
+            "quote": "Ganesh Ramamoorthy"
           }
         ],
         "published": {
-          "value": "2026-10-20",
-          "quote": "ORLANDO, Fla., October 20, 2026"
+          "value": "2026-11-11",
+          "quote": "Published: 11 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "040047f9a3c047eb",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-12-gartner-forecasts-artificial-intelligence-infrastructure-spending-to-represent-59-percent-of-total-global-artificial-intelligence-spending-in-2027",
+      "title": "Gartner Forecasts AI Infrastructure Spending to Represent 59% of Total Global AI Spending in 2027",
+      "topics": [
+        "AI Infrastructure",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "John-David Lovelock"
+      ],
+      "published": "2026-11-12",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "佳纳发布新闻稿，预测2027年全球AI支出达4万亿美元，其中AI基础设施支出约占59%，规模2.4万亿美元。AI优化服务器为最大细分，受超大规模与新型云厂商扩建及服务器涨价推动。生成式AI模型支出预计达510亿美元，基础模型仍占最大份额。",
+      "outline": [],
+      "why": "推断：本文为公开新闻稿，主议题是AI基础设施与AI支出预测，与AI基础设施主题直接相关；虽涉及服务器涨价等硬件要素，但主旨非GPU硬件市场，故不排除。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "John-David Lovelock",
+            "quote": "saidJohn-David Lovelock, Distinguished VP Analyst, Chief of Research at Gartner."
+          }
+        ],
+        "published": {
+          "value": "2026-11-12",
+          "quote": "BARCELONA, Spain, November 12, 2026"
         },
         "updated": {
           "value": null,
@@ -575,42 +226,445 @@
           "quote": "Newsroom/Information Technology/Press Release"
         },
         "access": {
-          "value": "unknown",
-          "quote": "Gartner clients can read more in 2026 Gartner CEO Survey: The Playbook for AI Value Demands a New Operating Model"
+          "value": "paid",
+          "quote": "Gartner clients can read more in Forecast: AI Spending, Worldwide, 2025-2030, 3Q26."
         }
       },
-      "status": "补充背景"
+      "status": "本周新增"
     },
     {
-      "id": "1c2b4ceaa1237609",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai",
-      "title": "Gartner Survey Finds Only 13% of CIOs Say Their Enterprise Has Realized Significant or Transformational Value from AI",
+      "id": "2b28288c6355528d",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-10-gartner-forecasts-artificial-intelligence-will-drive-a-net-increase-of-1-7-million-jobs-by-2030",
+      "title": "Gartner Forecasts AI Will Drive a Net Increase of 1.7 Million Jobs by 2030",
       "topics": [
-        "AI Infrastructure",
-        "Agentic AI",
-        "Cloud Management & FinOps"
+        "Agentic AI"
       ],
       "analysts": [
-        "Alicia Mullery"
+        "Helen Poitevin",
+        "John Lovelock"
       ],
-      "published": "2026-10-19",
+      "published": "2026-11-10",
       "updated": null,
       "research_type": "Press Release",
       "access": "未知",
-      "summary": "Gartner新闻稿介绍2027年CIO议程调查：仅13%的CIO认为企业已从AI获得显著或变革性价值，并指出设立试点与生产阶段终止规则、AI经济治理及人机协同岗位重设是领先CIO的关键实践。",
-      "outline": [],
-      "why": "推断：涉及AI成本治理与员工重设，与AI基础设施投资和组织议题相关，但未涉及基础设施技术细节。",
+      "summary": "Gartner新闻稿预测，到2030年AI将带动全球净增约170万个岗位，同时创造大量新职位并淘汰部分职位。新闻稿按资产密集、公共部门与科技三类行业分析岗位变化，并指出多数劳动者需适应工作内容与职责的调整。",
+      "outline": [
+        "AI对就业的累计影响预测（2025-2030）",
+        "三类行业的AI岗位增减分析",
+        "受影响员工比例与岗位转型",
+        "报告《AI不会造成就业末日，但将带来岗位动荡》"
+      ],
+      "why": "推断：内容聚焦AI对就业结构与劳动力的影响，属Agentic AI话题下的人才与组织维度，与云、Kubernetes等基础设施主题关系较弱。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Alicia Mullery",
-            "quote": "Alicia Mullery, VP Analyst at Gartner"
+            "value": "Helen Poitevin",
+            "quote": "Helen Poitevin, Distinguished VP Analyst at Gartner"
+          },
+          {
+            "value": "John Lovelock",
+            "quote": "John Lovelock, Distinguished VP Analyst, Chief of Research at Gartner"
           }
         ],
         "published": {
-          "value": "2026-10-19",
-          "quote": "Orlando, Fla., October 19, 2026"
+          "value": "2026-11-10",
+          "quote": "BARCELONA, Spain, November 10, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Press Release"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner clients can read more in the report AI Won't Cause a Jobs Apocalypse, but Will Unleash Job Chaos Through 2030."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "313857b282394f60",
+      "url": "https://www.gartner.com/en/documents/8625433",
+      "title": "Gartner Magic Quadrant for Data and Analytics Governance Platforms",
+      "topics": [
+        "AI Infrastructure",
+        "AI Security"
+      ],
+      "analysts": [
+        "Anurag Raj",
+        "Dalia Naguib",
+        "Lulu Wang",
+        "Sarah Turkaly"
+      ],
+      "published": "2026-11-12",
+      "updated": null,
+      "research_type": "Magic Quadrant",
+      "access": "未知",
+      "summary": "该魔方象限报告评估数据与分析治理平台市场，说明此类平台用于在整个生命周期内为数据和衍生资产设计并执行治理策略，以支持可信数据与AI规模化应用、降低治理开销、改进风险管理并加快数据产品与AI举措交付。",
+      "outline": [
+        "战略规划假设",
+        "市场定义与描述",
+        "魔力象限",
+        "纳入与排除标准",
+        "厂商优势与注意事项",
+        "评估标准与市场概述"
+      ],
+      "why": "推断：报告主题为数据与分析治理平台，与AI基础设施/AI安全仅间接相关，且不属于排除清单中的主要主题，故判为相关但非核心议题。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Anurag Raj",
+            "quote": "Anurag Raj,"
+          },
+          {
+            "value": "Sarah Turkaly",
+            "quote": "Sarah Turkaly,"
+          },
+          {
+            "value": "Lulu Wang",
+            "quote": "Lulu Wang,"
+          },
+          {
+            "value": "Dalia Naguib",
+            "quote": "Dalia Naguib"
+          }
+        ],
+        "published": {
+          "value": "2026-11-12",
+          "quote": "Published: 12 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Magic Quadrant",
+          "quote": "Gartner Magic Quadrant for Data and Analytics Governance Platforms"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "220b5b4e713ad90f",
+      "url": "https://www.gartner.com/en/documents/8583373",
+      "title": "Gartner Magic Quadrant for Observability Pipelines",
+      "topics": [
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Andre Bridges",
+        "Andrea Curry",
+        "Neil Young",
+        "Pankaj Prasad"
+      ],
+      "published": "2026-11-12",
+      "updated": null,
+      "research_type": "Magic Quadrant",
+      "access": "未知",
+      "summary": "该魔力象限评估可观测性管道市场，帮助基础架构与运营负责人评估厂商在跨平台路由与丰富运营数据、控制成本、质量与安全方面的能力。",
+      "outline": [
+        "战略规划假设",
+        "市场定义/描述",
+        "魔力象限",
+        "评估标准",
+        "厂商优势与注意事项",
+        "市场概览"
+      ],
+      "why": "推断：内容属可观测性数据管理平台评估，与AI基础设施数据治理间接相关，与其他主题关联较弱。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Pankaj Prasad",
+            "quote": "Analysts:\nPankaj Prasad,"
+          },
+          {
+            "value": "Andre Bridges",
+            "quote": "Andre Bridges,"
+          },
+          {
+            "value": "Andrea Curry",
+            "quote": "Andrea Curry,"
+          },
+          {
+            "value": "Neil Young",
+            "quote": "Neil Young"
+          }
+        ],
+        "published": {
+          "value": "2026-11-12",
+          "quote": "Published: 12 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Magic Quadrant",
+          "quote": "Gartner Magic Quadrant for Observability Pipelines"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "da55feceec1fcd5c",
+      "url": "https://www.gartner.com/en/documents/8625333",
+      "title": "How to Successfully Build AI Agents in Microsoft Foundry",
+      "topics": [
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [
+        "Kyle Davis"
+      ],
+      "published": "2026-11-11",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该研究将AI代理开发生命周期映射到微软Foundry的Agent Service能力上，指导软件工程师构建有能力、安全且可维护的AI代理，涉及平台能力与治理要点。",
+      "outline": [
+        "概述",
+        "问题陈述",
+        "Gartner方法",
+        "指导框架"
+      ],
+      "why": "推断：内容属AI代理构建方法研究，涉及AI安全与平台治理，与代理式AI及AI安全主题相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Kyle Davis",
+            "quote": "Analysts:\nKyle Davis"
+          }
+        ],
+        "published": {
+          "value": "2026-11-11",
+          "quote": "Published: 11 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "d107ffda286f365f",
+      "url": "https://www.gartner.com/en/documents/8623633",
+      "title": "Playbook for Enterprise Vibe Coding Platforms",
+      "topics": [
+        "Virtualization"
+      ],
+      "analysts": [
+        "Sarah Baumunk"
+      ],
+      "published": "2026-11-11",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该文档指出企业氛围编程平台无论是否有规划都会被组织采用，主张软件工程负责人应将其纳入既有交付与公民开发模式，在扩大采用的同时控制风险并捕获业务价值。仅公开摘要，未披露具体步骤内容。",
+      "outline": [
+        "概览"
+      ],
+      "why": "推断：属研究摘要，涉及平台治理与采用，但与所列主题关联弱，仅因平台化议题收录，需注意主题匹配度。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Sarah Baumunk",
+            "quote": "Analysts:\nSarah Baumunk"
+          }
+        ],
+        "published": {
+          "value": "2026-11-11",
+          "quote": "Published: 11 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "5deb0994182a7ad1",
+      "url": "https://www.gartner.com/en/documents/8620033",
+      "title": "Reference Architecture Brief: Customer Identity and Access Management",
+      "topics": [
+        "AI Security"
+      ],
+      "analysts": [
+        "Mehmet Yaliman"
+      ],
+      "published": "2026-11-10",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该研究为参考架构简报，指导身份架构师在选型前定义可组合的客户身份与访问管理架构，涵盖客户目录、身份提供方、旅程时编排、账号接管防护、授权管理、同意与偏好管理、身份核验及信任与风险服务等组件。",
+      "outline": [
+        "架构简报",
+        "架构用例",
+        "架构图",
+        "架构能力与组件",
+        "客户IAM各组件考量",
+        "关键架构原则、模式与建议"
+      ],
+      "why": "推断：主题为CIAM架构，与所列云原生、AI安全等主题仅弱相关；公开文本未见Kubernetes或AI安全实质内容，但因属研究类文档且涉及身份与访问安全，标记相关存疑。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Mehmet Yaliman",
+            "quote": "Analysts:\nMehmet Yaliman"
+          }
+        ],
+        "published": {
+          "value": "2026-11-10",
+          "quote": "Published: 10 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Reference Architecture Brief: Customer Identity and Access Management"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "88af715c638c1ae0",
+      "url": "https://www.gartner.com/en/documents/8627233",
+      "title": "Toolkit: RACI Matrix for Planning and Operating Enterprise AI Search",
+      "topics": [
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Stephen Emmott",
+        "Tim Nelms"
+      ],
+      "published": "2026-11-11",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该工具包面向企业应用负责人，提供可定制的RACI矩阵，用于组建团队并推动企业AI搜索项目的规划与运营。摘要指出企业AI搜索平台部署复杂，明确责任分工具有挑战。",
+      "outline": [
+        "何时使用",
+        "使用指引",
+        "贡献者",
+        "概述"
+      ],
+      "why": "推断：属于AI基础设施相关的可定制实施工具包，非排除主题，但实际内容偏组织治理而非技术架构。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Tim Nelms",
+            "quote": "Tim Nelms"
+          },
+          {
+            "value": "Stephen Emmott",
+            "quote": "Stephen Emmott"
+          }
+        ],
+        "published": {
+          "value": "2026-11-11",
+          "quote": "Published: 11 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log"
+        }
+      },
+      "status": "本周新增"
+    },
+    {
+      "id": "42c6d29fecb52036",
+      "url": "https://www.gartner.com/en/newsroom/2026-10-27-gartner-announces-gartner-it-infrastructure-operations-cloud-strategies-conference-2026",
+      "title": "Gartner Announces Gartner IT Infrastructure, Operations & Cloud Strategies Conference 2026",
+      "topics": [
+        "Cloud Management & FinOps",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Joe Rogus",
+        "Roger Williams"
+      ],
+      "published": "2026-10-27",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "本文为Gartner新闻稿，预告2026年12月8日至10日在拉斯维加斯举办的IT基础设施、运营与云策略大会，说明会议面向I&O领导者，涵盖代理式AI规模化、云平台、成本优化、韧性与安全等主题，并列出三场主旨演讲及演讲人。",
+      "outline": [
+        "塑造I&O路线图的主要趋势",
+        "转型云平台",
+        "现代化基础设施与数据中心",
+        "嵌入安全",
+        "优化成本与价值",
+        "赋能AI价值的专题"
+      ],
+      "why": "推断：该文属会议预告类新闻稿，涉及云平台与FinOps等议题，但非研究报告，仅可用作活动与分析师线索。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Joe Rogus",
+            "quote": "with Joe Rogus, Director Analyst, Gartner"
+          },
+          {
+            "value": "Erin Pierre",
+            "quote": "with Erin Pierre, Sr Principal Analyst, Gartner"
+          },
+          {
+            "value": "Roger Williams",
+            "quote": "with Roger Williams Distinguished VP Analyst, Gartner"
+          }
+        ],
+        "published": {
+          "value": "2026-10-27",
+          "quote": "STAMFORD, Conn., October 27, 2026"
         },
         "updated": {
           "value": null,
@@ -621,41 +675,149 @@
           "quote": "Newsroom\n/\nInformation Technology\n/\nPress Release"
         },
         "access": {
-          "value": "unknown",
-          "quote": "Gartner clients can read more in Bridging the AI Trough: 3 Gaps To Close for the 2027 CIO and Technology Executive Agenda."
+          "value": "free",
+          "quote": "Full-time journalists from editorial publications are eligible for a press pass."
         }
       },
-      "status": "补充背景"
+      "status": "元数据变化·待核实"
     },
     {
-      "id": "5ae6b34b77b0a37a",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26",
-      "title": "Gartner Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report",
+      "id": "b277df96df58ed51",
+      "url": "https://www.gartner.com/en/documents/8629733",
+      "title": "Agentic AI at the Edge Won't Scale Without Specialized Managed ...",
       "topics": [
-        "AI Security",
+        "Cloud Management & FinOps",
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该摘要指出，边缘环境中的代理式AI若要规模化，需要克服分布式可观测性、安全以及token经济性方面的托管挑战。公开摘要未提供作者、发布日期或报告类型等信息。",
+      "outline": [],
+      "why": "推断：摘要聚焦代理式AI在边缘的托管与可观测性、成本问题，与云管理及AI基础设施主题相关，但信息有限，仅能作为摘要级记录。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "684e6711aad988e5",
+      "url": "https://www.gartner.com/en/documents/8563473",
+      "title": "Data Center Hardware Integrated Systems, Worldwide, 2Q26 - Gartner",
+      "topics": [
+        "HCI",
         "AI Infrastructure"
       ],
-      "analysts": [
-        "Kevin Mercado"
-      ],
-      "published": "2026-11-02",
+      "analysts": [],
+      "published": null,
       "updated": null,
-      "research_type": "Press Release",
+      "research_type": "未知",
       "access": "未知",
-      "summary": "Gartner调查报告称，2026年第三季度出现两项新的AI相关企业风险：AI战略误判与AI驱动的竞争性替代。前者因过度投入、用例不当或准备不足所致。分析师建议制定战略AI行动计划，将投入与业务目标挂钩并先行验证就绪度。",
+      "summary": "该摘要指出，AI基础设施投资以及超融合系统采用的加速，推动了2026年第二季度集成系统市场的增长。",
       "outline": [],
-      "why": "推断：属风险管理调查类发布，涉及AI安全与AI基础设施投入决策，但非平台/云技术报告，仅边缘相关。",
+      "why": "推断：标题与摘要显示这是按季度发布的集成系统市场数据产品，涵盖超融合，属于HCI相关研究。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Forecast",
+          "quote": "Data Center Hardware Integrated Systems, Worldwide, 2Q26"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "2d7738a0b13bb587",
+      "url": "https://www.gartner.com/en/documents/8571773",
+      "title": "Navigating VMware Transitions After Broadcom VDDK Removal",
+      "topics": [
+        "Virtualization"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该研究关注Broadcom移除VDDK后，企业从VMware迁移所面临的问题，梳理了当前可供基础设施团队采用的迁移路径，并说明许多厂商产品依赖VDDK完成迁移。",
+      "outline": [],
+      "why": "推断：内容涉及VMware迁移与基础设施虚拟化，属虚拟化主题；摘要未给出分析师、日期或付费信息，故相应字段留空。",
+      "evidence_level": "搜索摘要",
+      "proof": {
+        "analysts": [],
+        "published": {
+          "value": null,
+          "quote": ""
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "This research details the current migration paths available to infrastructure"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "749edf5ffd508093",
+      "url": "https://www.gartner.com/en/newsroom/archive",
+      "title": "Newsroom Archive | Gartner",
+      "topics": [
+        "AI Infrastructure",
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [],
+      "published": null,
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "这是Gartner新闻稿归档列表页，含多条IT主题公告与会议速递。与所列主题相关的条目包括2027年AI基础设施支出预测，以及CIO在AI价值、风险与安全方面的首要挑战，但页面仅有标题，没有正文内容。",
+      "outline": [],
+      "why": "推断：这是按年份筛选的新闻归档索引，只提供标题和日期，实质内容需进入各条公告；主题相关性判断仅基于标题。",
       "evidence_level": "公开页面提取",
       "proof": {
-        "analysts": [
-          {
-            "value": "Kevin Mercado",
-            "quote": "Kevin Mercado, Senior Principal Analyst, Research, in the Gartner Risk & Audit Practice"
-          }
-        ],
+        "analysts": [],
         "published": {
-          "value": "2026-11-02",
-          "quote": "Stamford, Conn., November 2, 2026"
+          "value": null,
+          "quote": ""
         },
         "updated": {
           "value": null,
@@ -663,80 +825,106 @@
         },
         "research_type": {
           "value": "Press Release",
-          "quote": "Newsroom/Audit and Risk/Press Release"
+          "quote": "Announcement | \nNov 12, 2026"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "首次发现·日期未知"
+    },
+    {
+      "id": "3e5ba91d7ee12e0d",
+      "url": "https://www.gartner.com/en/documents/8578673",
+      "title": "8 Drivers for AI TRiSM Services",
+      "topics": [
+        "AI Security"
+      ],
+      "analysts": [
+        "Craig Lowery",
+        "Joe Trejo",
+        "Marty Resnick"
+      ],
+      "published": "2026-10-30",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该摘要指出创新负责人面临成本失控、影子AI、智能体漂移、监管罚款、网络风险、人身伤害、静默更新与碳影响等八类问题，认为AI TRiSM服务可提供运行时安全与治理，帮助企业安全扩展AI。",
+      "outline": [
+        "高层概览",
+        "概述"
+      ],
+      "why": "推断：内容聚焦AI信任、风险与安全管理服务，属AI安全治理议题，与所列主题中的AI Security直接相关。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Marty Resnick",
+            "quote": "Analysts:\nMarty Resnick,"
+          },
+          {
+            "value": "Craig Lowery",
+            "quote": "Craig Lowery,"
+          },
+          {
+            "value": "Joe Trejo",
+            "quote": "Joe Trejo"
+          }
+        ],
+        "published": {
+          "value": "2026-10-30",
+          "quote": "Published: 30 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
         },
         "access": {
           "value": "paid",
-          "quote": "Gartner clients can read more in3Q26 Emerging Risk Reportand nonclients can read the Quarterly Emerging Risks Report."
+          "quote": "Gartner client? Log\nin for personalized search results."
         }
       },
       "status": "补充背景"
     },
     {
-      "id": "cb99f232cebd45ad",
-      "url": "https://www.gartner.com/en/documents/8475745",
-      "title": "Gartner’s Top Strategic Technology Trends for 2027: AI Context Platforms",
+      "id": "bbcb8ff98d89665b",
+      "url": "https://www.gartner.com/en/documents/8603737",
+      "title": "AI Controls Assessment Findings: Focus on Governance to Manage AI Risk",
       "topics": [
-        "Agentic AI"
+        "AI Security"
       ],
       "analysts": [
-        "Afraz Jaffri",
-        "Andrés García-Rodeja",
-        "Christopher Long",
-        "Gene Alvarez",
-        "Kjell Carlsson",
-        "Radu Miclaus",
-        "Rita Sallam"
+        "Josh Murphy"
       ],
-      "published": "2026-10-16",
+      "published": "2026-11-05",
       "updated": null,
       "research_type": "Insights",
       "access": "未知",
-      "summary": "该洞察提出2027年战略性技术趋势之一“AI上下文平台”，主张将企业知识统一为受治理、机器可读的上下文，以支撑可信的智能体式AI，提升自主智能体的信任度与效率。",
+      "summary": "该研究呈现AI控制评估的同行结果，帮助网络安全与AI领导者了解业界在NIST AI RMF与ISO 42001框架下AI治理成熟度的整体状况。",
       "outline": [
-        "概述",
-        "战略规划假设",
-        "专家洞见",
-        "执行摘要",
-        "研究要点",
-        "支持该趋势的Gartner人员"
+        "一览洞见",
+        "问题",
+        "影响",
+        "更多细节",
+        "概述"
       ],
-      "why": "推断：属Gartner战略趋势类洞察，为公开摘要；主题聚焦智能体式AI的企业知识治理，未涉及所列排除主题。",
+      "why": "推断：内容聚焦AI治理与风险控制评估，属AI安全主题的洞察类研究，故与AI Security相关。",
       "evidence_level": "公开页面提取",
       "proof": {
         "analysts": [
           {
-            "value": "Andrés García-Rodeja",
-            "quote": "Analysts:\nAndrés García-Rodeja,"
-          },
-          {
-            "value": "Afraz Jaffri",
-            "quote": "Afraz Jaffri,"
-          },
-          {
-            "value": "Kjell Carlsson",
-            "quote": "Kjell Carlsson,"
-          },
-          {
-            "value": "Christopher Long",
-            "quote": "Christopher Long,"
-          },
-          {
-            "value": "Radu Miclaus",
-            "quote": "Radu Miclaus,"
-          },
-          {
-            "value": "Rita Sallam",
-            "quote": "Rita Sallam,"
-          },
-          {
-            "value": "Gene Alvarez",
-            "quote": "Gene Alvarez"
+            "value": "Josh Murphy",
+            "quote": "Analysts:\nJosh Murphy"
           }
         ],
         "published": {
-          "value": "2026-10-16",
-          "quote": "Published: 16 October 2026"
+          "value": "2026-11-05",
+          "quote": "Published: 05 November 2026"
         },
         "updated": {
           "value": null,
@@ -752,31 +940,672 @@
         }
       },
       "status": "补充背景"
+    },
+    {
+      "id": "1b2dff42a00b76fb",
+      "url": "https://www.gartner.com/en/documents/8589937",
+      "title": "Critical Capabilities for Data Integration Tools",
+      "topics": [
+        "Cloud Management & FinOps"
+      ],
+      "analysts": [
+        "Jenna Goodrich",
+        "Nina Showell",
+        "Robert Thanaraj",
+        "Sharat Menon",
+        "Thornton Craig"
+      ],
+      "published": "2026-11-02",
+      "updated": null,
+      "research_type": "Critical Capabilities",
+      "access": "未知",
+      "summary": "该报告为数据集成工具的关键能力研究，评估多款产品在批量数据移动、复制同步、流式集成、数据虚拟化、治理与 FinOps 支持等功能场景中的表现，并指出对 AI 就绪数据的需求上升。页面仅提供摘要与目录。",
+      "outline": [
+        "概述",
+        "战略规划假设",
+        "须知",
+        "分析",
+        "关键能力评分（厂商清单）",
+        "关键能力方法论"
+      ],
+      "why": "推断：虽以数据集成工具为主，但公开目录含数据虚拟化、DataOps 与 FinOps 支持等条目，与云管理及 FinOps 主题弱相关；不含排除主题的实质内容。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Robert Thanaraj",
+            "quote": "Analysts:\nRobert Thanaraj,"
+          },
+          {
+            "value": "Thornton Craig",
+            "quote": "Thornton Craig,"
+          },
+          {
+            "value": "Sharat Menon",
+            "quote": "Sharat Menon,"
+          },
+          {
+            "value": "Jenna Goodrich",
+            "quote": "Jenna Goodrich,"
+          },
+          {
+            "value": "Nina Showell",
+            "quote": "Nina Showell"
+          }
+        ],
+        "published": {
+          "value": "2026-11-02",
+          "quote": "Published: 02 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Critical Capabilities",
+          "quote": "Gartner Critical Capabilities Abstract\nCritical Capabilities for Data Integration Tools"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "88528df8ae9cf54a",
+      "url": "https://www.gartner.com/en/documents/8566573",
+      "title": "Emerging Market Quadrant for AI FinOps Tools — Startup Vendors",
+      "topics": [
+        "Cloud Management & FinOps",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Adam Ronthal",
+        "Marco Meinardi",
+        "Nitish Tyagi",
+        "Ray Collins"
+      ],
+      "published": "2026-10-28",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该Gartner新兴市场象限研究聚焦AI FinOps工具领域的初创厂商。摘要指出生成式AI与AI智能体的普及带来前所未有的成本不可预测性，使投资回报与价值对齐难以把握；初创厂商提供令牌管理等方案帮助AI负责人优化成本。全文含市场定义、象限分析与概述。",
+      "outline": [
+        "摘要与市场定义",
+        "新兴市场象限分析",
+        "详细市场定义",
+        "概述"
+      ],
+      "why": "推断：FinOps成本治理属云管理与FinOps主题，AI智能体成本为AI基础设施相关，故纳入；未涉排除主题。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Ray Collins",
+            "quote": "Analysts:\nRay Collins, \nAdam Ronthal, \nMarco Meinardi, \nNitish Tyagi"
+          },
+          {
+            "value": "Adam Ronthal",
+            "quote": "Analysts:\nRay Collins, \nAdam Ronthal, \nMarco Meinardi, \nNitish Tyagi"
+          },
+          {
+            "value": "Marco Meinardi",
+            "quote": "Analysts:\nRay Collins, \nAdam Ronthal, \nMarco Meinardi, \nNitish Tyagi"
+          },
+          {
+            "value": "Nitish Tyagi",
+            "quote": "Analysts:\nRay Collins, \nAdam Ronthal, \nMarco Meinardi, \nNitish Tyagi"
+          }
+        ],
+        "published": {
+          "value": "2026-10-28",
+          "quote": "Published: 28 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Emerging Market Quadrant for AI FinOps Tools — Startup Vendors"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "d4ca7238cef0f848",
+      "url": "https://www.gartner.com/en/documents/8521509",
+      "title": "Establish a Framework for FinOps and AI Cost Management Tool Selection",
+      "topics": [
+        "Cloud Management & FinOps"
+      ],
+      "analysts": [
+        "Ken Rothenberger"
+      ],
+      "published": "2026-10-19",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该研究提供一套框架，帮助将FinOps与AI成本管理工具的能力与组织成熟度、治理目标及决策需求相匹配，以有效管理云、基础设施和AI支出。",
+      "outline": [
+        "概览与要点",
+        "影响",
+        "行动",
+        "注意事项",
+        "如何执行",
+        "成功度量"
+      ],
+      "why": "推断：属于云管理与FinOps范畴的研究，与AI成本治理相关，可支撑云财务运营主题。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Ken Rothenberger",
+            "quote": "Analysts:\nKen Rothenberger"
+          }
+        ],
+        "published": {
+          "value": "2026-10-19",
+          "quote": "Published: 19 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "5fbb09c6dad3d9da",
+      "url": "https://www.gartner.com/en/documents/8542809",
+      "title": "First Take: Microsoft Wants to Add Agentic AI to Contact Centers — Promising No Migration",
+      "topics": [
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Drew Kraus",
+        "Jason Bridge",
+        "Megan Fernandez",
+        "Pri Rathnayake"
+      ],
+      "published": "2026-10-22",
+      "updated": null,
+      "research_type": "First Take",
+      "access": "未知",
+      "summary": "该First Take讨论微软新推出的Contact Center Intelligence，称其可在不替换平台的情况下为联络中心添加上下文感知的代理式AI。分析师建议客服领导者评估其相较现有AI投资能否带来差异化业务价值。",
+      "outline": [],
+      "why": "推断：属Gartner First Take研究，涉及代理式AI落地方式，但主题偏联络中心软件而非所列基础设施方向，相关性有限。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Jason Bridge",
+            "quote": "Jason Bridge,"
+          },
+          {
+            "value": "Pri Rathnayake",
+            "quote": "Pri Rathnayake,"
+          },
+          {
+            "value": "Megan Fernandez",
+            "quote": "Megan Fernandez,"
+          },
+          {
+            "value": "Drew Kraus",
+            "quote": "Drew Kraus"
+          }
+        ],
+        "published": {
+          "value": "2026-10-22",
+          "quote": "Published: 22 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "First Take",
+          "quote": "Gartner First Takes"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "8d3cbcb33188ec4d",
+      "url": "https://www.gartner.com/en/documents/8557473",
+      "title": "Gartner Magic Quadrant for AI Agent Management Platforms",
+      "topics": [
+        "Agentic AI",
+        "Cloud Management & FinOps",
+        "AI Security"
+      ],
+      "analysts": [
+        "Andrei Razvan Sachelarescu",
+        "Gilbert van der Heiden",
+        "Lucas Kobat",
+        "Max Goss"
+      ],
+      "published": "2026-10-27",
+      "updated": null,
+      "research_type": "Magic Quadrant",
+      "access": "未知",
+      "summary": "该报告为AI智能体管理平台的魔力象限，定义此类平台为不依赖执行环境、集中管理AI智能体的软件，统一安全、治理与FinOps管控，覆盖自建与市场采购的智能体。摘要指出随企业AI规模化，组织将更需要此类工具管理部署、ROI与成本。",
+      "outline": [
+        "战略规划假设",
+        "市场定义与描述",
+        "魔力象限",
+        "纳入与排除标准",
+        "厂商优势与注意事项",
+        "评估标准"
+      ],
+      "why": "推断：该报告主题属Agentic AI治理与管理平台，与云管理及FinOps管控相关，故在范围内。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Andrei Razvan Sachelarescu",
+            "quote": "Andrei Razvan Sachelarescu"
+          },
+          {
+            "value": "Lucas Kobat",
+            "quote": "Lucas Kobat"
+          },
+          {
+            "value": "Gilbert van der Heiden",
+            "quote": "Gilbert van der Heiden"
+          },
+          {
+            "value": "Max Goss",
+            "quote": "Max Goss"
+          }
+        ],
+        "published": {
+          "value": "2026-10-27",
+          "quote": "Published: 27 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Magic Quadrant",
+          "quote": "Gartner Magic Quadrant for AI Agent Management Platforms"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In\nTo access these insights and much more, talk to Gartner today."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "8fbd6c7dcaf601c8",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-09-gartner-says-aligning-artificial-intelligence-value-risk-and-safety-is-now-the-top-challenge-for-chief-information-officers",
+      "title": "Gartner Says Aligning AI Value, Risk and Safety Is Now the Top Challenge for CIOs",
+      "topics": [
+        "Agentic AI",
+        "AI Security"
+      ],
+      "analysts": [
+        "Daryl Plummer",
+        "Kristin Moyer"
+      ],
+      "published": "2026-11-09",
+      "updated": null,
+      "research_type": "Press Release",
+      "access": "未知",
+      "summary": "Gartner在巴塞罗那IT Symposium/Xpo主题演讲中指出，CIO面临的首要挑战是让AI价值增长快于风险增长。Gartner建议用价值-风险飞轮对齐价值与风险，并通过飞轮治理者对齐安全与治理。",
+      "outline": [
+        "使用Gartner价值-风险飞轮对齐价值与风险",
+        "通过飞轮治理者对安全与治理进行对齐",
+        "更多洞察资源"
+      ],
+      "why": "推断：内容聚焦AI价值与风险治理，涉及agentic AI治理缺口，与AI安全及Agentic AI主题相关，但未涉及基础设施细节。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Daryl Plummer",
+            "quote": "Daryl Plummer, Distinguished VP Analyst, Gartner Fellow and Chief of Research"
+          },
+          {
+            "value": "Kristin Moyer",
+            "quote": "Kristin Moyer, Distinguished VP Analyst and Gartner Fellow"
+          }
+        ],
+        "published": {
+          "value": "2026-11-09",
+          "quote": "BARCELONA, Spain, November 9, 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Press Release",
+          "quote": "Newsroom\n/\nInformation Technology\n/\nPress Release"
+        },
+        "access": {
+          "value": "unknown",
+          "quote": ""
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "8e4f6f279d0decae",
+      "url": "https://www.gartner.com/en/documents/8538109",
+      "title": "How to Close the AI Agent Registry Governance Gap",
+      "topics": [
+        "AI Security",
+        "Agentic AI"
+      ],
+      "analysts": [
+        "Gary Olliffe",
+        "Hugo Meyer",
+        "Raúl Arrabales"
+      ],
+      "published": "2026-10-22",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "该研究笔记讨论AI代理注册表在治理上的缺口，指出异构系统中未管理的AI资产会造成企业孤岛，注册表可作为发现、治理、身份、风险与归属的集中记录，并说明其用途、类型及集成与运营风险。",
+      "outline": [
+        "概览与要点",
+        "分析",
+        "总览"
+      ],
+      "why": "推断：内容聚焦AI代理注册表的治理与安全，属于AI安全议题，与AI基础设施治理相关，未涉及被排除主题。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Hugo Meyer",
+            "quote": "Analysts:\nHugo Meyer,"
+          },
+          {
+            "value": "Raúl Arrabales",
+            "quote": "Raúl Arrabales,"
+          },
+          {
+            "value": "Gary Olliffe",
+            "quote": "Gary Olliffe"
+          }
+        ],
+        "published": {
+          "value": "2026-10-22",
+          "quote": "Published: 22 October 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Gartner client? Log\nin for personalized search results."
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "4be6a3f4b810d35b",
+      "url": "https://www.gartner.com/en/documents/8616833",
+      "title": "Implement GenAI Infrastructure Through Workload-Aligned Architecture to Scale AI Value",
+      "topics": [
+        "AI Infrastructure"
+      ],
+      "analysts": [
+        "Chirag Dekate",
+        "Jaiguru Thevar",
+        "Jaishiv Prakash",
+        "Soyeb Barot",
+        "Sushovan Mukhopadhyay"
+      ],
+      "published": "2026-11-09",
+      "updated": null,
+      "research_type": "Insights",
+      "access": "未知",
+      "summary": "该研究指出生成式AI工作负载的基础设施需求各异，过度标准化的环境难以扩展和运维；面向基础设施架构师，指导其将工作负载需求转化为灵活可扩展的AI基础设施，以支撑持续的业务应用。",
+      "outline": [
+        "概览要点",
+        "三阶段方法",
+        "概述"
+      ],
+      "why": "推断：内容聚焦AI基础设施架构与扩展，与AI基础设施主题相关；虽标注HCI主题但正文未体现HCI内容。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Sushovan Mukhopadhyay",
+            "quote": "Analysts:\nSushovan Mukhopadhyay,"
+          },
+          {
+            "value": "Soyeb Barot",
+            "quote": "Soyeb Barot,"
+          },
+          {
+            "value": "Chirag Dekate",
+            "quote": "Chirag Dekate,"
+          },
+          {
+            "value": "Jaishiv Prakash",
+            "quote": "Jaishiv Prakash,"
+          },
+          {
+            "value": "Jaiguru Thevar",
+            "quote": "Jaiguru Thevar"
+          }
+        ],
+        "published": {
+          "value": "2026-11-09",
+          "quote": "Published: 09 November 2026"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Insights",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Already a Gartner client?\nLog In"
+        }
+      },
+      "status": "补充背景"
+    },
+    {
+      "id": "6a20def00b7c5d6a",
+      "url": "https://www.gartner.com/en/documents/5354263",
+      "title": "Prefer Lift-and-Optimize for Cloud Migration From Broadcom (VMware)",
+      "topics": [
+        "Virtualization",
+        "Cloud / Private & Hybrid"
+      ],
+      "analysts": [
+        "Lydia Leong"
+      ],
+      "published": "2024-04-16",
+      "updated": null,
+      "research_type": "未知",
+      "access": "未知",
+      "summary": "摘要指出博通收购VMware后许可变更引发客户续约成本上升，可能使整体拥有成本天平偏向公有云。建议在有条件时采用“提升并优化”而非单纯迁移，通常能带来更好的业务案例。",
+      "outline": [
+        "概述",
+        "关键发现",
+        "分析",
+        "指导",
+        "注释1：修订模式的术语"
+      ],
+      "why": "推断：该报告面向基础架构与运营人员，聚焦虚拟化许可变动带来的云迁移路径决策，属于虚拟化与云基础架构相关研究。",
+      "evidence_level": "公开页面提取",
+      "proof": {
+        "analysts": [
+          {
+            "value": "Lydia Leong",
+            "quote": "Analysts:\nLydia Leong"
+          }
+        ],
+        "published": {
+          "value": "2024-04-16",
+          "quote": "Published: 16 April 2024"
+        },
+        "updated": {
+          "value": null,
+          "quote": ""
+        },
+        "research_type": {
+          "value": "Research Note",
+          "quote": "Gartner Insights Abstract"
+        },
+        "access": {
+          "value": "paid",
+          "quote": "Clients can log in to view the entire document."
+        }
+      },
+      "status": "补充背景"
     }
   ],
   "analysis": {
-    "core": [],
+    "core": [
+      {
+        "text": "新记录提出AI智能体自主运维依赖可机器执行的运维知识，需将基础设施经验、实践与治理控制固化为软件定义的运维控制平面。推断：对私有云与超融合厂商而言，竞争点将从提供虚拟化/云平台转向能否沉淀可复用的运维知识资产与自动化控制面；此类能力当前不可假定已具备。",
+        "sources": [
+          "813e2c6699ed9f3c"
+        ]
+      },
+      {
+        "text": "新研究主张生成式AI工作负载需求差异大，过度标准化的基础设施难以扩展与运维，应按工作负载对齐架构。推断：对私有云与HCI方案意味着需支持按工作负载分层的资源池与弹性配置，而非单一统一架构；此为产品设计启示，非Gartner结论。",
+        "sources": [
+          "4be6a3f4b810d35b"
+        ]
+      },
+      {
+        "text": "新研究指出代理式AI在边缘规模化受制于分布式可观测性、安全与token经济性，需专门托管能力。推断：边缘+代理AI场景对具备统一可观测性与成本度量的私有云管理平台构成需求，但该条为搜索摘要、无日期，仅作方向参考。",
+        "sources": [
+          "b277df96df58ed51"
+        ]
+      }
+    ],
     "themes": {
-      "Cloud / Private & Hybrid": [],
-      "Virtualization": [],
-      "HCI": [],
+      "Cloud / Private & Hybrid": [
+        {
+          "text": "背景（2024年）：Broadcom收购VMware后许可变更推高续约成本，可将TCO天平推向公有云，建议有条件时采用“提升并优化”而非单纯迁移。属旧资料，非本周新进展。",
+          "sources": [
+            "6a20def00b7c5d6a"
+          ]
+        }
+      ],
+      "Virtualization": [
+        {
+          "text": "背景（日期未知）：Broadcom移除VDDK后，企业VMware迁移路径受限，许多厂商产品依赖VDDK完成迁移。该条为搜索摘要、无发布日期，仅作背景参考，非本周新增。",
+          "sources": [
+            "2d7738a0b13bb587"
+          ]
+        }
+      ],
+      "HCI": [
+        {
+          "text": "背景（日期未知）：摘要称AI基础设施投资与超融合系统采用加速共同推动2026年二季度集成系统市场增长。为搜索摘要、无发布日期，仅作背景，不可视为本周进展。",
+          "sources": [
+            "684e6711aad988e5"
+          ]
+        }
+      ],
       "Kubernetes": [],
-      "Cloud Management & FinOps": [],
-      "AI Infrastructure": [],
-      "Agentic AI": [],
-      "AI Security": []
+      "Cloud Management & FinOps": [
+        {
+          "text": "新报告定义AI智能体管理平台为跨执行环境集中管理智能体、统一安全治理与FinOps管控的软件，随企业AI规模化需求上升。推断：云管理平台若纳入智能体资产治理与成本视图，可延伸FinOps覆盖范围。",
+          "sources": [
+            "8d3cbcb33188ec4d"
+          ]
+        },
+        {
+          "text": "背景（2026-10-28）：AI FinOps新兴象限指出生成式AI与智能体带来成本不可预测性，初创厂商以令牌管理等方案应对。属基线背景，非本周更新。",
+          "sources": [
+            "88528df8ae9cf54a"
+          ]
+        }
+      ],
+      "AI Infrastructure": [
+        {
+          "text": "新新闻稿预测2027年全球AI支出4万亿美元，AI基础设施约2.4万亿、占59%，AI优化服务器为最大细分，受超大规模与新云扩建及服务器涨价推动。属预测，非已实现支出。",
+          "sources": [
+            "040047f9a3c047eb"
+          ]
+        }
+      ],
+      "Agentic AI": [
+        {
+          "text": "新研究将AI代理开发生命周期映射到Microsoft Foundry的Agent Service，指导工程师构建安全可维护的代理，涉及平台能力与治理要点。推断：代理构建日益绑定特定云厂商工具链，私有云需评估与主流代理运行时的互操作。",
+          "sources": [
+            "da55feceec1fcd5c"
+          ]
+        }
+      ],
+      "AI Security": [
+        {
+          "text": "新洞察称网络安全平台整合将使企业关系集中于少数厂商、平台内嵌能力增多，具备身份、网络执行、SecOps及数据/AI安全四层上下文与策略控制力的厂商占优。推断：安全能力内嵌化对私有云平台的安全集成策略构成压力。",
+          "sources": [
+            "eaf6ea4122b3cdbd"
+          ]
+        },
+        {
+          "text": "背景（2026-10-22）：AI代理注册表可集中记录异构系统中代理的发现、治理、身份与风险归属，弥补治理缺口。属基线背景，非本周新增。",
+          "sources": [
+            "8e4f6f279d0decae"
+          ]
+        }
+      ]
     },
-    "signals": []
+    "signals": [
+      {
+        "text": "AI基础设施支出预测与工作负载对齐架构研究共同指向：硬件规模扩张同时，标准化统一架构的运维瓶颈凸显。推断：私有云方案应同时回应容量规模与按工作负载分层两类需求，而非单押规模。",
+        "sources": [
+          "040047f9a3c047eb",
+          "4be6a3f4b810d35b"
+        ]
+      },
+      {
+        "text": "代理式AI运维知识固化研究与智能体管理平台定义相互呼应：智能体既需可执行运维知识，也需集中治理与成本管控。推断：平台层需提供代理资产登记、权限与成本视图一体化能力。",
+        "sources": [
+          "813e2c6699ed9f3c",
+          "8d3cbcb33188ec4d"
+        ]
+      }
+    ]
   },
   "errors": [
-    "趋势综合失败；保留已提取的逐条摘要，不生成无证据结论"
+    "元数据提取失败：https://www.gartner.com/en/documents/8568673"
   ],
   "stats": {
     "queries": 32,
-    "discovered": 36,
-    "processed": 36
+    "discovered": 49,
+    "processed": 49
   },
   "quality": "部分失败 · 本期覆盖不完整",
-  "new_count": 4,
-  "unchanged_count": 9
+  "new_count": 11,
+  "unchanged_count": 10
 }

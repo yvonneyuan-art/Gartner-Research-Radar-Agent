@@ -1108,7 +1108,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-forecasts-worldwide-it-spending-to-grow-15-percent-in-2027-totaling-7-point-35-trillion": {
       "fingerprint": "c334c7edc0d834c6c99e14c96b00c2542790e1d5849cf0e1d722b68d901f0123",
@@ -1140,7 +1140,7 @@
       },
       "updated": null,
       "first_seen": "2026-10-26",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/documents/7248830": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -1371,12 +1371,11 @@
       "last_seen": "2026-11-02"
     },
     "https://www.gartner.com/en/newsroom/2026-10-27-gartner-announces-gartner-it-infrastructure-operations-cloud-strategies-conference-2026": {
-      "fingerprint": "403fa7cc079ecccdcd98fe1ecef9c02acb502e5d63b9730281b99aceadf8c7ee",
+      "fingerprint": "1d830ae783fd7804c594e36caef088339dc15dc4f1c7cbf74e4d54aa696ab589",
       "metadata": {
         "published": "2026-10-27",
         "updated": null,
         "analysts": [
-          "Erin Pierre",
           "Joe Rogus",
           "Roger Williams"
         ],
@@ -1385,7 +1384,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/documents/8021169": {
       "fingerprint": "5d1956665e81a9ab2a618bd37cf65f49921e38f428a6b40e03b3bc3c7cf5eba5",
@@ -1568,7 +1567,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-identifies-the-top-ai-trends-in-infrastructure-and-it-operations-for-2027": {
       "fingerprint": "3e88c25d473e35ab0c588143df713fab8a446f8842ae61039c9bad064c821153",
@@ -1583,7 +1582,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/documents/8595437": {
       "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
@@ -1613,7 +1612,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/documents/8596837": {
       "fingerprint": "93dd671193ad8a9b7d39ae2312019b05fda1c03930efd0ecc461a735c84978f8",
@@ -1689,7 +1688,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/documents/8475745": {
       "fingerprint": "8419cb668c1621544ec8424d93d7772059c7dc253b7a2f884200a830f4992dff",
@@ -1753,7 +1752,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai": {
       "fingerprint": "70c30dc003efc17f9daeefb53438d0a93011e41329ffd0458f8b16782f6b75a5",
@@ -1768,7 +1767,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-says-44-percent-of-ceos-struggle-to-demonstrate-ai-financial-returns-as-technology-becomes-central-to-growth": {
       "fingerprint": "a37ecb364d8d7d4b3e032ce5eb39886a2b075e8f6cb75e085e89d53ce6d2250b",
@@ -1783,7 +1782,7 @@
       },
       "updated": null,
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
     },
     "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-hr-research-finds-77-percent-of-board-members-expect-ai-to-deliver-productivity-and-cost-savings-yet-just-3-percent-of-organizations-exceed-cost-savings-goals-via-productivity": {
       "fingerprint": "bbb07b582a437d8d056237f356e93ab4c63ea82e49d846ef52c1d4577396f231",
@@ -1814,7 +1813,422 @@
       },
       "updated": null,
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09"
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8583373": {
+      "fingerprint": "8ac29c98ce79ec499d7ec322b6004817b01a988b3743bfc92d189819ef2b1bb1",
+      "metadata": {
+        "published": "2026-11-12",
+        "updated": null,
+        "analysts": [
+          "Andre Bridges",
+          "Andrea Curry",
+          "Neil Young",
+          "Pankaj Prasad"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8620033": {
+      "fingerprint": "45f57aa8043c8b4f6b4351638aca1b5e8b097eca9df0da04fdf554ef15af6ae0",
+      "metadata": {
+        "published": "2026-11-10",
+        "updated": null,
+        "analysts": [
+          "Mehmet Yaliman"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8623633": {
+      "fingerprint": "c6d31edb037a58675e188a448cbab07426aaeefaff672ad4049167c79eb7198d",
+      "metadata": {
+        "published": "2026-11-11",
+        "updated": null,
+        "analysts": [
+          "Sarah Baumunk"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8624733": {
+      "fingerprint": "fc6b98d08de44712d1c3895a2d8269c13518bd08dcbd2e6d9696f49fd23cd139",
+      "metadata": {
+        "published": "2026-11-11",
+        "updated": null,
+        "analysts": [
+          "Ganesh Ramamoorthy",
+          "Shailendra Upadhyay"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8624933": {
+      "fingerprint": "f7df8000fd7b7b44d52e0336a3cbf7eeb5ce82beac1edf6d620e5da79deaee0f",
+      "metadata": {
+        "published": "2026-11-12",
+        "updated": null,
+        "analysts": [
+          "Amol Nerlekar",
+          "Brandon Medford",
+          "Jimmy Chuang"
+        ],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8625333": {
+      "fingerprint": "ebc65af0b7b72eea9cd5237b6228e9636c5fcb561f0b080eab51677332f3cc6d",
+      "metadata": {
+        "published": "2026-11-11",
+        "updated": null,
+        "analysts": [
+          "Kyle Davis"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8625433": {
+      "fingerprint": "66b3988766662a6296a93d651dbdd80832bbba89a69613d5236be60eebc7f64b",
+      "metadata": {
+        "published": "2026-11-12",
+        "updated": null,
+        "analysts": [
+          "Anurag Raj",
+          "Dalia Naguib",
+          "Lulu Wang",
+          "Sarah Turkaly"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8626533": {
+      "fingerprint": "95438e83a98d5200dc1c1c9c6948cdb93fddc02ca8e360b2b16b0228ff0499ab",
+      "metadata": {
+        "published": "2026-11-11",
+        "updated": null,
+        "analysts": [
+          "Jeff Vogel"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8627233": {
+      "fingerprint": "05f7cfb8580ad8ac4101812dc3583c8e03bb744ed586116bf636728bfc62859f",
+      "metadata": {
+        "published": "2026-11-11",
+        "updated": null,
+        "analysts": [
+          "Stephen Emmott",
+          "Tim Nelms"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8629733": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/newsroom/archive": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-11-10-gartner-forecasts-artificial-intelligence-will-drive-a-net-increase-of-1-7-million-jobs-by-2030": {
+      "fingerprint": "2152aeec8e61c9475c97bf0862a3b8a8fe2f9012d04701b6238ead9d0124a7ef",
+      "metadata": {
+        "published": "2026-11-10",
+        "updated": null,
+        "analysts": [
+          "Helen Poitevin",
+          "John Lovelock"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-11-12-gartner-forecasts-artificial-intelligence-infrastructure-spending-to-represent-59-percent-of-total-global-artificial-intelligence-spending-in-2027": {
+      "fingerprint": "beeff739a79d7b5bcf63b8b9793888022ae598d6128f782e2a04b2ceeb901a04",
+      "metadata": {
+        "published": "2026-11-12",
+        "updated": null,
+        "analysts": [
+          "John-David Lovelock"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/5354263": {
+      "fingerprint": "520a6b7ecc23c2da25ffb416536924a86116a6e56be64be278a97969fce9bc0d",
+      "metadata": {
+        "published": "2024-04-16",
+        "updated": null,
+        "analysts": [
+          "Lydia Leong"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8521509": {
+      "fingerprint": "6b597dfd3f0fd39e7c0085ceb449a56595238e72dc8af0aeffd062c24654919e",
+      "metadata": {
+        "published": "2026-10-19",
+        "updated": null,
+        "analysts": [
+          "Ken Rothenberger"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8538109": {
+      "fingerprint": "5918e170c54b747e27ac29b9435b876a945bf02be07b42ad173eb61bd5f16caf",
+      "metadata": {
+        "published": "2026-10-22",
+        "updated": null,
+        "analysts": [
+          "Gary Olliffe",
+          "Hugo Meyer",
+          "Raúl Arrabales"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8542809": {
+      "fingerprint": "6a5a88e2d25d6eaae0655e70eac2c157a3597223458f66dcdaeb2a9285d42226",
+      "metadata": {
+        "published": "2026-10-22",
+        "updated": null,
+        "analysts": [
+          "Drew Kraus",
+          "Jason Bridge",
+          "Megan Fernandez",
+          "Pri Rathnayake"
+        ],
+        "research_type": "First Take",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8557473": {
+      "fingerprint": "b3fc027622dc7a126fd83ba85a2e2875de378d6a601ae4768ebd61933e62954d",
+      "metadata": {
+        "published": "2026-10-27",
+        "updated": null,
+        "analysts": [
+          "Andrei Razvan Sachelarescu",
+          "Gilbert van der Heiden",
+          "Lucas Kobat",
+          "Max Goss"
+        ],
+        "research_type": "Magic Quadrant",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8563473": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8566573": {
+      "fingerprint": "571515ddcf9e40ad9c2a6e008caab5a79bdd138d79430bf2c72bab24dea87b68",
+      "metadata": {
+        "published": "2026-10-28",
+        "updated": null,
+        "analysts": [
+          "Adam Ronthal",
+          "Marco Meinardi",
+          "Nitish Tyagi",
+          "Ray Collins"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8571773": {
+      "fingerprint": "58cbf6dddf7f5ca8e5e888fdb3618f94c8fdab080b56db2cbf7ea12e8caed8c6",
+      "metadata": {
+        "published": null,
+        "updated": null,
+        "analysts": [],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8578673": {
+      "fingerprint": "751f777045b88c569bd184a715e014aee8b6b3d4f644fb1a37c3e743d3c72368",
+      "metadata": {
+        "published": "2026-10-30",
+        "updated": null,
+        "analysts": [
+          "Craig Lowery",
+          "Joe Trejo",
+          "Marty Resnick"
+        ],
+        "research_type": "未知",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8589937": {
+      "fingerprint": "cd5e1a5d5a52ff422fb81a2ea98e360156e93b049f8ccb2c66cbc22a9dcca816",
+      "metadata": {
+        "published": "2026-11-02",
+        "updated": null,
+        "analysts": [
+          "Jenna Goodrich",
+          "Nina Showell",
+          "Robert Thanaraj",
+          "Sharat Menon",
+          "Thornton Craig"
+        ],
+        "research_type": "Critical Capabilities",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8603737": {
+      "fingerprint": "314fbfc5a14803f121179de5e16f61a101fad04801e73d27fef724739a29927b",
+      "metadata": {
+        "published": "2026-11-05",
+        "updated": null,
+        "analysts": [
+          "Josh Murphy"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/documents/8616833": {
+      "fingerprint": "344ba2dad0d0b6ba37769837493776440b383c942aec022781acbe71b157d802",
+      "metadata": {
+        "published": "2026-11-09",
+        "updated": null,
+        "analysts": [
+          "Chirag Dekate",
+          "Jaiguru Thevar",
+          "Jaishiv Prakash",
+          "Soyeb Barot",
+          "Sushovan Mukhopadhyay"
+        ],
+        "research_type": "Insights",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
+    },
+    "https://www.gartner.com/en/newsroom/press-releases/2026-11-09-gartner-says-aligning-artificial-intelligence-value-risk-and-safety-is-now-the-top-challenge-for-chief-information-officers": {
+      "fingerprint": "0d0b01b6c17da9868325999b96b6006c5a3f0384ded89e5fa5915489b51cfa7e",
+      "metadata": {
+        "published": "2026-11-09",
+        "updated": null,
+        "analysts": [
+          "Daryl Plummer",
+          "Kristin Moyer"
+        ],
+        "research_type": "Press Release",
+        "access": "未知"
+      },
+      "updated": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16"
     }
   },
   "deliveries": {
